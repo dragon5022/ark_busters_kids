@@ -1,0 +1,229 @@
+{
+  "version": 1,
+  "qn": 10,
+  "winRatio": 0.6,
+  "grades": {
+    "g5": [
+      {
+        "id": "g5_0",
+        "ja": "おはよう",
+        "en": "Good morning!",
+        "voice": "audio/voice/talk/1.mp3"
+      },
+      {
+        "id": "g5_1",
+        "ja": "はじめまして",
+        "en": "Nice to meet you.",
+        "voice": "audio/voice/talk/2.mp3"
+      },
+      {
+        "id": "g5_2",
+        "ja": "ありがとう",
+        "en": "Thank you.",
+        "voice": "audio/voice/talk/3.mp3"
+      },
+      {
+        "id": "g5_3",
+        "ja": "なまえは なに？",
+        "en": "What's your name?",
+        "voice": "audio/voice/talk/4.mp3"
+      },
+      {
+        "id": "g5_4",
+        "ja": "げんき？",
+        "en": "How are you?",
+        "voice": "audio/voice/talk/5.mp3"
+      },
+      {
+        "id": "g5_5",
+        "ja": "げんきだよ",
+        "en": "I'm fine.",
+        "voice": "audio/voice/talk/6.mp3"
+      },
+      {
+        "id": "g5_6",
+        "ja": "またね！",
+        "en": "See you!",
+        "voice": "audio/voice/talk/7.mp3"
+      },
+      {
+        "id": "g5_7",
+        "ja": "ごめんね",
+        "en": "I'm sorry.",
+        "voice": "audio/voice/talk/8.mp3"
+      },
+      {
+        "id": "g5_8",
+        "ja": "あおが すき",
+        "en": "I like blue.",
+        "voice": "audio/voice/talk/9.mp3"
+      },
+      {
+        "id": "g5_9",
+        "ja": "なんさい？",
+        "en": "How old are you?",
+        "voice": "audio/voice/talk/10.mp3"
+      },
+      {
+        "id": "g5_10",
+        "ja": "9さいだよ",
+        "en": "I'm nine.",
+        "voice": "audio/voice/talk/11.mp3"
+      },
+      {
+        "id": "g5_11",
+        "ja": "おねがい",
+        "en": "Please.",
+        "voice": "audio/voice/talk/12.mp3"
+      }
+    ],
+    "g4": [
+      {
+        "id": "g4_0",
+        "ja": "えきは どこ？",
+        "en": "Where is the station?",
+        "voice": "audio/voice/talk/13.mp3"
+      },
+      {
+        "id": "g4_1",
+        "ja": "いくら？",
+        "en": "How much is it?",
+        "voice": "audio/voice/talk/14.mp3"
+      },
+      {
+        "id": "g4_2",
+        "ja": "いま なんじ？",
+        "en": "What time is it?",
+        "voice": "audio/voice/talk/15.mp3"
+      },
+      {
+        "id": "g4_3",
+        "ja": "てつだおうか？",
+        "en": "Can I help you?",
+        "voice": "audio/voice/talk/16.mp3"
+      },
+      {
+        "id": "g4_4",
+        "ja": "トイレ かりていい？",
+        "en": "May I use the bathroom?",
+        "voice": "audio/voice/talk/17.mp3"
+      },
+      {
+        "id": "g4_5",
+        "ja": "しゅみは なに？",
+        "en": "What do you like to do?",
+        "voice": "audio/voice/talk/18.mp3"
+      },
+      {
+        "id": "g4_6",
+        "ja": "いっしょに いこう",
+        "en": "Let's go together.",
+        "voice": "audio/voice/talk/19.mp3"
+      },
+      {
+        "id": "g4_7",
+        "ja": "おなか すいた",
+        "en": "I'm hungry.",
+        "voice": "audio/voice/talk/20.mp3"
+      },
+      {
+        "id": "g4_8",
+        "ja": "もういちど 言って？",
+        "en": "Pardon?",
+        "voice": "audio/voice/talk/21.mp3"
+      },
+      {
+        "id": "g4_9",
+        "ja": "きをつけてね",
+        "en": "Take care!",
+        "voice": "audio/voice/talk/22.mp3"
+      },
+      {
+        "id": "g4_10",
+        "ja": "おめでとう",
+        "en": "Congratulations!",
+        "voice": "audio/voice/talk/23.mp3"
+      },
+      {
+        "id": "g4_11",
+        "ja": "だいじょうぶ",
+        "en": "It's okay.",
+        "voice": "audio/voice/talk/24.mp3"
+      }
+    ],
+    "g3": [
+      {
+        "id": "g3_0",
+        "ja": "みちに まよった",
+        "en": "I'm lost.",
+        "voice": "audio/voice/talk/25.mp3"
+      },
+      {
+        "id": "g3_1",
+        "ja": "どう おもう？",
+        "en": "What do you think?",
+        "voice": "audio/voice/talk/26.mp3"
+      },
+      {
+        "id": "g3_2",
+        "ja": "いっしょに いかない？",
+        "en": "Why don't we go?",
+        "voice": "audio/voice/talk/27.mp3"
+      },
+      {
+        "id": "g3_3",
+        "ja": "なんで そう おもうの？",
+        "en": "Why do you think so?",
+        "voice": "audio/voice/talk/28.mp3"
+      },
+      {
+        "id": "g3_4",
+        "ja": "おすすめは なに？",
+        "en": "What do you recommend?",
+        "voice": "audio/voice/talk/29.mp3"
+      },
+      {
+        "id": "g3_5",
+        "ja": "さんせい！",
+        "en": "I agree with you.",
+        "voice": "audio/voice/talk/30.mp3"
+      },
+      {
+        "id": "g3_6",
+        "ja": "たのしみ！",
+        "en": "I'm looking forward to it.",
+        "voice": "audio/voice/talk/31.mp3"
+      },
+      {
+        "id": "g3_7",
+        "ja": "きが かわった",
+        "en": "I changed my mind.",
+        "voice": "audio/voice/talk/32.mp3"
+      },
+      {
+        "id": "g3_8",
+        "ja": "おかげさまで",
+        "en": "Thanks to you.",
+        "voice": "audio/voice/talk/33.mp3"
+      },
+      {
+        "id": "g3_9",
+        "ja": "じしんが ない",
+        "en": "I'm not sure.",
+        "voice": "audio/voice/talk/34.mp3"
+      },
+      {
+        "id": "g3_10",
+        "ja": "れんらく とりあおう",
+        "en": "Let's keep in touch.",
+        "voice": "audio/voice/talk/35.mp3"
+      },
+      {
+        "id": "g3_11",
+        "ja": "むりしないで",
+        "en": "Don't push yourself.",
+        "voice": "audio/voice/talk/36.mp3"
+      }
+    ]
+  }
+}

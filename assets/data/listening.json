@@ -1,0 +1,2855 @@
+{
+  "version": 2,
+  "qn": 10,
+  "winRatio": 0.6,
+  "timeByLevel": {
+    "0": 0,
+    "1": 8,
+    "2": 12,
+    "3": 14
+  },
+  "livesByLevel": {
+    "0": 5,
+    "1": 3,
+    "2": 3,
+    "3": 3
+  },
+  "grades": {
+    "g5": {
+      "levels": {
+        "0": [
+          {
+            "id": "g5_0_0",
+            "t": "pic",
+            "en": "It's a dog.",
+            "ja": "犬です。",
+            "tip": "「It's a 〜」は『〜です』。dog（ドッグ）が聞こえたら犬🐶",
+            "ans": "🐶",
+            "opts": [
+              "🐱",
+              "🐦"
+            ],
+            "q": null,
+            "voice": "audio/voice/lis/g5_0_0.mp3"
+          },
+          {
+            "id": "g5_0_1",
+            "t": "pic",
+            "en": "It's a cat.",
+            "ja": "猫です。",
+            "tip": "cat（キャット）＝猫。さいごの音までよく聞こう🐱",
+            "ans": "🐱",
+            "opts": [
+              "🐶",
+              "🐟"
+            ],
+            "q": null,
+            "voice": "audio/voice/lis/g5_0_1.mp3"
+          },
+          {
+            "id": "g5_0_2",
+            "t": "pic",
+            "en": "It's an apple.",
+            "ja": "りんごです。",
+            "tip": "apple（アップル）＝りんご🍎",
+            "ans": "🍎",
+            "opts": [
+              "🍌",
+              "🍇"
+            ],
+            "q": null,
+            "voice": "audio/voice/lis/g5_0_2.mp3"
+          },
+          {
+            "id": "g5_0_3",
+            "t": "pic",
+            "en": "It's a fish.",
+            "ja": "魚です。",
+            "tip": "fish（フィッシュ）＝魚🐟",
+            "ans": "🐟",
+            "opts": [
+              "🐶",
+              "🐦"
+            ],
+            "q": null,
+            "voice": "audio/voice/lis/g5_0_3.mp3"
+          },
+          {
+            "id": "g5_0_4",
+            "t": "pic",
+            "en": "It's a car.",
+            "ja": "車です。",
+            "tip": "car（カー）＝車🚗",
+            "ans": "🚗",
+            "opts": [
+              "🚌",
+              "✈️"
+            ],
+            "q": null,
+            "voice": "audio/voice/lis/g5_0_4.mp3"
+          },
+          {
+            "id": "g5_0_5",
+            "t": "pic",
+            "en": "It's a cake.",
+            "ja": "ケーキです。",
+            "tip": "cake（ケイク）＝ケーキ🍰",
+            "ans": "🍰",
+            "opts": [
+              "🍞",
+              "🍕"
+            ],
+            "q": null,
+            "voice": "audio/voice/lis/g5_0_5.mp3"
+          },
+          {
+            "id": "g5_0_6",
+            "t": "pic",
+            "en": "It's a book.",
+            "ja": "本です。",
+            "tip": "book（ブック）＝本📖",
+            "ans": "📖",
+            "opts": [
+              "✏️",
+              "🎒"
+            ],
+            "q": null,
+            "voice": "audio/voice/lis/g5_0_6.mp3"
+          },
+          {
+            "id": "g5_0_7",
+            "t": "pic",
+            "en": "It's the sun.",
+            "ja": "太陽です。",
+            "tip": "sun（サン）＝太陽☀️",
+            "ans": "☀️",
+            "opts": [
+              "🌙",
+              "⭐"
+            ],
+            "q": null,
+            "voice": "audio/voice/lis/g5_0_7.mp3"
+          },
+          {
+            "id": "g5_0_8",
+            "t": "pic",
+            "en": "It's a flower.",
+            "ja": "花です。",
+            "tip": "flower（フラワー）＝花🌸",
+            "ans": "🌸",
+            "opts": [
+              "🌳",
+              "🍄"
+            ],
+            "q": null,
+            "voice": "audio/voice/lis/g5_0_8.mp3"
+          },
+          {
+            "id": "g5_0_9",
+            "t": "pic",
+            "en": "It's an egg.",
+            "ja": "卵です。",
+            "tip": "egg（エッグ）＝卵🥚",
+            "ans": "🥚",
+            "opts": [
+              "🍙",
+              "🧀"
+            ],
+            "q": null,
+            "voice": "audio/voice/lis/g5_0_9.mp3"
+          },
+          {
+            "id": "g5_0_10",
+            "t": "pic",
+            "en": "It's a bird.",
+            "ja": "鳥です。",
+            "tip": "bird（バード）＝鳥🐦",
+            "ans": "🐦",
+            "opts": [
+              "🐶",
+              "🐟"
+            ],
+            "q": null,
+            "voice": "audio/voice/lis/g5_0_10.mp3"
+          },
+          {
+            "id": "g5_0_11",
+            "t": "pic",
+            "en": "It's a banana.",
+            "ja": "バナナです。",
+            "tip": "banana（バナナ）＝バナナ🍌",
+            "ans": "🍌",
+            "opts": [
+              "🍎",
+              "🍓"
+            ],
+            "q": null,
+            "voice": "audio/voice/lis/g5_0_11.mp3"
+          },
+          {
+            "id": "g5_0_12",
+            "t": "pic",
+            "en": "It's a bus.",
+            "ja": "バスです。",
+            "tip": "bus（バス）＝バス🚌",
+            "ans": "🚌",
+            "opts": [
+              "🚗",
+              "🚲"
+            ],
+            "q": null,
+            "voice": "audio/voice/lis/g5_0_12.mp3"
+          },
+          {
+            "id": "g5_0_13",
+            "t": "pic",
+            "en": "It's a pen.",
+            "ja": "ペンです。",
+            "tip": "pen（ペン）＝ペン🖊️",
+            "ans": "🖊️",
+            "opts": [
+              "📕",
+              "🎒"
+            ],
+            "q": null,
+            "voice": "audio/voice/lis/g5_0_13.mp3"
+          },
+          {
+            "id": "g5_0_14",
+            "t": "pic",
+            "en": "It's a hat.",
+            "ja": "ぼうしです。",
+            "tip": "hat（ハット）＝ぼうし👒",
+            "ans": "👒",
+            "opts": [
+              "👜",
+              "👟"
+            ],
+            "q": null,
+            "voice": "audio/voice/lis/g5_0_14.mp3"
+          },
+          {
+            "id": "g5_0_15",
+            "t": "pic",
+            "en": "It's a clock.",
+            "ja": "時計です。",
+            "tip": "clock（クロック）＝時計🕐",
+            "ans": "🕐",
+            "opts": [
+              "📺",
+              "☎️"
+            ],
+            "q": null,
+            "voice": "audio/voice/lis/g5_0_15.mp3"
+          },
+          {
+            "id": "g5_0_16",
+            "t": "pic",
+            "en": "It's a star.",
+            "ja": "星です。",
+            "tip": "star（スター）＝星⭐",
+            "ans": "⭐",
+            "opts": [
+              "🌙",
+              "☀️"
+            ],
+            "q": null,
+            "voice": "audio/voice/lis/g5_0_16.mp3"
+          }
+        ],
+        "1": [
+          {
+            "id": "g5_1_0",
+            "t": "pic",
+            "en": "This is a dog.",
+            "ja": "これは犬です。",
+            "tip": "This is 〜＝『これは〜です』。dog＝犬🐶",
+            "ans": "🐶",
+            "opts": [
+              "🐱",
+              "🐦"
+            ],
+            "q": null,
+            "voice": "audio/voice/lis/g5_1_0.mp3"
+          },
+          {
+            "id": "g5_1_1",
+            "t": "pic",
+            "en": "This is a cat.",
+            "ja": "これは猫です。",
+            "tip": "cat＝猫🐱",
+            "ans": "🐱",
+            "opts": [
+              "🐶",
+              "🐭"
+            ],
+            "q": null,
+            "voice": "audio/voice/lis/g5_1_1.mp3"
+          },
+          {
+            "id": "g5_1_2",
+            "t": "pic",
+            "en": "I like apples.",
+            "ja": "りんごが好きです。",
+            "tip": "like＝好き、apple＝りんご。『りんごが好き』🍎",
+            "ans": "🍎",
+            "opts": [
+              "🍌",
+              "🍇"
+            ],
+            "q": null,
+            "voice": "audio/voice/lis/g5_1_2.mp3"
+          },
+          {
+            "id": "g5_1_3",
+            "t": "pic",
+            "en": "I like bananas.",
+            "ja": "バナナが好きです。",
+            "tip": "banana＝バナナ🍌",
+            "ans": "🍌",
+            "opts": [
+              "🍎",
+              "🍓"
+            ],
+            "q": null,
+            "voice": "audio/voice/lis/g5_1_3.mp3"
+          },
+          {
+            "id": "g5_1_4",
+            "t": "pic",
+            "en": "It is a cake.",
+            "ja": "それはケーキです。",
+            "tip": "cake＝ケーキ🍰",
+            "ans": "🍰",
+            "opts": [
+              "🍞",
+              "🍕"
+            ],
+            "q": null,
+            "voice": "audio/voice/lis/g5_1_4.mp3"
+          },
+          {
+            "id": "g5_1_5",
+            "t": "pic",
+            "en": "I see a bird.",
+            "ja": "鳥が見えます。",
+            "tip": "see＝見える、bird＝鳥🐦",
+            "ans": "🐦",
+            "opts": [
+              "🐟",
+              "🐸"
+            ],
+            "q": null,
+            "voice": "audio/voice/lis/g5_1_5.mp3"
+          },
+          {
+            "id": "g5_1_6",
+            "t": "pic",
+            "en": "I see a fish.",
+            "ja": "魚が見えます。",
+            "tip": "fish＝魚🐟",
+            "ans": "🐟",
+            "opts": [
+              "🐦",
+              "🐶"
+            ],
+            "q": null,
+            "voice": "audio/voice/lis/g5_1_6.mp3"
+          },
+          {
+            "id": "g5_1_7",
+            "t": "pic",
+            "en": "It is a car.",
+            "ja": "それは車です。",
+            "tip": "car＝車🚗",
+            "ans": "🚗",
+            "opts": [
+              "🚌",
+              "✈️"
+            ],
+            "q": null,
+            "voice": "audio/voice/lis/g5_1_7.mp3"
+          },
+          {
+            "id": "g5_1_8",
+            "t": "pic",
+            "en": "It is a bus.",
+            "ja": "それはバスです。",
+            "tip": "bus＝バス🚌。car と音がにているので注意",
+            "ans": "🚌",
+            "opts": [
+              "🚗",
+              "🚲"
+            ],
+            "q": null,
+            "voice": "audio/voice/lis/g5_1_8.mp3"
+          },
+          {
+            "id": "g5_1_9",
+            "t": "pic",
+            "en": "I ride a bike.",
+            "ja": "自転車に乗ります。",
+            "tip": "ride＝乗る、bike＝自転車🚲",
+            "ans": "🚲",
+            "opts": [
+              "🚗",
+              "🚂"
+            ],
+            "q": null,
+            "voice": "audio/voice/lis/g5_1_9.mp3"
+          },
+          {
+            "id": "g5_1_10",
+            "t": "pic",
+            "en": "I play soccer.",
+            "ja": "サッカーをします。",
+            "tip": "play＝(スポーツを)する、soccer＝サッカー⚽",
+            "ans": "⚽",
+            "opts": [
+              "🏀",
+              "⚾"
+            ],
+            "q": null,
+            "voice": "audio/voice/lis/g5_1_10.mp3"
+          },
+          {
+            "id": "g5_1_11",
+            "t": "pic",
+            "en": "I play baseball.",
+            "ja": "野球をします。",
+            "tip": "baseball＝野球⚾",
+            "ans": "⚾",
+            "opts": [
+              "⚽",
+              "🎾"
+            ],
+            "q": null,
+            "voice": "audio/voice/lis/g5_1_11.mp3"
+          },
+          {
+            "id": "g5_1_12",
+            "t": "pic",
+            "en": "It is an umbrella.",
+            "ja": "それはかさです。",
+            "tip": "umbrella＝かさ☂️",
+            "ans": "☂️",
+            "opts": [
+              "👒",
+              "👜"
+            ],
+            "q": null,
+            "voice": "audio/voice/lis/g5_1_12.mp3"
+          },
+          {
+            "id": "g5_1_13",
+            "t": "pic",
+            "en": "I have a pen.",
+            "ja": "ペンを持っています。",
+            "tip": "have＝持っている、pen＝ペン🖊️",
+            "ans": "🖊️",
+            "opts": [
+              "📕",
+              "✏️"
+            ],
+            "q": null,
+            "voice": "audio/voice/lis/g5_1_13.mp3"
+          },
+          {
+            "id": "g5_1_14",
+            "t": "pic",
+            "en": "Look at the clock.",
+            "ja": "時計を見て。",
+            "tip": "Look at 〜＝『〜を見て』、clock＝時計🕐",
+            "ans": "🕐",
+            "opts": [
+              "📺",
+              "☎️"
+            ],
+            "q": null,
+            "voice": "audio/voice/lis/g5_1_14.mp3"
+          },
+          {
+            "id": "g5_1_15",
+            "t": "pic",
+            "en": "Look at the sun.",
+            "ja": "太陽を見て。",
+            "tip": "sun＝太陽☀️",
+            "ans": "☀️",
+            "opts": [
+              "🌙",
+              "⭐"
+            ],
+            "q": null,
+            "voice": "audio/voice/lis/g5_1_15.mp3"
+          },
+          {
+            "id": "g5_1_16",
+            "t": "pic",
+            "en": "It is a flower.",
+            "ja": "それは花です。",
+            "tip": "flower＝花🌸",
+            "ans": "🌸",
+            "opts": [
+              "🌳",
+              "🍄"
+            ],
+            "q": null,
+            "voice": "audio/voice/lis/g5_1_16.mp3"
+          }
+        ],
+        "2": [
+          {
+            "id": "g5_2_0",
+            "t": "text",
+            "en": "How are you?",
+            "ja": "How are you?＝『元気？』とたずねるあいさつ。",
+            "tip": "あいさつには I'm fine, thank you.（元気です、ありがとう）で返す。",
+            "ans": "I'm fine, thank you.",
+            "opts": [
+              "It's a dog.",
+              "On Monday."
+            ],
+            "q": null,
+            "voice": "audio/voice/lis/g5_2_0.mp3"
+          },
+          {
+            "id": "g5_2_1",
+            "t": "text",
+            "en": "What's this?",
+            "ja": "What's this?＝『これは何？』",
+            "tip": "『何？』ときかれたら It's a 〜（〜です）で答える。",
+            "ans": "It's a pen.",
+            "opts": [
+              "I'm ten.",
+              "Yes, I do."
+            ],
+            "q": null,
+            "voice": "audio/voice/lis/g5_2_1.mp3"
+          },
+          {
+            "id": "g5_2_2",
+            "t": "text",
+            "en": "How old are you?",
+            "ja": "How old are you?＝『何歳？』",
+            "tip": "年れいは I'm ten.（10歳です）のように I'm 〜 で答える。",
+            "ans": "I'm ten.",
+            "opts": [
+              "It's blue.",
+              "At seven."
+            ],
+            "q": null,
+            "voice": "audio/voice/lis/g5_2_2.mp3"
+          },
+          {
+            "id": "g5_2_3",
+            "t": "text",
+            "en": "What color is it?",
+            "ja": "What color〜＝『何色？』",
+            "tip": "色は It's red.（赤です）のように It's 〜 で答える。",
+            "ans": "It's red.",
+            "opts": [
+              "I'm fine.",
+              "It's Monday."
+            ],
+            "q": null,
+            "voice": "audio/voice/lis/g5_2_3.mp3"
+          },
+          {
+            "id": "g5_2_4",
+            "t": "text",
+            "en": "Do you like dogs?",
+            "ja": "Do you like 〜?＝『〜は好き？』",
+            "tip": "Do you 〜? には Yes, I do. / No, I don't. で答える。",
+            "ans": "Yes, I do.",
+            "opts": [
+              "It's a cat.",
+              "I'm eleven."
+            ],
+            "q": null,
+            "voice": "audio/voice/lis/g5_2_4.mp3"
+          },
+          {
+            "id": "g5_2_5",
+            "t": "text",
+            "en": "What time is it?",
+            "ja": "What time〜＝『何時？』",
+            "tip": "時こくは It's three o'clock.（3時です）。",
+            "ans": "It's three o'clock.",
+            "opts": [
+              "It's a bird.",
+              "Yes, please."
+            ],
+            "q": null,
+            "voice": "audio/voice/lis/g5_2_5.mp3"
+          },
+          {
+            "id": "g5_2_6",
+            "t": "text",
+            "en": "Where is my bag?",
+            "ja": "Where〜＝『どこ？』",
+            "tip": "場所は on the desk（机の上）など on/in で答える。",
+            "ans": "It's on the desk.",
+            "opts": [
+              "I'm fine.",
+              "It's Sunday."
+            ],
+            "q": null,
+            "voice": "audio/voice/lis/g5_2_6.mp3"
+          },
+          {
+            "id": "g5_2_7",
+            "t": "text",
+            "en": "Nice to meet you.",
+            "ja": "『はじめまして』のあいさつ。",
+            "tip": "返事は Nice to meet you, too.（こちらこそ）。",
+            "ans": "Nice to meet you, too.",
+            "opts": [
+              "It's a cat.",
+              "I'm fine."
+            ],
+            "q": null,
+            "voice": "audio/voice/lis/g5_2_7.mp3"
+          },
+          {
+            "id": "g5_2_8",
+            "t": "text",
+            "en": "What day is it today?",
+            "ja": "What day〜＝『何曜日？』",
+            "tip": "曜日は It's Monday.（月曜です）で答える。",
+            "ans": "It's Monday.",
+            "opts": [
+              "It's red.",
+              "I'm ten."
+            ],
+            "q": null,
+            "voice": "audio/voice/lis/g5_2_8.mp3"
+          },
+          {
+            "id": "g5_2_9",
+            "t": "text",
+            "en": "Goodbye!",
+            "ja": "『さようなら』のあいさつ。",
+            "tip": "別れのあいさつには See you!（またね）。",
+            "ans": "See you!",
+            "opts": [
+              "Thank you.",
+              "It's a dog."
+            ],
+            "q": null,
+            "voice": "audio/voice/lis/g5_2_9.mp3"
+          },
+          {
+            "id": "g5_2_10",
+            "t": "text",
+            "en": "What's your name?",
+            "ja": "名前は？→ユキです。",
+            "tip": "名前は I'm 〜 で答える。",
+            "ans": "I'm Yuki.",
+            "opts": [
+              "It's a cat.",
+              "On Monday."
+            ],
+            "q": null,
+            "voice": "audio/voice/lis/g5_2_10.mp3"
+          },
+          {
+            "id": "g5_2_11",
+            "t": "text",
+            "en": "Where are you from?",
+            "ja": "出身は？→日本です。",
+            "tip": "Where from＝出身。I'm from 〜。",
+            "ans": "I'm from Japan.",
+            "opts": [
+              "I'm ten.",
+              "It's red."
+            ],
+            "q": null,
+            "voice": "audio/voice/lis/g5_2_11.mp3"
+          },
+          {
+            "id": "g5_2_12",
+            "t": "text",
+            "en": "How's the weather today?",
+            "ja": "天気は？→晴れ。",
+            "tip": "weather＝天気。It's sunny.",
+            "ans": "It's sunny.",
+            "opts": [
+              "I'm fine.",
+              "Yes, I do."
+            ],
+            "q": null,
+            "voice": "audio/voice/lis/g5_2_12.mp3"
+          },
+          {
+            "id": "g5_2_13",
+            "t": "text",
+            "en": "What do you have?",
+            "ja": "何を持ってる？→ボール。",
+            "tip": "have＝持っている。I have 〜。",
+            "ans": "I have a ball.",
+            "opts": [
+              "It's Monday.",
+              "At seven."
+            ],
+            "q": null,
+            "voice": "audio/voice/lis/g5_2_13.mp3"
+          },
+          {
+            "id": "g5_2_14",
+            "t": "text",
+            "en": "Is this a cat?",
+            "ja": "これ猫？→うん。",
+            "tip": "Is this〜? には Yes, it is.",
+            "ans": "Yes, it is.",
+            "opts": [
+              "I'm ten.",
+              "On Sunday."
+            ],
+            "q": null,
+            "voice": "audio/voice/lis/g5_2_14.mp3"
+          },
+          {
+            "id": "g5_2_15",
+            "t": "text",
+            "en": "Thank you.",
+            "ja": "ありがとう→どういたしまして。",
+            "tip": "Thank you には You're welcome.",
+            "ans": "You're welcome.",
+            "opts": [
+              "It's a dog.",
+              "I'm ten."
+            ],
+            "q": null,
+            "voice": "audio/voice/lis/g5_2_15.mp3"
+          },
+          {
+            "id": "g5_2_16",
+            "t": "text",
+            "en": "Let's go to the park.",
+            "ja": "公園行こう→いいね！",
+            "tip": "Let's〜 のさそいに OK, let's go!",
+            "ans": "OK, let's go!",
+            "opts": [
+              "It's a park.",
+              "I'm fine."
+            ],
+            "q": null,
+            "voice": "audio/voice/lis/g5_2_16.mp3"
+          }
+        ],
+        "3": [
+          {
+            "id": "g5_3_0",
+            "t": "text",
+            "en": "Do you like apples? ... No, I like bananas.",
+            "ja": "「りんご好き？」「いや、バナナが好き」",
+            "tip": "Bの No, I like bananas. に注目！すきな果物は bananas。",
+            "ans": "bananas",
+            "opts": [
+              "apples",
+              "oranges"
+            ],
+            "q": "すきな果物は？",
+            "voice": "audio/voice/lis/g5_3_0.mp3"
+          },
+          {
+            "id": "g5_3_1",
+            "t": "text",
+            "en": "What's your name? ... I'm Ken.",
+            "ja": "「名前は？」「ケンです」",
+            "tip": "I'm の後ろが名前。だから Ken。",
+            "ans": "Ken",
+            "opts": [
+              "Tom",
+              "Mike"
+            ],
+            "q": "名前は？",
+            "voice": "audio/voice/lis/g5_3_1.mp3"
+          },
+          {
+            "id": "g5_3_2",
+            "t": "text",
+            "en": "What time is it? ... It's seven o'clock.",
+            "ja": "「何時？」「7時」",
+            "tip": "o'clock の前の数字を聞く。seven＝7。",
+            "ans": "seven",
+            "opts": [
+              "six",
+              "eight"
+            ],
+            "q": "何時？",
+            "voice": "audio/voice/lis/g5_3_2.mp3"
+          },
+          {
+            "id": "g5_3_3",
+            "t": "text",
+            "en": "Is this your cat? ... No, it's my dog.",
+            "ja": "「これ猫？」「いや、ぼくの犬」",
+            "tip": "No のあとに本当の答え。my dog なので a dog。",
+            "ans": "a dog",
+            "opts": [
+              "a cat",
+              "a bird"
+            ],
+            "q": "かっているのは？",
+            "voice": "audio/voice/lis/g5_3_3.mp3"
+          },
+          {
+            "id": "g5_3_4",
+            "t": "text",
+            "en": "Where is the ball? ... It's under the chair.",
+            "ja": "「ボールはどこ？」「いすの下」",
+            "tip": "under＝下。under the chair（いすの下）。",
+            "ans": "under the chair",
+            "opts": [
+              "on the desk",
+              "in the bag"
+            ],
+            "q": "ボールはどこ？",
+            "voice": "audio/voice/lis/g5_3_4.mp3"
+          },
+          {
+            "id": "g5_3_5",
+            "t": "text",
+            "en": "How many dogs do you have? ... I have two dogs.",
+            "ja": "「犬は何匹？」「2匹」",
+            "tip": "How many＝いくつ。two dogs なので two。",
+            "ans": "two",
+            "opts": [
+              "one",
+              "three"
+            ],
+            "q": "犬は何匹？",
+            "voice": "audio/voice/lis/g5_3_5.mp3"
+          },
+          {
+            "id": "g5_3_6",
+            "t": "text",
+            "en": "What do you want? ... I want some water.",
+            "ja": "「何がほしい？」「水」",
+            "tip": "want＝ほしい。water＝水。",
+            "ans": "water",
+            "opts": [
+              "juice",
+              "milk"
+            ],
+            "q": "ほしいものは？",
+            "voice": "audio/voice/lis/g5_3_6.mp3"
+          },
+          {
+            "id": "g5_3_7",
+            "t": "text",
+            "en": "Let's play soccer. ... OK, let's go!",
+            "ja": "「サッカーしよう」「いいね！」",
+            "tip": "play のあとのスポーツ＝soccer。",
+            "ans": "soccer",
+            "opts": [
+              "tennis",
+              "baseball"
+            ],
+            "q": "何をする？",
+            "voice": "audio/voice/lis/g5_3_7.mp3"
+          },
+          {
+            "id": "g5_3_8",
+            "t": "text",
+            "en": "When is your birthday? ... It's in May.",
+            "ja": "「誕生日は？」「5月」",
+            "tip": "in のあとの月＝May（5月）。",
+            "ans": "May",
+            "opts": [
+              "March",
+              "July"
+            ],
+            "q": "たんじょう日は何月？",
+            "voice": "audio/voice/lis/g5_3_8.mp3"
+          },
+          {
+            "id": "g5_3_9",
+            "t": "text",
+            "en": "Do you go to school by bus? ... No, by bike.",
+            "ja": "「バスで行く？」「いや、自転車」",
+            "tip": "No, by bike なので答えは by bike。",
+            "ans": "by bike",
+            "opts": [
+              "by bus",
+              "by train"
+            ],
+            "q": "学校へどうやって行く？",
+            "voice": "audio/voice/lis/g5_3_9.mp3"
+          },
+          {
+            "id": "g5_3_10",
+            "t": "text",
+            "en": "Do you have a pencil? ... Yes, here you are.",
+            "ja": "持ってる?→うん、どうぞ。",
+            "tip": "Yes, here you are.＝はい、どうぞ。",
+            "ans": "Yes",
+            "opts": [
+              "No",
+              "Maybe"
+            ],
+            "q": "えんぴつ持ってる？",
+            "voice": "audio/voice/lis/g5_3_10.mp3"
+          },
+          {
+            "id": "g5_3_11",
+            "t": "text",
+            "en": "What color do you like? ... I like blue.",
+            "ja": "何色?→青。",
+            "tip": "like のあとの色。blue。",
+            "ans": "blue",
+            "opts": [
+              "red",
+              "green"
+            ],
+            "q": "何色が好き？",
+            "voice": "audio/voice/lis/g5_3_11.mp3"
+          },
+          {
+            "id": "g5_3_12",
+            "t": "text",
+            "en": "How many apples do you have? ... I have three apples.",
+            "ja": "何個?→3個。",
+            "tip": "three＝3。",
+            "ans": "three",
+            "opts": [
+              "two",
+              "four"
+            ],
+            "q": "りんごは何個？",
+            "voice": "audio/voice/lis/g5_3_12.mp3"
+          },
+          {
+            "id": "g5_3_13",
+            "t": "text",
+            "en": "Where is the cat? ... It's on the bed.",
+            "ja": "猫どこ?→ベッドの上。",
+            "tip": "on the bed＝ベッドの上。",
+            "ans": "on the bed",
+            "opts": [
+              "under the chair",
+              "in the box"
+            ],
+            "q": "猫はどこ？",
+            "voice": "audio/voice/lis/g5_3_13.mp3"
+          },
+          {
+            "id": "g5_3_14",
+            "t": "text",
+            "en": "Is it a dog or a cat? ... It's a dog.",
+            "ja": "どっち?→犬。",
+            "tip": "It's a dog. に注目。",
+            "ans": "a dog",
+            "opts": [
+              "a cat",
+              "a bird"
+            ],
+            "q": "犬？猫？",
+            "voice": "audio/voice/lis/g5_3_14.mp3"
+          },
+          {
+            "id": "g5_3_15",
+            "t": "text",
+            "en": "What time do you go to bed? ... At nine.",
+            "ja": "何時に寝る?→9時。",
+            "tip": "At nine＝9時に。",
+            "ans": "nine",
+            "opts": [
+              "seven",
+              "ten"
+            ],
+            "q": "何時に寝る？",
+            "voice": "audio/voice/lis/g5_3_15.mp3"
+          },
+          {
+            "id": "g5_3_16",
+            "t": "text",
+            "en": "Do you like milk? ... No, I like juice.",
+            "ja": "牛乳好き?→いや、ジュース。",
+            "tip": "No, I like juice. に注目。",
+            "ans": "juice",
+            "opts": [
+              "milk",
+              "water"
+            ],
+            "q": "牛乳好き？",
+            "voice": "audio/voice/lis/g5_3_16.mp3"
+          }
+        ]
+      }
+    },
+    "g4": {
+      "levels": {
+        "0": [
+          {
+            "id": "g4_0_0",
+            "t": "pic",
+            "en": "I go to school by bus.",
+            "ja": "バスで学校へ行きます。",
+            "tip": "by bus（バスで）が聞こえたらバス🚌",
+            "ans": "🚌",
+            "opts": [
+              "🚲",
+              "🚆"
+            ],
+            "q": null,
+            "voice": "audio/voice/lis/g4_0_0.mp3"
+          },
+          {
+            "id": "g4_0_1",
+            "t": "pic",
+            "en": "I play soccer after school.",
+            "ja": "放課後サッカーをします。",
+            "tip": "play soccer＝サッカーをする⚽",
+            "ans": "⚽",
+            "opts": [
+              "🎾",
+              "🏀"
+            ],
+            "q": null,
+            "voice": "audio/voice/lis/g4_0_1.mp3"
+          },
+          {
+            "id": "g4_0_2",
+            "t": "pic",
+            "en": "I have a music class today.",
+            "ja": "今日は音楽の授業があります。",
+            "tip": "music（ミュージック）＝音楽🎵",
+            "ans": "🎵",
+            "opts": [
+              "🎨",
+              "📕"
+            ],
+            "q": null,
+            "voice": "audio/voice/lis/g4_0_2.mp3"
+          },
+          {
+            "id": "g4_0_3",
+            "t": "pic",
+            "en": "It's snowy today.",
+            "ja": "今日は雪です。",
+            "tip": "snowy（スノウィー）＝雪の❄️",
+            "ans": "❄️",
+            "opts": [
+              "☀️",
+              "🌧️"
+            ],
+            "q": null,
+            "voice": "audio/voice/lis/g4_0_3.mp3"
+          },
+          {
+            "id": "g4_0_4",
+            "t": "pic",
+            "en": "I want some milk.",
+            "ja": "牛乳がほしいです。",
+            "tip": "milk（ミルク）＝牛乳🥛",
+            "ans": "🥛",
+            "opts": [
+              "💧",
+              "🍞"
+            ],
+            "q": null,
+            "voice": "audio/voice/lis/g4_0_4.mp3"
+          },
+          {
+            "id": "g4_0_5",
+            "t": "pic",
+            "en": "I read a book every day.",
+            "ja": "毎日本を読みます。",
+            "tip": "read a book＝本を読む📖",
+            "ans": "📖",
+            "opts": [
+              "✏️",
+              "📺"
+            ],
+            "q": null,
+            "voice": "audio/voice/lis/g4_0_5.mp3"
+          },
+          {
+            "id": "g4_0_6",
+            "t": "pic",
+            "en": "My father is a doctor.",
+            "ja": "父は医者です。",
+            "tip": "doctor（ドクター）＝医者👨‍⚕️",
+            "ans": "👨‍⚕️",
+            "opts": [
+              "👮‍♂️",
+              "👨‍🍳"
+            ],
+            "q": null,
+            "voice": "audio/voice/lis/g4_0_6.mp3"
+          },
+          {
+            "id": "g4_0_7",
+            "t": "pic",
+            "en": "I take a train to the city.",
+            "ja": "電車で町へ行きます。",
+            "tip": "train（トレイン）＝電車🚆",
+            "ans": "🚆",
+            "opts": [
+              "🚌",
+              "🚗"
+            ],
+            "q": null,
+            "voice": "audio/voice/lis/g4_0_7.mp3"
+          },
+          {
+            "id": "g4_0_8",
+            "t": "pic",
+            "en": "I eat breakfast at seven.",
+            "ja": "7時に朝食を食べます。",
+            "tip": "breakfast（ブレックファスト）＝朝食🍳",
+            "ans": "🍳",
+            "opts": [
+              "🍱",
+              "🍰"
+            ],
+            "q": null,
+            "voice": "audio/voice/lis/g4_0_8.mp3"
+          },
+          {
+            "id": "g4_0_9",
+            "t": "pic",
+            "en": "I have a pet rabbit.",
+            "ja": "うさぎを飼っています。",
+            "tip": "rabbit（ラビット）＝うさぎ🐰",
+            "ans": "🐰",
+            "opts": [
+              "🐶",
+              "🐱"
+            ],
+            "q": null,
+            "voice": "audio/voice/lis/g4_0_9.mp3"
+          },
+          {
+            "id": "g4_0_10",
+            "t": "pic",
+            "en": "I like science.",
+            "ja": "理科が好きです。",
+            "tip": "science（サイエンス）＝理科🔬",
+            "ans": "🔬",
+            "opts": [
+              "🎵",
+              "🎨"
+            ],
+            "q": null,
+            "voice": "audio/voice/lis/g4_0_10.mp3"
+          },
+          {
+            "id": "g4_0_11",
+            "t": "pic",
+            "en": "It's cloudy today.",
+            "ja": "今日はくもりです。",
+            "tip": "cloudy（クラウディ）＝くもり☁️",
+            "ans": "☁️",
+            "opts": [
+              "☀️",
+              "❄️"
+            ],
+            "q": null,
+            "voice": "audio/voice/lis/g4_0_11.mp3"
+          },
+          {
+            "id": "g4_0_12",
+            "t": "pic",
+            "en": "I have a piano lesson.",
+            "ja": "ピアノのレッスンがあります。",
+            "tip": "piano（ピアノ）＝ピアノ🎹",
+            "ans": "🎹",
+            "opts": [
+              "🎸",
+              "🥁"
+            ],
+            "q": null,
+            "voice": "audio/voice/lis/g4_0_12.mp3"
+          },
+          {
+            "id": "g4_0_13",
+            "t": "pic",
+            "en": "I go to the library.",
+            "ja": "図書館へ行きます。",
+            "tip": "library（ライブラリー）＝図書館📚",
+            "ans": "📚",
+            "opts": [
+              "🏥",
+              "🏪"
+            ],
+            "q": null,
+            "voice": "audio/voice/lis/g4_0_13.mp3"
+          },
+          {
+            "id": "g4_0_14",
+            "t": "pic",
+            "en": "I want a hamburger.",
+            "ja": "ハンバーガーがほしい。",
+            "tip": "hamburger＝ハンバーガー🍔",
+            "ans": "🍔",
+            "opts": [
+              "🍣",
+              "🍜"
+            ],
+            "q": null,
+            "voice": "audio/voice/lis/g4_0_14.mp3"
+          },
+          {
+            "id": "g4_0_15",
+            "t": "pic",
+            "en": "My sister is a nurse.",
+            "ja": "姉[妹]は看護師です。",
+            "tip": "nurse（ナース）＝看護師👩‍⚕️",
+            "ans": "👩‍⚕️",
+            "opts": [
+              "👮‍♀️",
+              "👩‍🏫"
+            ],
+            "q": null,
+            "voice": "audio/voice/lis/g4_0_15.mp3"
+          },
+          {
+            "id": "g4_0_16",
+            "t": "pic",
+            "en": "I ride my bike to school.",
+            "ja": "自転車で学校へ行きます。",
+            "tip": "bike（バイク）＝自転車🚲",
+            "ans": "🚲",
+            "opts": [
+              "🚌",
+              "🚗"
+            ],
+            "q": null,
+            "voice": "audio/voice/lis/g4_0_16.mp3"
+          }
+        ],
+        "1": [
+          {
+            "id": "g4_1_0",
+            "t": "text",
+            "en": "I play tennis after school.",
+            "ja": "放課後テニスをします。",
+            "tip": "tennis＝テニス",
+            "ans": "tennis",
+            "opts": [
+              "soccer",
+              "basketball"
+            ],
+            "q": null,
+            "voice": "audio/voice/lis/g4_1_0.mp3"
+          },
+          {
+            "id": "g4_1_1",
+            "t": "text",
+            "en": "She goes to school by bus.",
+            "ja": "彼女はバスで学校へ行きます。",
+            "tip": "by bus＝バスで",
+            "ans": "by bus",
+            "opts": [
+              "by train",
+              "by bike"
+            ],
+            "q": null,
+            "voice": "audio/voice/lis/g4_1_1.mp3"
+          },
+          {
+            "id": "g4_1_2",
+            "t": "text",
+            "en": "I get up at seven.",
+            "ja": "7時に起きます。",
+            "tip": "seven＝7",
+            "ans": "seven",
+            "opts": [
+              "eleven",
+              "nine"
+            ],
+            "q": null,
+            "voice": "audio/voice/lis/g4_1_2.mp3"
+          },
+          {
+            "id": "g4_1_3",
+            "t": "text",
+            "en": "My brother likes math.",
+            "ja": "兄[弟]は数学が好き。",
+            "tip": "math＝数学",
+            "ans": "math",
+            "opts": [
+              "music",
+              "science"
+            ],
+            "q": null,
+            "voice": "audio/voice/lis/g4_1_3.mp3"
+          },
+          {
+            "id": "g4_1_4",
+            "t": "text",
+            "en": "We have lunch at noon.",
+            "ja": "正午に昼食をとります。",
+            "tip": "lunch＝昼食",
+            "ans": "lunch",
+            "opts": [
+              "breakfast",
+              "dinner"
+            ],
+            "q": null,
+            "voice": "audio/voice/lis/g4_1_4.mp3"
+          },
+          {
+            "id": "g4_1_5",
+            "t": "text",
+            "en": "My uncle is a doctor.",
+            "ja": "おじは医者です。",
+            "tip": "doctor＝医者",
+            "ans": "doctor",
+            "opts": [
+              "teacher",
+              "driver"
+            ],
+            "q": null,
+            "voice": "audio/voice/lis/g4_1_5.mp3"
+          },
+          {
+            "id": "g4_1_6",
+            "t": "text",
+            "en": "I want some water.",
+            "ja": "水がほしいです。",
+            "tip": "water＝水",
+            "ans": "water",
+            "opts": [
+              "juice",
+              "milk"
+            ],
+            "q": null,
+            "voice": "audio/voice/lis/g4_1_6.mp3"
+          },
+          {
+            "id": "g4_1_7",
+            "t": "text",
+            "en": "Let's meet on Monday.",
+            "ja": "月曜日に会いましょう。",
+            "tip": "Monday＝月曜日",
+            "ans": "Monday",
+            "opts": [
+              "Sunday",
+              "Friday"
+            ],
+            "q": null,
+            "voice": "audio/voice/lis/g4_1_7.mp3"
+          },
+          {
+            "id": "g4_1_8",
+            "t": "text",
+            "en": "The book is on the desk.",
+            "ja": "本は机の上にあります。",
+            "tip": "on the desk＝机の上",
+            "ans": "on the desk",
+            "opts": [
+              "under the bed",
+              "by the door"
+            ],
+            "q": null,
+            "voice": "audio/voice/lis/g4_1_8.mp3"
+          },
+          {
+            "id": "g4_1_9",
+            "t": "text",
+            "en": "She has two dogs.",
+            "ja": "犬を2匹飼っています。",
+            "tip": "two＝2",
+            "ans": "two",
+            "opts": [
+              "three",
+              "ten"
+            ],
+            "q": null,
+            "voice": "audio/voice/lis/g4_1_9.mp3"
+          },
+          {
+            "id": "g4_1_10",
+            "t": "text",
+            "en": "It is rainy today.",
+            "ja": "今日は雨です。",
+            "tip": "rainy＝雨の",
+            "ans": "rainy",
+            "opts": [
+              "sunny",
+              "cloudy"
+            ],
+            "q": null,
+            "voice": "audio/voice/lis/g4_1_10.mp3"
+          },
+          {
+            "id": "g4_1_11",
+            "t": "text",
+            "en": "My birthday is in May.",
+            "ja": "誕生日は5月です。",
+            "tip": "May＝5月",
+            "ans": "May",
+            "opts": [
+              "March",
+              "July"
+            ],
+            "q": null,
+            "voice": "audio/voice/lis/g4_1_11.mp3"
+          },
+          {
+            "id": "g4_1_12",
+            "t": "text",
+            "en": "I usually walk to school.",
+            "ja": "たいてい歩いて学校へ行きます。",
+            "tip": "walk＝歩く。",
+            "ans": "walk",
+            "opts": [
+              "run",
+              "swim"
+            ],
+            "q": null,
+            "voice": "audio/voice/lis/g4_1_12.mp3"
+          },
+          {
+            "id": "g4_1_13",
+            "t": "text",
+            "en": "She likes music very much.",
+            "ja": "彼女は音楽が大好きです。",
+            "tip": "music＝音楽。",
+            "ans": "music",
+            "opts": [
+              "math",
+              "art"
+            ],
+            "q": null,
+            "voice": "audio/voice/lis/g4_1_13.mp3"
+          },
+          {
+            "id": "g4_1_14",
+            "t": "text",
+            "en": "We play in the park on Sunday.",
+            "ja": "日曜は公園で遊びます。",
+            "tip": "in the park＝公園で。",
+            "ans": "in the park",
+            "opts": [
+              "at home",
+              "at school"
+            ],
+            "q": null,
+            "voice": "audio/voice/lis/g4_1_14.mp3"
+          },
+          {
+            "id": "g4_1_15",
+            "t": "text",
+            "en": "It is hot in summer.",
+            "ja": "夏は暑いです。",
+            "tip": "hot＝暑い、summer＝夏。",
+            "ans": "hot",
+            "opts": [
+              "cold",
+              "cool"
+            ],
+            "q": null,
+            "voice": "audio/voice/lis/g4_1_15.mp3"
+          },
+          {
+            "id": "g4_1_16",
+            "t": "text",
+            "en": "My class starts at eight thirty.",
+            "ja": "授業は8時半に始まります。",
+            "tip": "eight thirty＝8時半。",
+            "ans": "eight thirty",
+            "opts": [
+              "eight",
+              "nine thirty"
+            ],
+            "q": null,
+            "voice": "audio/voice/lis/g4_1_16.mp3"
+          }
+        ],
+        "2": [
+          {
+            "id": "g4_2_0",
+            "t": "text",
+            "en": "What time do you get up?",
+            "ja": "何時に起きる？→7時。",
+            "tip": "What time＝何時。時こくで答える。",
+            "ans": "At seven.",
+            "opts": [
+              "It's Tuesday.",
+              "In the park."
+            ],
+            "q": null,
+            "voice": "audio/voice/lis/g4_2_0.mp3"
+          },
+          {
+            "id": "g4_2_1",
+            "t": "text",
+            "en": "Where is my pen?",
+            "ja": "ペンはどこ？→机の上。",
+            "tip": "Where＝どこ。場所で答える。",
+            "ans": "It's on the desk.",
+            "opts": [
+              "I'm fine.",
+              "Yes, please."
+            ],
+            "q": null,
+            "voice": "audio/voice/lis/g4_2_1.mp3"
+          },
+          {
+            "id": "g4_2_2",
+            "t": "text",
+            "en": "How do you go to school?",
+            "ja": "どうやって学校へ？→バスで。",
+            "tip": "How＝どうやって。手段で答える。",
+            "ans": "By bus.",
+            "opts": [
+              "At six.",
+              "It's red."
+            ],
+            "q": null,
+            "voice": "audio/voice/lis/g4_2_2.mp3"
+          },
+          {
+            "id": "g4_2_3",
+            "t": "text",
+            "en": "Whose bag is this?",
+            "ja": "これだれのバッグ？→私の。",
+            "tip": "Whose＝だれの。所有で答える。",
+            "ans": "It's mine.",
+            "opts": [
+              "It's Monday.",
+              "I'm twelve."
+            ],
+            "q": null,
+            "voice": "audio/voice/lis/g4_2_3.mp3"
+          },
+          {
+            "id": "g4_2_4",
+            "t": "text",
+            "en": "What subject do you like?",
+            "ja": "何の教科が好き？→数学。",
+            "tip": "subject＝教科。教科名で答える。",
+            "ans": "I like math.",
+            "opts": [
+              "At school.",
+              "On Sunday."
+            ],
+            "q": null,
+            "voice": "audio/voice/lis/g4_2_4.mp3"
+          },
+          {
+            "id": "g4_2_5",
+            "t": "text",
+            "en": "Can you play the piano?",
+            "ja": "ピアノ弾ける？→うん、ちょっとね。",
+            "tip": "Can you〜? には Yes/No で答える。",
+            "ans": "Yes, a little.",
+            "opts": [
+              "It's a piano.",
+              "In May."
+            ],
+            "q": null,
+            "voice": "audio/voice/lis/g4_2_5.mp3"
+          },
+          {
+            "id": "g4_2_6",
+            "t": "text",
+            "en": "What are you doing?",
+            "ja": "何してる？→宿題してる。",
+            "tip": "What are you doing?＝今なにしてる？",
+            "ans": "I'm doing my homework.",
+            "opts": [
+              "It's Friday.",
+              "Yes, I am."
+            ],
+            "q": null,
+            "voice": "audio/voice/lis/g4_2_6.mp3"
+          },
+          {
+            "id": "g4_2_7",
+            "t": "text",
+            "en": "How many books do you have?",
+            "ja": "本は何冊？→3冊。",
+            "tip": "How many＝いくつ。数で答える。",
+            "ans": "I have three.",
+            "opts": [
+              "I'm fine.",
+              "It's a book."
+            ],
+            "q": null,
+            "voice": "audio/voice/lis/g4_2_7.mp3"
+          },
+          {
+            "id": "g4_2_8",
+            "t": "text",
+            "en": "When is the festival?",
+            "ja": "お祭りいつ？→日曜。",
+            "tip": "When＝いつ。時で答える。",
+            "ans": "It's on Sunday.",
+            "opts": [
+              "At school.",
+              "It's mine."
+            ],
+            "q": null,
+            "voice": "audio/voice/lis/g4_2_8.mp3"
+          },
+          {
+            "id": "g4_2_9",
+            "t": "text",
+            "en": "Would you like some tea?",
+            "ja": "お茶どう？→はい、お願い。",
+            "tip": "Would you like〜? のさそいに Yes, please.",
+            "ans": "Yes, please.",
+            "opts": [
+              "It's hot.",
+              "On the desk."
+            ],
+            "q": null,
+            "voice": "audio/voice/lis/g4_2_9.mp3"
+          },
+          {
+            "id": "g4_2_10",
+            "t": "text",
+            "en": "What do you do on weekends?",
+            "ja": "週末は何をする？→野球。",
+            "tip": "What do you do＝何をする。",
+            "ans": "I play baseball.",
+            "opts": [
+              "It's Sunday.",
+              "At home."
+            ],
+            "q": null,
+            "voice": "audio/voice/lis/g4_2_10.mp3"
+          },
+          {
+            "id": "g4_2_11",
+            "t": "text",
+            "en": "How old is your brother?",
+            "ja": "お兄さん何歳？→15歳。",
+            "tip": "How old＝何歳。",
+            "ans": "He is fifteen.",
+            "opts": [
+              "It's Monday.",
+              "By bus."
+            ],
+            "q": null,
+            "voice": "audio/voice/lis/g4_2_11.mp3"
+          },
+          {
+            "id": "g4_2_12",
+            "t": "text",
+            "en": "Where do you live?",
+            "ja": "どこに住んでる？→東京。",
+            "tip": "Where do you live＝どこに住む。",
+            "ans": "I live in Tokyo.",
+            "opts": [
+              "I'm fine.",
+              "It's red."
+            ],
+            "q": null,
+            "voice": "audio/voice/lis/g4_2_12.mp3"
+          },
+          {
+            "id": "g4_2_13",
+            "t": "text",
+            "en": "What time is it now?",
+            "ja": "今何時？→4時半。",
+            "tip": "時こくで答える。",
+            "ans": "It's four thirty.",
+            "opts": [
+              "It's Tuesday.",
+              "Yes, I do."
+            ],
+            "q": null,
+            "voice": "audio/voice/lis/g4_2_13.mp3"
+          },
+          {
+            "id": "g4_2_14",
+            "t": "text",
+            "en": "Do you want some juice?",
+            "ja": "ジュースいる？→はい、お願い。",
+            "tip": "Do you want〜? に Yes, please.",
+            "ans": "Yes, please.",
+            "opts": [
+              "It's juice.",
+              "On Monday."
+            ],
+            "q": null,
+            "voice": "audio/voice/lis/g4_2_14.mp3"
+          },
+          {
+            "id": "g4_2_15",
+            "t": "text",
+            "en": "Can I open the window?",
+            "ja": "窓開けてもいい？→いいよ。",
+            "tip": "Can I〜?＝〜してもいい？",
+            "ans": "Sure.",
+            "opts": [
+              "It's a window.",
+              "I'm twelve."
+            ],
+            "q": null,
+            "voice": "audio/voice/lis/g4_2_15.mp3"
+          }
+        ],
+        "3": [
+          {
+            "id": "g4_3_0",
+            "t": "text",
+            "en": "What time do you get up? ... I get up at six thirty.",
+            "ja": "何時？→6時半。",
+            "tip": "at のあとの時こく。six thirty＝6時半。",
+            "ans": "six thirty",
+            "opts": [
+              "seven",
+              "six"
+            ],
+            "q": "何時に起きる？",
+            "voice": "audio/voice/lis/g4_3_0.mp3"
+          },
+          {
+            "id": "g4_3_1",
+            "t": "text",
+            "en": "Where did you go yesterday? ... I went to the library.",
+            "ja": "昨日どこ？→図書館。",
+            "tip": "went to＝〜へ行った。the library。",
+            "ans": "the library",
+            "opts": [
+              "the zoo",
+              "the park"
+            ],
+            "q": "昨日どこへ行った？",
+            "voice": "audio/voice/lis/g4_3_1.mp3"
+          },
+          {
+            "id": "g4_3_2",
+            "t": "text",
+            "en": "What sport do you play? ... I play basketball.",
+            "ja": "何のスポーツ？→バスケ。",
+            "tip": "play のあと＝basketball。",
+            "ans": "basketball",
+            "opts": [
+              "soccer",
+              "tennis"
+            ],
+            "q": "何のスポーツ？",
+            "voice": "audio/voice/lis/g4_3_2.mp3"
+          },
+          {
+            "id": "g4_3_3",
+            "t": "text",
+            "en": "How is the weather today? ... It's cloudy.",
+            "ja": "天気は？→くもり。",
+            "tip": "weather＝天気。cloudy＝くもり。",
+            "ans": "cloudy",
+            "opts": [
+              "sunny",
+              "rainy"
+            ],
+            "q": "今日の天気は？",
+            "voice": "audio/voice/lis/g4_3_3.mp3"
+          },
+          {
+            "id": "g4_3_4",
+            "t": "text",
+            "en": "Whose notebook is this? ... It's Emi's.",
+            "ja": "だれの？→エミの。",
+            "tip": "〜's＝〜の。Emi's＝エミの。",
+            "ans": "Emi's",
+            "opts": [
+              "Ken's",
+              "mine"
+            ],
+            "q": "だれのノート？",
+            "voice": "audio/voice/lis/g4_3_4.mp3"
+          },
+          {
+            "id": "g4_3_5",
+            "t": "text",
+            "en": "What do you want for your birthday? ... I want a new bike.",
+            "ja": "何がほしい？→新しい自転車。",
+            "tip": "want a new bike＝新しい自転車がほしい。",
+            "ans": "a bike",
+            "opts": [
+              "a book",
+              "a dog"
+            ],
+            "q": "誕生日に何がほしい？",
+            "voice": "audio/voice/lis/g4_3_5.mp3"
+          },
+          {
+            "id": "g4_3_6",
+            "t": "text",
+            "en": "How many people are in your family? ... We are four.",
+            "ja": "家族何人？→4人。",
+            "tip": "four＝4人。",
+            "ans": "four",
+            "opts": [
+              "three",
+              "five"
+            ],
+            "q": "家族は何人？",
+            "voice": "audio/voice/lis/g4_3_6.mp3"
+          },
+          {
+            "id": "g4_3_7",
+            "t": "text",
+            "en": "When is your English class? ... It's on Monday.",
+            "ja": "いつ？→月曜。",
+            "tip": "on のあとの曜日。Monday。",
+            "ans": "Monday",
+            "opts": [
+              "Friday",
+              "Sunday"
+            ],
+            "q": "英語の授業はいつ？",
+            "voice": "audio/voice/lis/g4_3_7.mp3"
+          },
+          {
+            "id": "g4_3_8",
+            "t": "text",
+            "en": "What time does the movie start? ... At two o'clock.",
+            "ja": "何時に始まる？→2時。",
+            "tip": "At two o'clock＝2時に。",
+            "ans": "two o'clock",
+            "opts": [
+              "three o'clock",
+              "ten o'clock"
+            ],
+            "q": "映画は何時に始まる？",
+            "voice": "audio/voice/lis/g4_3_8.mp3"
+          },
+          {
+            "id": "g4_3_9",
+            "t": "text",
+            "en": "How was your trip? ... It was great!",
+            "ja": "旅行どう？→最高！",
+            "tip": "How was〜?＝どうだった？ great＝最高。",
+            "ans": "great",
+            "opts": [
+              "boring",
+              "short"
+            ],
+            "q": "旅行はどうだった？",
+            "voice": "audio/voice/lis/g4_3_9.mp3"
+          },
+          {
+            "id": "g4_3_10",
+            "t": "text",
+            "en": "What did you eat for lunch? ... I ate a sandwich.",
+            "ja": "昼食?→サンドイッチ。",
+            "tip": "ate＝食べた(過去)。sandwich。",
+            "ans": "a sandwich",
+            "opts": [
+              "a hamburger",
+              "rice"
+            ],
+            "q": "昼ごはんは？",
+            "voice": "audio/voice/lis/g4_3_10.mp3"
+          },
+          {
+            "id": "g4_3_11",
+            "t": "text",
+            "en": "How do you come to school? ... I come by train.",
+            "ja": "どうやって?→電車。",
+            "tip": "by train＝電車で。",
+            "ans": "by train",
+            "opts": [
+              "by bus",
+              "by bike"
+            ],
+            "q": "どうやって学校へ？",
+            "voice": "audio/voice/lis/g4_3_11.mp3"
+          },
+          {
+            "id": "g4_3_12",
+            "t": "text",
+            "en": "What club are you in? ... I'm in the tennis club.",
+            "ja": "何部?→テニス部。",
+            "tip": "tennis club＝テニス部。",
+            "ans": "tennis club",
+            "opts": [
+              "soccer club",
+              "music club"
+            ],
+            "q": "何部？",
+            "voice": "audio/voice/lis/g4_3_12.mp3"
+          },
+          {
+            "id": "g4_3_13",
+            "t": "text",
+            "en": "When do you study? ... I study after dinner.",
+            "ja": "いつ?→夕食後。",
+            "tip": "after dinner＝夕食後。",
+            "ans": "after dinner",
+            "opts": [
+              "before school",
+              "at noon"
+            ],
+            "q": "いつ勉強する？",
+            "voice": "audio/voice/lis/g4_3_13.mp3"
+          },
+          {
+            "id": "g4_3_14",
+            "t": "text",
+            "en": "How much is this cap? ... It's ten dollars.",
+            "ja": "いくら?→10ドル。",
+            "tip": "ten dollars＝10ドル。",
+            "ans": "ten dollars",
+            "opts": [
+              "two dollars",
+              "twenty dollars"
+            ],
+            "q": "ぼうしはいくら？",
+            "voice": "audio/voice/lis/g4_3_14.mp3"
+          },
+          {
+            "id": "g4_3_15",
+            "t": "text",
+            "en": "Who is that girl? ... She is my sister.",
+            "ja": "だれ?→姉[妹]。",
+            "tip": "my sister＝姉/妹。",
+            "ans": "sister",
+            "opts": [
+              "friend",
+              "teacher"
+            ],
+            "q": "あの女の子はだれ？",
+            "voice": "audio/voice/lis/g4_3_15.mp3"
+          }
+        ]
+      }
+    },
+    "g3": {
+      "levels": {
+        "0": [
+          {
+            "id": "g3_0_0",
+            "t": "pic",
+            "en": "I went to the sea last summer.",
+            "ja": "去年の夏、海へ行きました。",
+            "tip": "sea（シー）＝海🌊。went＝行った(過去)",
+            "ans": "🌊",
+            "opts": [
+              "⛰️",
+              "🏝️"
+            ],
+            "q": null,
+            "voice": "audio/voice/lis/g3_1_0.mp3"
+          },
+          {
+            "id": "g3_0_1",
+            "t": "pic",
+            "en": "I will visit my grandmother.",
+            "ja": "おばあちゃんを訪ねます。",
+            "tip": "grandmother＝おばあちゃん👵",
+            "ans": "👵",
+            "opts": [
+              "👶",
+              "👦"
+            ],
+            "q": null,
+            "voice": "audio/voice/lis/g3_1_1.mp3"
+          },
+          {
+            "id": "g3_0_2",
+            "t": "pic",
+            "en": "I want to be a doctor.",
+            "ja": "医者になりたいです。",
+            "tip": "doctor＝医者👨‍⚕️。want to be＝〜になりたい",
+            "ans": "👨‍⚕️",
+            "opts": [
+              "👮‍♂️",
+              "👨‍🏫"
+            ],
+            "q": null,
+            "voice": "audio/voice/lis/g3_1_2.mp3"
+          },
+          {
+            "id": "g3_0_3",
+            "t": "pic",
+            "en": "It will be sunny tomorrow.",
+            "ja": "明日は晴れるでしょう。",
+            "tip": "sunny＝晴れ☀️。will be＝〜でしょう(未来)",
+            "ans": "☀️",
+            "opts": [
+              "🌧️",
+              "❄️"
+            ],
+            "q": null,
+            "voice": "audio/voice/lis/g3_1_3.mp3"
+          },
+          {
+            "id": "g3_0_4",
+            "t": "pic",
+            "en": "I bought a new bike.",
+            "ja": "新しい自転車を買いました。",
+            "tip": "bike＝自転車🚲。bought＝買った(過去)",
+            "ans": "🚲",
+            "opts": [
+              "🚗",
+              "🚆"
+            ],
+            "q": null,
+            "voice": "audio/voice/lis/g3_1_4.mp3"
+          },
+          {
+            "id": "g3_0_5",
+            "t": "pic",
+            "en": "I'm reading a book now.",
+            "ja": "今、本を読んでいます。",
+            "tip": "reading a book＝本を読んでいる📖",
+            "ans": "📖",
+            "opts": [
+              "📺",
+              "🎮"
+            ],
+            "q": null,
+            "voice": "audio/voice/lis/g3_1_5.mp3"
+          },
+          {
+            "id": "g3_0_6",
+            "t": "pic",
+            "en": "I went to the hospital.",
+            "ja": "病院へ行きました。",
+            "tip": "hospital（ホスピタル）＝病院🏥",
+            "ans": "🏥",
+            "opts": [
+              "🏫",
+              "🏪"
+            ],
+            "q": null,
+            "voice": "audio/voice/lis/g3_1_6.mp3"
+          },
+          {
+            "id": "g3_0_7",
+            "t": "pic",
+            "en": "I like the mountains.",
+            "ja": "山が好きです。",
+            "tip": "mountains（マウンテンズ）＝山⛰️",
+            "ans": "⛰️",
+            "opts": [
+              "🌊",
+              "🏖️"
+            ],
+            "q": null,
+            "voice": "audio/voice/lis/g3_1_7.mp3"
+          },
+          {
+            "id": "g3_0_8",
+            "t": "pic",
+            "en": "I took a lot of pictures.",
+            "ja": "写真をたくさん撮りました。",
+            "tip": "pictures＝写真📷。took＝撮った(過去)",
+            "ans": "📷",
+            "opts": [
+              "📱",
+              "💻"
+            ],
+            "q": null,
+            "voice": "audio/voice/lis/g3_1_8.mp3"
+          },
+          {
+            "id": "g3_0_9",
+            "t": "pic",
+            "en": "I'm going to the airport.",
+            "ja": "空港へ行くところです。",
+            "tip": "airport（エアポート）＝空港✈️",
+            "ans": "✈️",
+            "opts": [
+              "🚉",
+              "🚌"
+            ],
+            "q": null,
+            "voice": "audio/voice/lis/g3_1_9.mp3"
+          },
+          {
+            "id": "g3_0_10",
+            "t": "pic",
+            "en": "I'm going to play tennis.",
+            "ja": "テニスをするつもりです。",
+            "tip": "tennis＝テニス🎾。be going to＝〜するつもり",
+            "ans": "🎾",
+            "opts": [
+              "⚽",
+              "🏀"
+            ],
+            "q": null,
+            "voice": "audio/voice/lis/g3_1_10.mp3"
+          },
+          {
+            "id": "g3_0_11",
+            "t": "pic",
+            "en": "I bought a present.",
+            "ja": "プレゼントを買いました。",
+            "tip": "present＝おくりもの🎁。bought＝買った",
+            "ans": "🎁",
+            "opts": [
+              "🎂",
+              "🎈"
+            ],
+            "q": null,
+            "voice": "audio/voice/lis/g3_1_11.mp3"
+          },
+          {
+            "id": "g3_0_12",
+            "t": "pic",
+            "en": "It was rainy yesterday.",
+            "ja": "昨日は雨でした。",
+            "tip": "rainy＝雨🌧️。was＝〜だった(過去)",
+            "ans": "🌧️",
+            "opts": [
+              "☀️",
+              "❄️"
+            ],
+            "q": null,
+            "voice": "audio/voice/lis/g3_1_12.mp3"
+          },
+          {
+            "id": "g3_0_13",
+            "t": "pic",
+            "en": "I want to be a teacher.",
+            "ja": "先生になりたい。",
+            "tip": "teacher＝先生👩‍🏫。want to be＝〜になりたい",
+            "ans": "👩‍🏫",
+            "opts": [
+              "👮‍♀️",
+              "👩‍⚕️"
+            ],
+            "q": null,
+            "voice": "audio/voice/lis/g3_1_13.mp3"
+          },
+          {
+            "id": "g3_0_14",
+            "t": "pic",
+            "en": "I watched a soccer game.",
+            "ja": "サッカーの試合を見ました。",
+            "tip": "soccer＝サッカー⚽。watched＝見た",
+            "ans": "⚽",
+            "opts": [
+              "🎾",
+              "🏀"
+            ],
+            "q": null,
+            "voice": "audio/voice/lis/g3_1_14.mp3"
+          },
+          {
+            "id": "g3_0_15",
+            "t": "pic",
+            "en": "I'll take the train.",
+            "ja": "電車に乗ります。",
+            "tip": "train＝電車🚆。I'll＝〜するつもり",
+            "ans": "🚆",
+            "opts": [
+              "🚌",
+              "🚗"
+            ],
+            "q": null,
+            "voice": "audio/voice/lis/g3_1_15.mp3"
+          },
+          {
+            "id": "g3_0_16",
+            "t": "pic",
+            "en": "I made a cake.",
+            "ja": "ケーキを作りました。",
+            "tip": "cake＝ケーキ🍰。made＝作った(過去)",
+            "ans": "🍰",
+            "opts": [
+              "🍞",
+              "🍕"
+            ],
+            "q": null,
+            "voice": "audio/voice/lis/g3_1_16.mp3"
+          }
+        ],
+        "1": [
+          {
+            "id": "g3_1_0",
+            "t": "text",
+            "en": "I went to Kyoto last summer.",
+            "ja": "去年の夏、京都へ行きました。",
+            "tip": "went＝go の過去形。場所Kyotoを聞きとる。",
+            "ans": "Kyoto",
+            "opts": [
+              "Tokyo",
+              "Osaka"
+            ],
+            "q": null,
+            "voice": "audio/voice/lis/g3_0_0.mp3"
+          },
+          {
+            "id": "g3_1_1",
+            "t": "text",
+            "en": "She is taller than her sister.",
+            "ja": "姉[妹]より背が高い。",
+            "tip": "taller than＝〜より背が高い(比較級)。",
+            "ans": "taller",
+            "opts": [
+              "shorter",
+              "older"
+            ],
+            "q": null,
+            "voice": "audio/voice/lis/g3_0_1.mp3"
+          },
+          {
+            "id": "g3_1_2",
+            "t": "text",
+            "en": "I will visit my grandmother next week.",
+            "ja": "来週おばあちゃんを訪ねます。",
+            "tip": "next week＝来週(未来)。",
+            "ans": "next week",
+            "opts": [
+              "last week",
+              "yesterday"
+            ],
+            "q": null,
+            "voice": "audio/voice/lis/g3_0_2.mp3"
+          },
+          {
+            "id": "g3_1_3",
+            "t": "text",
+            "en": "He has lived here for ten years.",
+            "ja": "10年間ここに住んでいます。",
+            "tip": "for ten years＝10年間(現在完了)。",
+            "ans": "ten years",
+            "opts": [
+              "five years",
+              "two months"
+            ],
+            "q": null,
+            "voice": "audio/voice/lis/g3_0_3.mp3"
+          },
+          {
+            "id": "g3_1_4",
+            "t": "text",
+            "en": "This movie is more interesting than that one.",
+            "ja": "この映画はあれよりおもしろい。",
+            "tip": "more interesting＝よりおもしろい(長い語の比較級)。",
+            "ans": "more interesting",
+            "opts": [
+              "more difficult",
+              "more expensive"
+            ],
+            "q": null,
+            "voice": "audio/voice/lis/g3_0_4.mp3"
+          },
+          {
+            "id": "g3_1_5",
+            "t": "text",
+            "en": "She wants to be a nurse in the future.",
+            "ja": "将来看護師になりたい。",
+            "tip": "want to be＝〜になりたい。a nurse＝看護師。",
+            "ans": "a nurse",
+            "opts": [
+              "a teacher",
+              "a pilot"
+            ],
+            "q": null,
+            "voice": "audio/voice/lis/g3_0_5.mp3"
+          },
+          {
+            "id": "g3_1_6",
+            "t": "text",
+            "en": "He was born in Canada.",
+            "ja": "カナダで生まれました。",
+            "tip": "was born＝生まれた。場所Canada。",
+            "ans": "Canada",
+            "opts": [
+              "America",
+              "Australia"
+            ],
+            "q": null,
+            "voice": "audio/voice/lis/g3_0_6.mp3"
+          },
+          {
+            "id": "g3_1_7",
+            "t": "text",
+            "en": "I am looking forward to the festival.",
+            "ja": "お祭りを楽しみにしています。",
+            "tip": "look forward to＝〜を楽しみにする。",
+            "ans": "the festival",
+            "opts": [
+              "the exam",
+              "the trip"
+            ],
+            "q": null,
+            "voice": "audio/voice/lis/g3_0_7.mp3"
+          },
+          {
+            "id": "g3_1_8",
+            "t": "text",
+            "en": "She can speak three languages.",
+            "ja": "3つの言語を話せます。",
+            "tip": "three＝3。数を聞きとる。",
+            "ans": "three",
+            "opts": [
+              "two",
+              "four"
+            ],
+            "q": null,
+            "voice": "audio/voice/lis/g3_0_8.mp3"
+          },
+          {
+            "id": "g3_1_9",
+            "t": "text",
+            "en": "My father usually comes home at seven.",
+            "ja": "父はたいてい7時に帰宅します。",
+            "tip": "at seven＝7時に。",
+            "ans": "at seven",
+            "opts": [
+              "at six",
+              "at eight"
+            ],
+            "q": null,
+            "voice": "audio/voice/lis/g3_0_9.mp3"
+          },
+          {
+            "id": "g3_1_10",
+            "t": "text",
+            "en": "He is the tallest in his class.",
+            "ja": "クラスで一番背が高い。",
+            "tip": "tallest＝一番背が高い(最上級)。",
+            "ans": "tallest",
+            "opts": [
+              "fastest",
+              "oldest"
+            ],
+            "q": null,
+            "voice": "audio/voice/lis/g3_0_10.mp3"
+          },
+          {
+            "id": "g3_1_11",
+            "t": "text",
+            "en": "I have been to America twice.",
+            "ja": "アメリカに2回行ったことがある。",
+            "tip": "have been to＝行ったことがある。twice＝2回。",
+            "ans": "twice",
+            "opts": [
+              "once",
+              "never"
+            ],
+            "q": null,
+            "voice": "audio/voice/lis/g3_0_11.mp3"
+          },
+          {
+            "id": "g3_1_12",
+            "t": "text",
+            "en": "She was cooking when I came home.",
+            "ja": "帰宅したとき料理していた。",
+            "tip": "was cooking＝料理していた(過去進行)。",
+            "ans": "cooking",
+            "opts": [
+              "sleeping",
+              "reading"
+            ],
+            "q": null,
+            "voice": "audio/voice/lis/g3_0_12.mp3"
+          },
+          {
+            "id": "g3_1_13",
+            "t": "text",
+            "en": "This book is more difficult than that one.",
+            "ja": "この本はあれより難しい。",
+            "tip": "more difficult＝より難しい(比較級)。",
+            "ans": "more difficult",
+            "opts": [
+              "more fun",
+              "cheaper"
+            ],
+            "q": null,
+            "voice": "audio/voice/lis/g3_0_13.mp3"
+          },
+          {
+            "id": "g3_1_14",
+            "t": "text",
+            "en": "If it rains, we will stay home.",
+            "ja": "雨なら家にいます。",
+            "tip": "if＝もし〜なら。stay home＝家にいる。",
+            "ans": "stay home",
+            "opts": [
+              "go out",
+              "play soccer"
+            ],
+            "q": null,
+            "voice": "audio/voice/lis/g3_0_14.mp3"
+          },
+          {
+            "id": "g3_1_15",
+            "t": "text",
+            "en": "I have known him for ten years.",
+            "ja": "彼を10年間知っている。",
+            "tip": "for ten years＝10年間(現在完了)。",
+            "ans": "ten years",
+            "opts": [
+              "two years",
+              "one month"
+            ],
+            "q": null,
+            "voice": "audio/voice/lis/g3_0_15.mp3"
+          },
+          {
+            "id": "g3_1_16",
+            "t": "text",
+            "en": "The movie was more exciting than the book.",
+            "ja": "映画は本よりわくわくした。",
+            "tip": "more exciting＝よりわくわく。",
+            "ans": "the movie",
+            "opts": [
+              "the book",
+              "both"
+            ],
+            "q": null,
+            "voice": "audio/voice/lis/g3_0_16.mp3"
+          }
+        ],
+        "2": [
+          {
+            "id": "g3_2_0",
+            "t": "text",
+            "en": "Could you help me with my homework?",
+            "ja": "宿題手伝ってくれる？→いいよ。",
+            "tip": "Could you〜? のお願いに Sure.",
+            "ans": "Sure, no problem.",
+            "opts": [
+              "I'm from Canada.",
+              "It's mine."
+            ],
+            "q": null,
+            "voice": "audio/voice/lis/g3_2_0.mp3"
+          },
+          {
+            "id": "g3_2_1",
+            "t": "text",
+            "en": "How was your weekend?",
+            "ja": "週末どうだった？→楽しかった。",
+            "tip": "How was〜?＝どうだった？",
+            "ans": "It was fun.",
+            "opts": [
+              "Yes, I do.",
+              "On Monday."
+            ],
+            "q": null,
+            "voice": "audio/voice/lis/g3_2_1.mp3"
+          },
+          {
+            "id": "g3_2_2",
+            "t": "text",
+            "en": "Why are you so happy?",
+            "ja": "なぜそんなに嬉しいの？→試験に受かったから。",
+            "tip": "Why＝なぜ。Because〜で答える。",
+            "ans": "Because I passed the test.",
+            "opts": [
+              "It's seven.",
+              "At school."
+            ],
+            "q": null,
+            "voice": "audio/voice/lis/g3_2_2.mp3"
+          },
+          {
+            "id": "g3_2_3",
+            "t": "text",
+            "en": "Have you ever been to Okinawa?",
+            "ja": "沖縄に行ったことある？→うん、2回。",
+            "tip": "Have you ever〜? の経験に Yes/No。",
+            "ans": "Yes, twice.",
+            "opts": [
+              "It's far.",
+              "I'm fine."
+            ],
+            "q": null,
+            "voice": "audio/voice/lis/g3_2_3.mp3"
+          },
+          {
+            "id": "g3_2_4",
+            "t": "text",
+            "en": "What are you going to do this weekend?",
+            "ja": "週末何するの？→映画を見に行く。",
+            "tip": "be going to＝〜する予定。",
+            "ans": "I'm going to see a movie.",
+            "opts": [
+              "It was great.",
+              "Yes, I am."
+            ],
+            "q": null,
+            "voice": "audio/voice/lis/g3_2_4.mp3"
+          },
+          {
+            "id": "g3_2_5",
+            "t": "text",
+            "en": "Shall I open the window?",
+            "ja": "窓開けようか？→うん、お願い。",
+            "tip": "Shall I〜?＝〜しようか？",
+            "ans": "Yes, please.",
+            "opts": [
+              "It's a window.",
+              "I'm twelve."
+            ],
+            "q": null,
+            "voice": "audio/voice/lis/g3_2_5.mp3"
+          },
+          {
+            "id": "g3_2_6",
+            "t": "text",
+            "en": "Which do you like better, summer or winter?",
+            "ja": "夏と冬どっちが好き？→夏。",
+            "tip": "Which〜better＝どっちが好き。",
+            "ans": "I like summer better.",
+            "opts": [
+              "Yes, I do.",
+              "It's cold."
+            ],
+            "q": null,
+            "voice": "audio/voice/lis/g3_2_6.mp3"
+          },
+          {
+            "id": "g3_2_7",
+            "t": "text",
+            "en": "How long does it take to the station?",
+            "ja": "駅までどのくらい？→10分。",
+            "tip": "How long＝どのくらい(時間)。",
+            "ans": "About ten minutes.",
+            "opts": [
+              "By bus.",
+              "It's near."
+            ],
+            "q": null,
+            "voice": "audio/voice/lis/g3_2_7.mp3"
+          },
+          {
+            "id": "g3_2_8",
+            "t": "text",
+            "en": "May I use your pen?",
+            "ja": "ペン使ってもいい？→いいよ、どうぞ。",
+            "tip": "May I〜?＝〜してもいい？",
+            "ans": "Sure, here you are.",
+            "opts": [
+              "It's a pen.",
+              "I'm fine."
+            ],
+            "q": null,
+            "voice": "audio/voice/lis/g3_2_8.mp3"
+          },
+          {
+            "id": "g3_2_9",
+            "t": "text",
+            "en": "What's wrong?",
+            "ja": "どうしたの？→頭が痛い。",
+            "tip": "What's wrong?＝どうしたの？",
+            "ans": "I have a headache.",
+            "opts": [
+              "You're welcome.",
+              "It's Monday."
+            ],
+            "q": null,
+            "voice": "audio/voice/lis/g3_2_9.mp3"
+          },
+          {
+            "id": "g3_2_10",
+            "t": "text",
+            "en": "What time will you arrive?",
+            "ja": "何時に着く？→お昼ごろ。",
+            "tip": "What time＝何時に。",
+            "ans": "Around noon.",
+            "opts": [
+              "By train.",
+              "It's mine."
+            ],
+            "q": null,
+            "voice": "audio/voice/lis/g3_2_10.mp3"
+          },
+          {
+            "id": "g3_2_11",
+            "t": "text",
+            "en": "Would you like to come to my party?",
+            "ja": "パーティ来る？→ぜひ。",
+            "tip": "Would you like to〜? のさそい。",
+            "ans": "Yes, I'd love to.",
+            "opts": [
+              "It's a party.",
+              "I'm fine."
+            ],
+            "q": null,
+            "voice": "audio/voice/lis/g3_2_11.mp3"
+          },
+          {
+            "id": "g3_2_12",
+            "t": "text",
+            "en": "How often do you play tennis?",
+            "ja": "どのくらいテニスする？→週2回。",
+            "tip": "How often＝どのくらいの頻度。",
+            "ans": "Twice a week.",
+            "opts": [
+              "At the park.",
+              "Yes, I do."
+            ],
+            "q": null,
+            "voice": "audio/voice/lis/g3_2_12.mp3"
+          },
+          {
+            "id": "g3_2_13",
+            "t": "text",
+            "en": "Do you know where the station is?",
+            "ja": "駅どこか知ってる？→あそこ。",
+            "tip": "場所をたずねる。",
+            "ans": "Yes, it's over there.",
+            "opts": [
+              "It's a station.",
+              "I'm twelve."
+            ],
+            "q": null,
+            "voice": "audio/voice/lis/g3_2_13.mp3"
+          },
+          {
+            "id": "g3_2_14",
+            "t": "text",
+            "en": "Why don't we go shopping?",
+            "ja": "買い物しない？→いいね！",
+            "tip": "Why don't we〜?＝〜しない? のさそい。",
+            "ans": "Sounds good!",
+            "opts": [
+              "It's mine.",
+              "On Monday."
+            ],
+            "q": null,
+            "voice": "audio/voice/lis/g3_2_14.mp3"
+          },
+          {
+            "id": "g3_2_15",
+            "t": "text",
+            "en": "What's the matter?",
+            "ja": "どうしたの？→かぜをひいた。",
+            "tip": "What's the matter?＝どうしたの?",
+            "ans": "I have a cold.",
+            "opts": [
+              "You're welcome.",
+              "It's Friday."
+            ],
+            "q": null,
+            "voice": "audio/voice/lis/g3_2_15.mp3"
+          }
+        ],
+        "3": [
+          {
+            "id": "g3_3_0",
+            "t": "text",
+            "en": "Where are you going this summer? ... I'm going to Hokkaido with my family.",
+            "ja": "夏どこ？→家族で北海道。",
+            "tip": "going to のあとの場所。Hokkaido。",
+            "ans": "Hokkaido",
+            "opts": [
+              "Okinawa",
+              "Kyoto"
+            ],
+            "q": "今年の夏どこへ行く？",
+            "voice": "audio/voice/lis/g3_3_0.mp3"
+          },
+          {
+            "id": "g3_3_1",
+            "t": "text",
+            "en": "How long have you studied English? ... For five years.",
+            "ja": "何年？→5年間。",
+            "tip": "For five years＝5年間。",
+            "ans": "five years",
+            "opts": [
+              "three years",
+              "ten years"
+            ],
+            "q": "英語を何年勉強してる？",
+            "voice": "audio/voice/lis/g3_3_1.mp3"
+          },
+          {
+            "id": "g3_3_2",
+            "t": "text",
+            "en": "What do you want to be in the future? ... I want to be a doctor.",
+            "ja": "将来何になりたい？→医者。",
+            "tip": "want to be a doctor＝医者になりたい。",
+            "ans": "a doctor",
+            "opts": [
+              "a teacher",
+              "a nurse"
+            ],
+            "q": "将来の夢は？",
+            "voice": "audio/voice/lis/g3_3_2.mp3"
+          },
+          {
+            "id": "g3_3_3",
+            "t": "text",
+            "en": "Why were you late? ... Because I missed the bus.",
+            "ja": "なぜ遅刻？→バスに乗り遅れた。",
+            "tip": "Because〜＝〜だから。missed the bus＝バスに乗り遅れた。",
+            "ans": "missed the bus",
+            "opts": [
+              "woke up late",
+              "was sick"
+            ],
+            "q": "なぜ遅れた？",
+            "voice": "audio/voice/lis/g3_3_3.mp3"
+          },
+          {
+            "id": "g3_3_4",
+            "t": "text",
+            "en": "Which is taller, Ken or Tom? ... Tom is taller.",
+            "ja": "どっちが背高い？→トム。",
+            "tip": "taller＝より背が高い。Tom is taller。",
+            "ans": "Tom",
+            "opts": [
+              "Ken",
+              "both"
+            ],
+            "q": "背が高いのは？",
+            "voice": "audio/voice/lis/g3_3_4.mp3"
+          },
+          {
+            "id": "g3_3_5",
+            "t": "text",
+            "en": "What did you do last Sunday? ... I played tennis with my friends.",
+            "ja": "日曜何した？→友達とテニス。",
+            "tip": "played tennis＝テニスをした(過去)。",
+            "ans": "played tennis",
+            "opts": [
+              "watched TV",
+              "studied math"
+            ],
+            "q": "先週の日曜何した？",
+            "voice": "audio/voice/lis/g3_3_5.mp3"
+          },
+          {
+            "id": "g3_3_6",
+            "t": "text",
+            "en": "How much is this T-shirt? ... It's fifteen dollars.",
+            "ja": "いくら？→15ドル。",
+            "tip": "How much＝いくら。fifteen dollars。",
+            "ans": "fifteen dollars",
+            "opts": [
+              "fifty dollars",
+              "five dollars"
+            ],
+            "q": "Tシャツいくら？",
+            "voice": "audio/voice/lis/g3_3_6.mp3"
+          },
+          {
+            "id": "g3_3_7",
+            "t": "text",
+            "en": "Have you finished your homework? ... Not yet.",
+            "ja": "終わった？→まだ。",
+            "tip": "Not yet＝まだ。終わっていない。",
+            "ans": "Not yet",
+            "opts": [
+              "Yes, all done.",
+              "Yesterday."
+            ],
+            "q": "宿題は終わった？",
+            "voice": "audio/voice/lis/g3_3_7.mp3"
+          },
+          {
+            "id": "g3_3_8",
+            "t": "text",
+            "en": "What will the weather be like tomorrow? ... It will be sunny.",
+            "ja": "明日の天気？→晴れ。",
+            "tip": "will be sunny＝晴れるでしょう(未来)。",
+            "ans": "sunny",
+            "opts": [
+              "rainy",
+              "cloudy"
+            ],
+            "q": "明日の天気は？",
+            "voice": "audio/voice/lis/g3_3_8.mp3"
+          },
+          {
+            "id": "g3_3_9",
+            "t": "text",
+            "en": "Whose idea was it? ... It was Yuki's idea.",
+            "ja": "だれの考え？→ユキの。",
+            "tip": "Yuki's＝ユキの。",
+            "ans": "Yuki's",
+            "opts": [
+              "Ken's",
+              "the teacher's"
+            ],
+            "q": "だれのアイデア？",
+            "voice": "audio/voice/lis/g3_3_9.mp3"
+          },
+          {
+            "id": "g3_3_10",
+            "t": "text",
+            "en": "What are you going to do after school? ... I'm going to practice the piano.",
+            "ja": "放課後?→ピアノの練習。",
+            "tip": "practice the piano＝ピアノを練習。",
+            "ans": "practice the piano",
+            "opts": [
+              "play soccer",
+              "go home"
+            ],
+            "q": "放課後何する？",
+            "voice": "audio/voice/lis/g3_3_10.mp3"
+          },
+          {
+            "id": "g3_3_11",
+            "t": "text",
+            "en": "How was the test? ... It was difficult.",
+            "ja": "テスト?→難しかった。",
+            "tip": "difficult＝難しい。",
+            "ans": "difficult",
+            "opts": [
+              "easy",
+              "fun"
+            ],
+            "q": "テストどうだった？",
+            "voice": "audio/voice/lis/g3_3_11.mp3"
+          },
+          {
+            "id": "g3_3_12",
+            "t": "text",
+            "en": "Where did you buy that bag? ... I bought it at the mall.",
+            "ja": "どこで?→モール。",
+            "tip": "at the mall＝モールで。",
+            "ans": "the mall",
+            "opts": [
+              "the station",
+              "the school"
+            ],
+            "q": "どこで買った？",
+            "voice": "audio/voice/lis/g3_3_12.mp3"
+          },
+          {
+            "id": "g3_3_13",
+            "t": "text",
+            "en": "Who cooked dinner? ... My father did.",
+            "ja": "だれが?→お父さん。",
+            "tip": "My father did.＝父が作った。",
+            "ans": "father",
+            "opts": [
+              "mother",
+              "sister"
+            ],
+            "q": "だれが夕食を作った？",
+            "voice": "audio/voice/lis/g3_3_13.mp3"
+          },
+          {
+            "id": "g3_3_14",
+            "t": "text",
+            "en": "How long will you stay in Tokyo? ... For three days.",
+            "ja": "何日?→3日間。",
+            "tip": "For three days＝3日間。",
+            "ans": "three days",
+            "opts": [
+              "one day",
+              "a week"
+            ],
+            "q": "東京に何日いる？",
+            "voice": "audio/voice/lis/g3_3_14.mp3"
+          },
+          {
+            "id": "g3_3_15",
+            "t": "text",
+            "en": "What sport is the most popular? ... Soccer is.",
+            "ja": "一番人気?→サッカー。",
+            "tip": "the most popular＝一番人気。",
+            "ans": "soccer",
+            "opts": [
+              "baseball",
+              "tennis"
+            ],
+            "q": "一番人気のスポーツは？",
+            "voice": "audio/voice/lis/g3_3_15.mp3"
+          }
+        ]
+      }
+    }
+  }
+}

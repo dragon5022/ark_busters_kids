@@ -1,0 +1,29 @@
+{
+  "appMinBuild": 1,
+  "packs": {
+    "vocab": {
+      "version": 1,
+      "bundled": "data/vocab.json",
+      "url": "",
+      "sha256": ""
+    },
+    "listening": {
+      "version": 1,
+      "bundled": "data/listening.json",
+      "url": "",
+      "sha256": ""
+    },
+    "talk": {
+      "version": 1,
+      "bundled": "data/talk.json",
+      "url": "",
+      "sha256": ""
+    },
+    "sentence": {
+      "version": 1,
+      "bundled": "data/sentence.json",
+      "url": "",
+      "sha256": ""
+    }
+  }
+}

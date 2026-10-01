@@ -1,0 +1,1816 @@
+{
+  "version": 1,
+  "qn": 10,
+  "winRatio": 0.6,
+  "timeByGrade": {
+    "g5": 6,
+    "g4": 9,
+    "g3": 12
+  },
+  "gramParts": {
+    "asked": 1,
+    "baseball": 2,
+    "basketball": 3,
+    "books": 4,
+    "bread": 5,
+    "cats": 6,
+    "cooks": 7,
+    "dinner": 8,
+    "dogs": 9,
+    "drink": 10,
+    "drinks": 11,
+    "early": 12,
+    "eat": 13,
+    "eats": 14,
+    "English": 15,
+    "has": 16,
+    "have": 17,
+    "He": 18,
+    "him": 19,
+    "I": 20,
+    "Kyoto": 21,
+    "like": 22,
+    "likes": 23,
+    "lived": 24,
+    "math": 25,
+    "music": 26,
+    "now": 27,
+    "play": 28,
+    "played": 29,
+    "plays": 30,
+    "reads": 31,
+    "She": 32,
+    "soccer": 33,
+    "studies": 34,
+    "study": 35,
+    "sushi": 36,
+    "swam": 37,
+    "tea": 38,
+    "tennis": 39,
+    "They": 40,
+    "visited": 41,
+    "walked": 42,
+    "washes": 43,
+    "water": 44,
+    "We": 45,
+    "writes": 46,
+    "yesterday": 47,
+    "a bike": 48,
+    "a book": 49,
+    "a doctor": 50,
+    "a dog": 51,
+    "a letter": 52,
+    "a movie": 53,
+    "a pen": 54,
+    "after school": 55,
+    "an apple": 56,
+    "at home": 57,
+    "at school": 58,
+    "at six": 59,
+    "better than": 60,
+    "easier than": 61,
+    "English is": 62,
+    "every morning": 63,
+    "every night": 64,
+    "every week": 65,
+    "gets up": 66,
+    "He is": 67,
+    "I think": 68,
+    "in summer": 69,
+    "is running": 70,
+    "last night": 71,
+    "last week": 72,
+    "last year": 73,
+    "like soccer": 74,
+    "My father": 75,
+    "My mother": 76,
+    "on Sundays": 77,
+    "on weekends": 78,
+    "the car": 79,
+    "the guitar": 80,
+    "the piano": 81,
+    "the tallest": 82,
+    "This book": 83,
+    "this morning": 84,
+    "to be": 85,
+    "will watch": 86,
+    "at a restaurant": 87,
+    "for three years": 88,
+    "in his class": 89,
+    "in the gym": 90,
+    "in the kitchen": 91,
+    "in the library": 92,
+    "in the park": 93,
+    "in the sea": 94,
+    "in the town": 95,
+    "is more interesting": 96,
+    "She has studied": 97,
+    "than that one": 98,
+    "to help me": 99,
+    "to her friend": 100,
+    "to the station": 101,
+    "want to be": 102,
+    "want to study": 103,
+    "went to bed": 104,
+    "with my friends": 105,
+    "because I was tired": 106
+  },
+  "grades": {
+    "g5": [
+      {
+        "id": "g5_0",
+        "ja": [
+          {
+            "t": "私は",
+            "pick": false
+          },
+          {
+            "t": "犬が",
+            "pick": true
+          },
+          {
+            "t": "好きです",
+            "pick": true
+          }
+        ],
+        "answer": [
+          {
+            "w": "I",
+            "label": "誰が"
+          },
+          {
+            "w": "like",
+            "label": "どうする"
+          },
+          {
+            "w": "dogs",
+            "label": "何を"
+          }
+        ],
+        "tip": "①誰が→②どうする→③何を の順でならべよう。",
+        "voice": "audio/voice/gram/1.mp3"
+      },
+      {
+        "id": "g5_1",
+        "ja": [
+          {
+            "t": "私は",
+            "pick": false
+          },
+          {
+            "t": "猫が",
+            "pick": true
+          },
+          {
+            "t": "好きです",
+            "pick": true
+          }
+        ],
+        "answer": [
+          {
+            "w": "I",
+            "label": "誰が"
+          },
+          {
+            "w": "like",
+            "label": "どうする"
+          },
+          {
+            "w": "cats",
+            "label": "何を"
+          }
+        ],
+        "tip": "①誰が→②どうする→③何を の順でならべよう。",
+        "voice": "audio/voice/gram/2.mp3"
+      },
+      {
+        "id": "g5_2",
+        "ja": [
+          {
+            "t": "彼は",
+            "pick": false
+          },
+          {
+            "t": "サッカーが",
+            "pick": true
+          },
+          {
+            "t": "好きです",
+            "pick": true
+          }
+        ],
+        "answer": [
+          {
+            "w": "He",
+            "label": "誰が"
+          },
+          {
+            "w": "likes",
+            "label": "どうする"
+          },
+          {
+            "w": "soccer",
+            "label": "何を"
+          }
+        ],
+        "tip": "①誰が→②どうする→③何を の順。He/She は動詞に s がつくよ。",
+        "voice": "audio/voice/gram/3.mp3"
+      },
+      {
+        "id": "g5_3",
+        "ja": [
+          {
+            "t": "彼女は",
+            "pick": false
+          },
+          {
+            "t": "音楽が",
+            "pick": true
+          },
+          {
+            "t": "好きです",
+            "pick": true
+          }
+        ],
+        "answer": [
+          {
+            "w": "She",
+            "label": "誰が"
+          },
+          {
+            "w": "likes",
+            "label": "どうする"
+          },
+          {
+            "w": "music",
+            "label": "何を"
+          }
+        ],
+        "tip": "①誰が→②どうする→③何を の順。He/She は動詞に s がつくよ。",
+        "voice": "audio/voice/gram/4.mp3"
+      },
+      {
+        "id": "g5_4",
+        "ja": [
+          {
+            "t": "私たちは",
+            "pick": false
+          },
+          {
+            "t": "野球が",
+            "pick": true
+          },
+          {
+            "t": "好きです",
+            "pick": true
+          }
+        ],
+        "answer": [
+          {
+            "w": "We",
+            "label": "誰が"
+          },
+          {
+            "w": "like",
+            "label": "どうする"
+          },
+          {
+            "w": "baseball",
+            "label": "何を"
+          }
+        ],
+        "tip": "①誰が→②どうする→③何を の順でならべよう。",
+        "voice": "audio/voice/gram/5.mp3"
+      },
+      {
+        "id": "g5_5",
+        "ja": [
+          {
+            "t": "私は",
+            "pick": false
+          },
+          {
+            "t": "自転車を",
+            "pick": true
+          },
+          {
+            "t": "持っています",
+            "pick": true
+          }
+        ],
+        "answer": [
+          {
+            "w": "I",
+            "label": "誰が"
+          },
+          {
+            "w": "have",
+            "label": "どうする"
+          },
+          {
+            "w": "a bike",
+            "label": "何を"
+          }
+        ],
+        "tip": "①誰が→②どうする→③何を の順でならべよう。",
+        "voice": "audio/voice/gram/6.mp3"
+      },
+      {
+        "id": "g5_6",
+        "ja": [
+          {
+            "t": "彼は",
+            "pick": false
+          },
+          {
+            "t": "犬を",
+            "pick": true
+          },
+          {
+            "t": "飼っています",
+            "pick": true
+          }
+        ],
+        "answer": [
+          {
+            "w": "He",
+            "label": "誰が"
+          },
+          {
+            "w": "has",
+            "label": "どうする"
+          },
+          {
+            "w": "a dog",
+            "label": "何を"
+          }
+        ],
+        "tip": "①誰が→②どうする→③何を の順。He/She は動詞に s がつくよ。",
+        "voice": "audio/voice/gram/7.mp3"
+      },
+      {
+        "id": "g5_7",
+        "ja": [
+          {
+            "t": "彼女は",
+            "pick": false
+          },
+          {
+            "t": "ペンを",
+            "pick": true
+          },
+          {
+            "t": "持っています",
+            "pick": true
+          }
+        ],
+        "answer": [
+          {
+            "w": "She",
+            "label": "誰が"
+          },
+          {
+            "w": "has",
+            "label": "どうする"
+          },
+          {
+            "w": "a pen",
+            "label": "何を"
+          }
+        ],
+        "tip": "①誰が→②どうする→③何を の順。He/She は動詞に s がつくよ。",
+        "voice": "audio/voice/gram/8.mp3"
+      },
+      {
+        "id": "g5_8",
+        "ja": [
+          {
+            "t": "私は",
+            "pick": false
+          },
+          {
+            "t": "本を",
+            "pick": true
+          },
+          {
+            "t": "持っています",
+            "pick": true
+          }
+        ],
+        "answer": [
+          {
+            "w": "I",
+            "label": "誰が"
+          },
+          {
+            "w": "have",
+            "label": "どうする"
+          },
+          {
+            "w": "a book",
+            "label": "何を"
+          }
+        ],
+        "tip": "①誰が→②どうする→③何を の順でならべよう。",
+        "voice": "audio/voice/gram/9.mp3"
+      },
+      {
+        "id": "g5_9",
+        "ja": [
+          {
+            "t": "私は",
+            "pick": false
+          },
+          {
+            "t": "テニスを",
+            "pick": true
+          },
+          {
+            "t": "する",
+            "pick": true
+          }
+        ],
+        "answer": [
+          {
+            "w": "I",
+            "label": "誰が"
+          },
+          {
+            "w": "play",
+            "label": "どうする"
+          },
+          {
+            "w": "tennis",
+            "label": "何を"
+          }
+        ],
+        "tip": "①誰が→②どうする→③何を の順でならべよう。",
+        "voice": "audio/voice/gram/10.mp3"
+      },
+      {
+        "id": "g5_10",
+        "ja": [
+          {
+            "t": "彼は",
+            "pick": false
+          },
+          {
+            "t": "ピアノを",
+            "pick": true
+          },
+          {
+            "t": "弾く",
+            "pick": true
+          }
+        ],
+        "answer": [
+          {
+            "w": "He",
+            "label": "誰が"
+          },
+          {
+            "w": "plays",
+            "label": "どうする"
+          },
+          {
+            "w": "the piano",
+            "label": "何を"
+          }
+        ],
+        "tip": "①誰が→②どうする→③何を の順。He/She は動詞に s がつくよ。",
+        "voice": "audio/voice/gram/11.mp3"
+      },
+      {
+        "id": "g5_11",
+        "ja": [
+          {
+            "t": "彼女は",
+            "pick": false
+          },
+          {
+            "t": "ギターを",
+            "pick": true
+          },
+          {
+            "t": "弾く",
+            "pick": true
+          }
+        ],
+        "answer": [
+          {
+            "w": "She",
+            "label": "誰が"
+          },
+          {
+            "w": "plays",
+            "label": "どうする"
+          },
+          {
+            "w": "the guitar",
+            "label": "何を"
+          }
+        ],
+        "tip": "①誰が→②どうする→③何を の順。He/She は動詞に s がつくよ。",
+        "voice": "audio/voice/gram/12.mp3"
+      },
+      {
+        "id": "g5_12",
+        "ja": [
+          {
+            "t": "私は",
+            "pick": false
+          },
+          {
+            "t": "りんごを",
+            "pick": true
+          },
+          {
+            "t": "食べる",
+            "pick": true
+          }
+        ],
+        "answer": [
+          {
+            "w": "I",
+            "label": "誰が"
+          },
+          {
+            "w": "eat",
+            "label": "どうする"
+          },
+          {
+            "w": "an apple",
+            "label": "何を"
+          }
+        ],
+        "tip": "①誰が→②どうする→③何を の順でならべよう。",
+        "voice": "audio/voice/gram/13.mp3"
+      },
+      {
+        "id": "g5_13",
+        "ja": [
+          {
+            "t": "彼は",
+            "pick": false
+          },
+          {
+            "t": "パンを",
+            "pick": true
+          },
+          {
+            "t": "食べる",
+            "pick": true
+          }
+        ],
+        "answer": [
+          {
+            "w": "He",
+            "label": "誰が"
+          },
+          {
+            "w": "eats",
+            "label": "どうする"
+          },
+          {
+            "w": "bread",
+            "label": "何を"
+          }
+        ],
+        "tip": "①誰が→②どうする→③何を の順。He/She は動詞に s がつくよ。",
+        "voice": "audio/voice/gram/14.mp3"
+      },
+      {
+        "id": "g5_14",
+        "ja": [
+          {
+            "t": "私は",
+            "pick": false
+          },
+          {
+            "t": "水を",
+            "pick": true
+          },
+          {
+            "t": "飲む",
+            "pick": true
+          }
+        ],
+        "answer": [
+          {
+            "w": "I",
+            "label": "誰が"
+          },
+          {
+            "w": "drink",
+            "label": "どうする"
+          },
+          {
+            "w": "water",
+            "label": "何を"
+          }
+        ],
+        "tip": "①誰が→②どうする→③何を の順でならべよう。",
+        "voice": "audio/voice/gram/15.mp3"
+      },
+      {
+        "id": "g5_15",
+        "ja": [
+          {
+            "t": "彼女は",
+            "pick": false
+          },
+          {
+            "t": "お茶を",
+            "pick": true
+          },
+          {
+            "t": "飲む",
+            "pick": true
+          }
+        ],
+        "answer": [
+          {
+            "w": "She",
+            "label": "誰が"
+          },
+          {
+            "w": "drinks",
+            "label": "どうする"
+          },
+          {
+            "w": "tea",
+            "label": "何を"
+          }
+        ],
+        "tip": "①誰が→②どうする→③何を の順。He/She は動詞に s がつくよ。",
+        "voice": "audio/voice/gram/16.mp3"
+      },
+      {
+        "id": "g5_16",
+        "ja": [
+          {
+            "t": "私は",
+            "pick": false
+          },
+          {
+            "t": "学校で",
+            "pick": true
+          },
+          {
+            "t": "英語を",
+            "pick": true
+          },
+          {
+            "t": "勉強する",
+            "pick": true
+          }
+        ],
+        "answer": [
+          {
+            "w": "I",
+            "label": "誰が"
+          },
+          {
+            "w": "study",
+            "label": "どうする"
+          },
+          {
+            "w": "English",
+            "label": "何を"
+          },
+          {
+            "w": "at school",
+            "label": "どこで"
+          }
+        ],
+        "tip": "①誰が→②どうする→③何を の順でならべよう。",
+        "voice": "audio/voice/gram/17.mp3"
+      },
+      {
+        "id": "g5_17",
+        "ja": [
+          {
+            "t": "彼は",
+            "pick": false
+          },
+          {
+            "t": "家で",
+            "pick": true
+          },
+          {
+            "t": "本を",
+            "pick": true
+          },
+          {
+            "t": "読む",
+            "pick": true
+          }
+        ],
+        "answer": [
+          {
+            "w": "He",
+            "label": "誰が"
+          },
+          {
+            "w": "reads",
+            "label": "どうする"
+          },
+          {
+            "w": "books",
+            "label": "何を"
+          },
+          {
+            "w": "at home",
+            "label": "どこで"
+          }
+        ],
+        "tip": "①誰が→②どうする→③何を の順。He/She は動詞に s がつくよ。",
+        "voice": "audio/voice/gram/18.mp3"
+      }
+    ],
+    "g4": [
+      {
+        "id": "g4_0",
+        "ja": [
+          {
+            "t": "私は",
+            "pick": false
+          },
+          {
+            "t": "昨日",
+            "pick": true
+          },
+          {
+            "t": "公園で",
+            "pick": true
+          },
+          {
+            "t": "サッカーを",
+            "pick": true
+          },
+          {
+            "t": "した",
+            "pick": true
+          }
+        ],
+        "answer": [
+          {
+            "w": "I",
+            "label": "誰が",
+            "c": "--c1"
+          },
+          {
+            "w": "played",
+            "label": "どうする",
+            "c": "--c2"
+          },
+          {
+            "w": "soccer",
+            "label": "何を",
+            "c": "--c3"
+          },
+          {
+            "w": "in the park",
+            "label": "どこで",
+            "c": "--c4"
+          },
+          {
+            "w": "yesterday",
+            "label": "いつ",
+            "c": "--c5"
+          }
+        ],
+        "tip": "過去の文。動詞は過去形。『どこで・いつ』は文のうしろ。",
+        "voice": "audio/voice/gram/19.mp3"
+      },
+      {
+        "id": "g4_1",
+        "ja": [
+          {
+            "t": "彼女は",
+            "pick": false
+          },
+          {
+            "t": "日曜日に",
+            "pick": true
+          },
+          {
+            "t": "レストランで",
+            "pick": true
+          },
+          {
+            "t": "寿司を",
+            "pick": true
+          },
+          {
+            "t": "食べる",
+            "pick": true
+          }
+        ],
+        "answer": [
+          {
+            "w": "She",
+            "label": "誰が",
+            "c": "--c1"
+          },
+          {
+            "w": "eats",
+            "label": "どうする",
+            "c": "--c2"
+          },
+          {
+            "w": "sushi",
+            "label": "何を",
+            "c": "--c3"
+          },
+          {
+            "w": "at a restaurant",
+            "label": "どこで",
+            "c": "--c4"
+          },
+          {
+            "w": "on Sundays",
+            "label": "いつ",
+            "c": "--c5"
+          }
+        ],
+        "tip": "①誰が→②どうする→③何を の順。He/She は動詞に s がつくよ。",
+        "voice": "audio/voice/gram/20.mp3"
+      },
+      {
+        "id": "g4_2",
+        "ja": [
+          {
+            "t": "彼は",
+            "pick": false
+          },
+          {
+            "t": "毎朝",
+            "pick": true
+          },
+          {
+            "t": "6時に",
+            "pick": true
+          },
+          {
+            "t": "起きる",
+            "pick": true
+          }
+        ],
+        "answer": [
+          {
+            "w": "He",
+            "label": "誰が",
+            "c": "--c1"
+          },
+          {
+            "w": "gets up",
+            "label": "どうする",
+            "c": "--c2"
+          },
+          {
+            "w": "at six",
+            "label": "いつ①",
+            "c": "--c4"
+          },
+          {
+            "w": "every morning",
+            "label": "いつ②",
+            "c": "--c5"
+          }
+        ],
+        "tip": "①誰が→②どうする→③何を の順。He/She は動詞に s がつくよ。",
+        "voice": "audio/voice/gram/21.mp3"
+      },
+      {
+        "id": "g4_3",
+        "ja": [
+          {
+            "t": "私たちは",
+            "pick": false
+          },
+          {
+            "t": "先週",
+            "pick": true
+          },
+          {
+            "t": "京都を",
+            "pick": true
+          },
+          {
+            "t": "訪れた",
+            "pick": true
+          }
+        ],
+        "answer": [
+          {
+            "w": "We",
+            "label": "誰が",
+            "c": "--c1"
+          },
+          {
+            "w": "visited",
+            "label": "どうする",
+            "c": "--c2"
+          },
+          {
+            "w": "Kyoto",
+            "label": "何を",
+            "c": "--c3"
+          },
+          {
+            "w": "last week",
+            "label": "いつ",
+            "c": "--c5"
+          }
+        ],
+        "tip": "過去の文。動詞は過去形。『どこで・いつ』は文のうしろ。",
+        "voice": "audio/voice/gram/22.mp3"
+      },
+      {
+        "id": "g4_4",
+        "ja": [
+          {
+            "t": "私の母は",
+            "pick": false
+          },
+          {
+            "t": "毎晩",
+            "pick": true
+          },
+          {
+            "t": "台所で",
+            "pick": true
+          },
+          {
+            "t": "夕食を",
+            "pick": true
+          },
+          {
+            "t": "作る",
+            "pick": true
+          }
+        ],
+        "answer": [
+          {
+            "w": "My mother",
+            "label": "誰が",
+            "c": "--c1"
+          },
+          {
+            "w": "cooks",
+            "label": "どうする",
+            "c": "--c2"
+          },
+          {
+            "w": "dinner",
+            "label": "何を",
+            "c": "--c3"
+          },
+          {
+            "w": "in the kitchen",
+            "label": "どこで",
+            "c": "--c4"
+          },
+          {
+            "w": "every night",
+            "label": "いつ",
+            "c": "--c5"
+          }
+        ],
+        "tip": "①誰が→②どうする→③何を の順でならべよう。",
+        "voice": "audio/voice/gram/23.mp3"
+      },
+      {
+        "id": "g4_5",
+        "ja": [
+          {
+            "t": "彼らは",
+            "pick": false
+          },
+          {
+            "t": "夏に",
+            "pick": true
+          },
+          {
+            "t": "海で",
+            "pick": true
+          },
+          {
+            "t": "泳いだ",
+            "pick": true
+          }
+        ],
+        "answer": [
+          {
+            "w": "They",
+            "label": "誰が",
+            "c": "--c1"
+          },
+          {
+            "w": "swam",
+            "label": "どうする",
+            "c": "--c2"
+          },
+          {
+            "w": "in the sea",
+            "label": "どこで",
+            "c": "--c4"
+          },
+          {
+            "w": "in summer",
+            "label": "いつ",
+            "c": "--c5"
+          }
+        ],
+        "tip": "①誰が→②どうする→③何を の順でならべよう。",
+        "voice": "audio/voice/gram/24.mp3"
+      },
+      {
+        "id": "g4_6",
+        "ja": [
+          {
+            "t": "私は",
+            "pick": false
+          },
+          {
+            "t": "放課後",
+            "pick": true
+          },
+          {
+            "t": "図書館で",
+            "pick": true
+          },
+          {
+            "t": "数学を",
+            "pick": true
+          },
+          {
+            "t": "勉強する",
+            "pick": true
+          }
+        ],
+        "answer": [
+          {
+            "w": "I",
+            "label": "誰が",
+            "c": "--c1"
+          },
+          {
+            "w": "study",
+            "label": "どうする",
+            "c": "--c2"
+          },
+          {
+            "w": "math",
+            "label": "何を",
+            "c": "--c3"
+          },
+          {
+            "w": "in the library",
+            "label": "どこで",
+            "c": "--c4"
+          },
+          {
+            "w": "after school",
+            "label": "いつ",
+            "c": "--c5"
+          }
+        ],
+        "tip": "①誰が→②どうする→③何を の順でならべよう。",
+        "voice": "audio/voice/gram/25.mp3"
+      },
+      {
+        "id": "g4_7",
+        "ja": [
+          {
+            "t": "私の父は",
+            "pick": false
+          },
+          {
+            "t": "週末に",
+            "pick": true
+          },
+          {
+            "t": "車を",
+            "pick": true
+          },
+          {
+            "t": "洗う",
+            "pick": true
+          }
+        ],
+        "answer": [
+          {
+            "w": "My father",
+            "label": "誰が",
+            "c": "--c1"
+          },
+          {
+            "w": "washes",
+            "label": "どうする",
+            "c": "--c2"
+          },
+          {
+            "w": "the car",
+            "label": "何を",
+            "c": "--c3"
+          },
+          {
+            "w": "on weekends",
+            "label": "いつ",
+            "c": "--c5"
+          }
+        ],
+        "tip": "①誰が→②どうする→③何を の順でならべよう。",
+        "voice": "audio/voice/gram/26.mp3"
+      },
+      {
+        "id": "g4_8",
+        "ja": [
+          {
+            "t": "私たちは",
+            "pick": false
+          },
+          {
+            "t": "昨夜",
+            "pick": true
+          },
+          {
+            "t": "体育館で",
+            "pick": true
+          },
+          {
+            "t": "バスケを",
+            "pick": true
+          },
+          {
+            "t": "した",
+            "pick": true
+          }
+        ],
+        "answer": [
+          {
+            "w": "We",
+            "label": "誰が",
+            "c": "--c1"
+          },
+          {
+            "w": "played",
+            "label": "どうする",
+            "c": "--c2"
+          },
+          {
+            "w": "basketball",
+            "label": "何を",
+            "c": "--c3"
+          },
+          {
+            "w": "in the gym",
+            "label": "どこで",
+            "c": "--c4"
+          },
+          {
+            "w": "last night",
+            "label": "いつ",
+            "c": "--c5"
+          }
+        ],
+        "tip": "過去の文。動詞は過去形。『どこで・いつ』は文のうしろ。",
+        "voice": "audio/voice/gram/27.mp3"
+      },
+      {
+        "id": "g4_9",
+        "ja": [
+          {
+            "t": "彼女は",
+            "pick": false
+          },
+          {
+            "t": "毎週",
+            "pick": true
+          },
+          {
+            "t": "友達に",
+            "pick": true
+          },
+          {
+            "t": "手紙を",
+            "pick": true
+          },
+          {
+            "t": "書く",
+            "pick": true
+          }
+        ],
+        "answer": [
+          {
+            "w": "She",
+            "label": "誰が",
+            "c": "--c1"
+          },
+          {
+            "w": "writes",
+            "label": "どうする",
+            "c": "--c2"
+          },
+          {
+            "w": "a letter",
+            "label": "何を",
+            "c": "--c3"
+          },
+          {
+            "w": "to her friend",
+            "label": "だれに",
+            "c": "--c4"
+          },
+          {
+            "w": "every week",
+            "label": "いつ",
+            "c": "--c5"
+          }
+        ],
+        "tip": "「to＋動詞」のかたまりに注意。語順は①誰が→②どうする→…。",
+        "voice": "audio/voice/gram/28.mp3"
+      },
+      {
+        "id": "g4_10",
+        "ja": [
+          {
+            "t": "私は",
+            "pick": false
+          },
+          {
+            "t": "今朝",
+            "pick": true
+          },
+          {
+            "t": "駅まで",
+            "pick": true
+          },
+          {
+            "t": "歩いた",
+            "pick": true
+          }
+        ],
+        "answer": [
+          {
+            "w": "I",
+            "label": "誰が",
+            "c": "--c1"
+          },
+          {
+            "w": "walked",
+            "label": "どうする",
+            "c": "--c2"
+          },
+          {
+            "w": "to the station",
+            "label": "どこまで",
+            "c": "--c4"
+          },
+          {
+            "w": "this morning",
+            "label": "いつ",
+            "c": "--c5"
+          }
+        ],
+        "tip": "「to＋動詞」のかたまりに注意。語順は①誰が→②どうする→…。",
+        "voice": "audio/voice/gram/29.mp3"
+      },
+      {
+        "id": "g4_11",
+        "ja": [
+          {
+            "t": "彼らは",
+            "pick": false
+          },
+          {
+            "t": "去年",
+            "pick": true
+          },
+          {
+            "t": "その町に",
+            "pick": true
+          },
+          {
+            "t": "住んでいた",
+            "pick": true
+          }
+        ],
+        "answer": [
+          {
+            "w": "They",
+            "label": "誰が",
+            "c": "--c1"
+          },
+          {
+            "w": "lived",
+            "label": "どうする",
+            "c": "--c2"
+          },
+          {
+            "w": "in the town",
+            "label": "どこで",
+            "c": "--c4"
+          },
+          {
+            "w": "last year",
+            "label": "いつ",
+            "c": "--c5"
+          }
+        ],
+        "tip": "①誰が→②どうする→③何を の順でならべよう。",
+        "voice": "audio/voice/gram/30.mp3"
+      }
+    ],
+    "g3": [
+      {
+        "id": "g3_0",
+        "ja": [
+          {
+            "t": "私は",
+            "pick": false
+          },
+          {
+            "t": "英語を",
+            "pick": true
+          },
+          {
+            "t": "勉強したい",
+            "pick": true
+          }
+        ],
+        "answer": [
+          {
+            "w": "I",
+            "label": "誰が",
+            "c": "--c1"
+          },
+          {
+            "w": "want to study",
+            "label": "したい",
+            "c": "--c2"
+          },
+          {
+            "w": "English",
+            "label": "何を",
+            "c": "--c3"
+          }
+        ],
+        "tip": "「to＋動詞」のかたまりに注意。語順は①誰が→②どうする→…。",
+        "voice": "audio/voice/gram/31.mp3"
+      },
+      {
+        "id": "g3_1",
+        "ja": [
+          {
+            "t": "彼は",
+            "pick": false
+          },
+          {
+            "t": "今",
+            "pick": true
+          },
+          {
+            "t": "公園で",
+            "pick": true
+          },
+          {
+            "t": "走っている",
+            "pick": true
+          }
+        ],
+        "answer": [
+          {
+            "w": "He",
+            "label": "誰が",
+            "c": "--c1"
+          },
+          {
+            "w": "is running",
+            "label": "している",
+            "c": "--c2"
+          },
+          {
+            "w": "in the park",
+            "label": "どこで",
+            "c": "--c4"
+          },
+          {
+            "w": "now",
+            "label": "いつ",
+            "c": "--c5"
+          }
+        ],
+        "tip": "①誰が→②どうする→③何を の順。He/She は動詞に s がつくよ。",
+        "voice": "audio/voice/gram/32.mp3"
+      },
+      {
+        "id": "g3_2",
+        "ja": [
+          {
+            "t": "私は",
+            "pick": false
+          },
+          {
+            "t": "サッカーは",
+            "pick": true
+          },
+          {
+            "t": "野球より",
+            "pick": true
+          },
+          {
+            "t": "好きだ",
+            "pick": true
+          }
+        ],
+        "answer": [
+          {
+            "w": "I",
+            "label": "誰が",
+            "c": "--c1"
+          },
+          {
+            "w": "like soccer",
+            "label": "好き",
+            "c": "--c2"
+          },
+          {
+            "w": "better than",
+            "label": "より",
+            "c": "--c3"
+          },
+          {
+            "w": "baseball",
+            "label": "何を",
+            "c": "--c4"
+          }
+        ],
+        "tip": "比べる文。『〜より』は better than。①誰が→②好き→③より→④何を の順。",
+        "voice": "audio/voice/gram/33.mp3"
+      },
+      {
+        "id": "g3_3",
+        "ja": [
+          {
+            "t": "私は",
+            "pick": false
+          },
+          {
+            "t": "疲れていたので",
+            "pick": true
+          },
+          {
+            "t": "早く",
+            "pick": true
+          },
+          {
+            "t": "寝た",
+            "pick": true
+          }
+        ],
+        "answer": [
+          {
+            "w": "I",
+            "label": "誰が",
+            "c": "--c1"
+          },
+          {
+            "w": "went to bed",
+            "label": "どうする",
+            "c": "--c2"
+          },
+          {
+            "w": "early",
+            "label": "どう",
+            "c": "--c3"
+          },
+          {
+            "w": "because I was tired",
+            "label": "理由",
+            "c": "--c5"
+          }
+        ],
+        "tip": "「to＋動詞」のかたまりに注意。語順は①誰が→②どうする→…。",
+        "voice": "audio/voice/gram/34.mp3"
+      },
+      {
+        "id": "g3_4",
+        "ja": [
+          {
+            "t": "彼女は",
+            "pick": false
+          },
+          {
+            "t": "医者に",
+            "pick": true
+          },
+          {
+            "t": "なるために",
+            "pick": true
+          },
+          {
+            "t": "勉強する",
+            "pick": true
+          }
+        ],
+        "answer": [
+          {
+            "w": "She",
+            "label": "誰が",
+            "c": "--c1"
+          },
+          {
+            "w": "studies",
+            "label": "どうする",
+            "c": "--c2"
+          },
+          {
+            "w": "to be",
+            "label": "ために",
+            "c": "--c4"
+          },
+          {
+            "w": "a doctor",
+            "label": "何に",
+            "c": "--c5"
+          }
+        ],
+        "tip": "「to＋動詞」のかたまりに注意。語順は①誰が→②どうする→…。",
+        "voice": "audio/voice/gram/35.mp3"
+      },
+      {
+        "id": "g3_5",
+        "ja": [
+          {
+            "t": "私は",
+            "pick": false
+          },
+          {
+            "t": "友達と",
+            "pick": true
+          },
+          {
+            "t": "映画を",
+            "pick": true
+          },
+          {
+            "t": "見るつもりだ",
+            "pick": true
+          }
+        ],
+        "answer": [
+          {
+            "w": "I",
+            "label": "誰が",
+            "c": "--c1"
+          },
+          {
+            "w": "will watch",
+            "label": "つもり",
+            "c": "--c2"
+          },
+          {
+            "w": "a movie",
+            "label": "何を",
+            "c": "--c3"
+          },
+          {
+            "w": "with my friends",
+            "label": "だれと",
+            "c": "--c5"
+          }
+        ],
+        "tip": "①誰が→②どうする→③何を の順でならべよう。",
+        "voice": "audio/voice/gram/36.mp3"
+      },
+      {
+        "id": "g3_6",
+        "ja": [
+          {
+            "t": "この本は",
+            "pick": false
+          },
+          {
+            "t": "あの本より",
+            "pick": true
+          },
+          {
+            "t": "おもしろい",
+            "pick": true
+          }
+        ],
+        "answer": [
+          {
+            "w": "This book",
+            "label": "何が",
+            "c": "--c1"
+          },
+          {
+            "w": "is more interesting",
+            "label": "おもしろい",
+            "c": "--c2"
+          },
+          {
+            "w": "than that one",
+            "label": "より",
+            "c": "--c3"
+          }
+        ],
+        "tip": "比べる文。『〜より』は better than。①誰が→②好き→③より→④何を の順。",
+        "voice": "audio/voice/gram/37.mp3"
+      },
+      {
+        "id": "g3_7",
+        "ja": [
+          {
+            "t": "私は",
+            "pick": false
+          },
+          {
+            "t": "彼に",
+            "pick": true
+          },
+          {
+            "t": "手伝うように",
+            "pick": true
+          },
+          {
+            "t": "頼んだ",
+            "pick": true
+          }
+        ],
+        "answer": [
+          {
+            "w": "I",
+            "label": "誰が",
+            "c": "--c1"
+          },
+          {
+            "w": "asked",
+            "label": "どうする",
+            "c": "--c2"
+          },
+          {
+            "w": "him",
+            "label": "だれに",
+            "c": "--c3"
+          },
+          {
+            "w": "to help me",
+            "label": "何を",
+            "c": "--c4"
+          }
+        ],
+        "tip": "「to＋動詞」のかたまりに注意。語順は①誰が→②どうする→…。",
+        "voice": "audio/voice/gram/38.mp3"
+      },
+      {
+        "id": "g3_8",
+        "ja": [
+          {
+            "t": "私は",
+            "pick": false
+          },
+          {
+            "t": "英語は",
+            "pick": true
+          },
+          {
+            "t": "数学より",
+            "pick": true
+          },
+          {
+            "t": "やさしいと思う",
+            "pick": true
+          }
+        ],
+        "answer": [
+          {
+            "w": "I think",
+            "label": "誰が"
+          },
+          {
+            "w": "English is",
+            "label": "何が"
+          },
+          {
+            "w": "easier than",
+            "label": "より"
+          },
+          {
+            "w": "math",
+            "label": "何"
+          }
+        ],
+        "tip": "比較級 easier than＝〜よりやさしい。",
+        "voice": "audio/voice/gram/39.mp3"
+      },
+      {
+        "id": "g3_9",
+        "ja": [
+          {
+            "t": "彼は",
+            "pick": false
+          },
+          {
+            "t": "クラスで",
+            "pick": true
+          },
+          {
+            "t": "一番背が高い",
+            "pick": true
+          }
+        ],
+        "answer": [
+          {
+            "w": "He is",
+            "label": "誰が"
+          },
+          {
+            "w": "the tallest",
+            "label": "一番〜"
+          },
+          {
+            "w": "in his class",
+            "label": "どこで"
+          }
+        ],
+        "tip": "最上級 the tallest＝一番背が高い。",
+        "voice": "audio/voice/gram/40.mp3"
+      },
+      {
+        "id": "g3_10",
+        "ja": [
+          {
+            "t": "私は",
+            "pick": false
+          },
+          {
+            "t": "医者に",
+            "pick": true
+          },
+          {
+            "t": "なりたい",
+            "pick": true
+          }
+        ],
+        "answer": [
+          {
+            "w": "I",
+            "label": "誰が"
+          },
+          {
+            "w": "want to be",
+            "label": "なりたい"
+          },
+          {
+            "w": "a doctor",
+            "label": "何に"
+          }
+        ],
+        "tip": "want to be＝〜になりたい。to＋動詞。",
+        "voice": "audio/voice/gram/41.mp3"
+      },
+      {
+        "id": "g3_11",
+        "ja": [
+          {
+            "t": "彼女は",
+            "pick": false
+          },
+          {
+            "t": "3年間",
+            "pick": true
+          },
+          {
+            "t": "英語を",
+            "pick": true
+          },
+          {
+            "t": "勉強している",
+            "pick": true
+          }
+        ],
+        "answer": [
+          {
+            "w": "She has studied",
+            "label": "誰が〜している"
+          },
+          {
+            "w": "English",
+            "label": "何を"
+          },
+          {
+            "w": "for three years",
+            "label": "どのくらい"
+          }
+        ],
+        "tip": "現在完了 have/has＋過去分詞。for＝〜間。",
+        "voice": "audio/voice/gram/42.mp3"
+      }
+    ]
+  }
+}

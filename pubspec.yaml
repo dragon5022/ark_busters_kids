@@ -1,0 +1,88 @@
+name: ark_busters_kids
+description: ARK BUSTERS KIDS — English learning game for elementary students.
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.13.3
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  shared_preferences: ^2.5.3
+  audioplayers: ^6.5.0
+  google_fonts: ^6.3.2
+  http: ^1.2.2
+  path_provider: ^2.1.5
+  path: ^1.9.1
+  flutter_tts: ^4.2.5
+  speech_to_text: ^7.5.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+
+flutter:
+  uses-material-design: true
+
+  # Same four families as the web (Google Fonts), bundled for offline use.
+  fonts:
+    - family: Bungee
+      fonts:
+        - asset: assets/fonts/Bungee-Regular.ttf
+    - family: M PLUS Rounded 1c
+      fonts:
+        - asset: assets/fonts/MPLUSRounded1c-Regular.ttf
+          weight: 400
+        - asset: assets/fonts/MPLUSRounded1c-Bold.ttf
+          weight: 700
+        - asset: assets/fonts/MPLUSRounded1c-ExtraBold.ttf
+          weight: 800
+        - asset: assets/fonts/MPLUSRounded1c-Black.ttf
+          weight: 900
+    - family: Mochiy Pop One
+      fonts:
+        - asset: assets/fonts/MochiyPopOne-Regular.ttf
+    - family: Fredoka
+      fonts:
+        - asset: assets/fonts/Fredoka-Medium.ttf
+          weight: 500
+        - asset: assets/fonts/Fredoka-SemiBold.ttf
+          weight: 600
+        - asset: assets/fonts/Fredoka-Bold.ttf
+          weight: 700
+    # Encounter pop-ups (「…が あらわれた！」)
+    - family: DotGothic16
+      fonts:
+        - asset: assets/fonts/DotGothic16-Regular.ttf
+    # Game screens (vocabulary / listening / sentence)
+    - family: Zen Maru Gothic
+      fonts:
+        - asset: assets/fonts/ZenMaruGothic-Medium.ttf
+          weight: 500
+        - asset: assets/fonts/ZenMaruGothic-Bold.ttf
+          weight: 700
+        - asset: assets/fonts/ZenMaruGothic-Black.ttf
+          weight: 900
+
+  assets:
+    - assets/images/hub/
+    - assets/images/story/
+    - assets/images/misc/
+    - assets/images/monsters/
+    - assets/images/monsters/vocamon/
+    - assets/images/monsters/lismon/
+    - assets/images/monsters/talkmon/
+    - assets/images/monsters/gramon/
+    - assets/images/vocab/
+    - assets/audio/bgm/
+    - assets/audio/sfx/
+    - assets/audio/voice/
+    - assets/audio/voice/voca/
+    - assets/audio/voice/lis/
+    - assets/audio/voice/talk/
+    - assets/audio/voice/gram/
+    - assets/audio/voice/gramparts/
+    - assets/data/

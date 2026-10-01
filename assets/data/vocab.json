@@ -1,0 +1,1693 @@
+{
+  "version": 1,
+  "packId": "vocab",
+  "qn": 10,
+  "timeByLevel": {
+    "1": 5,
+    "2": 7,
+    "3": 10
+  },
+  "winRatio": 0.6,
+  "items": [
+    {
+      "id": 1,
+      "w": "cafe",
+      "ja": "きっさてん",
+      "lv": 4,
+      "img": "images/vocab/001.webp",
+      "voice": "audio/voice/voca/1.mp3"
+    },
+    {
+      "id": 2,
+      "w": "cake",
+      "ja": "ケーキ",
+      "lv": 5,
+      "img": "images/vocab/002.webp",
+      "voice": "audio/voice/voca/2.mp3"
+    },
+    {
+      "id": 3,
+      "w": "dress",
+      "ja": "ワンピース",
+      "lv": 4,
+      "img": "images/vocab/003.webp",
+      "voice": "audio/voice/voca/3.mp3"
+    },
+    {
+      "id": 4,
+      "w": "two",
+      "ja": "2",
+      "lv": 5,
+      "img": "images/vocab/004.webp",
+      "voice": "audio/voice/voca/4.mp3"
+    },
+    {
+      "id": 5,
+      "w": "probably",
+      "ja": "たぶん",
+      "lv": 3,
+      "img": null,
+      "voice": "audio/voice/voca/5.mp3"
+    },
+    {
+      "id": 6,
+      "w": "library",
+      "ja": "としょしつ",
+      "lv": 4,
+      "img": "images/vocab/006.webp",
+      "voice": "audio/voice/voca/6.mp3"
+    },
+    {
+      "id": 7,
+      "w": "pilot",
+      "ja": "そうじゅうし",
+      "lv": 4,
+      "img": "images/vocab/007.webp",
+      "voice": "audio/voice/voca/7.mp3"
+    },
+    {
+      "id": 8,
+      "w": "finish",
+      "ja": "終える",
+      "lv": 4,
+      "img": "images/vocab/008.webp",
+      "voice": "audio/voice/voca/8.mp3"
+    },
+    {
+      "id": 9,
+      "w": "mask",
+      "ja": "マスク",
+      "lv": 4,
+      "img": "images/vocab/009.webp",
+      "voice": "audio/voice/voca/9.mp3"
+    },
+    {
+      "id": 10,
+      "w": "thirteen",
+      "ja": "13",
+      "lv": 5,
+      "img": "images/vocab/010.webp",
+      "voice": "audio/voice/voca/10.mp3"
+    },
+    {
+      "id": 11,
+      "w": "backpack",
+      "ja": "ランドセル",
+      "lv": 5,
+      "img": "images/vocab/011.webp",
+      "voice": "audio/voice/voca/11.mp3"
+    },
+    {
+      "id": 12,
+      "w": "second",
+      "ja": "2nd",
+      "lv": 4,
+      "img": "images/vocab/012.webp",
+      "voice": "audio/voice/voca/12.mp3"
+    },
+    {
+      "id": 13,
+      "w": "since",
+      "ja": "〜以来",
+      "lv": 3,
+      "img": null,
+      "voice": "audio/voice/voca/13.mp3"
+    },
+    {
+      "id": 14,
+      "w": "possible",
+      "ja": "可能な",
+      "lv": 3,
+      "img": null,
+      "voice": "audio/voice/voca/14.mp3"
+    },
+    {
+      "id": 15,
+      "w": "boat",
+      "ja": "ボート",
+      "lv": 5,
+      "img": "images/vocab/015.webp",
+      "voice": "audio/voice/voca/15.mp3"
+    },
+    {
+      "id": 16,
+      "w": "watch out",
+      "ja": "気をつけて",
+      "lv": 4,
+      "img": "images/vocab/016.webp",
+      "voice": "audio/voice/voca/16.mp3"
+    },
+    {
+      "id": 17,
+      "w": "run",
+      "ja": "走る",
+      "lv": 5,
+      "img": "images/vocab/017.webp",
+      "voice": "audio/voice/voca/17.mp3"
+    },
+    {
+      "id": 18,
+      "w": "chance",
+      "ja": "機会",
+      "lv": 3,
+      "img": null,
+      "voice": "audio/voice/voca/18.mp3"
+    },
+    {
+      "id": 19,
+      "w": "call back",
+      "ja": "電話をかけなおす",
+      "lv": 3,
+      "img": "images/vocab/019.webp",
+      "voice": "audio/voice/voca/19.mp3"
+    },
+    {
+      "id": 20,
+      "w": "arm",
+      "ja": "うで",
+      "lv": 5,
+      "img": "images/vocab/020.webp",
+      "voice": "audio/voice/voca/20.mp3"
+    },
+    {
+      "id": 21,
+      "w": "modern",
+      "ja": "現代の",
+      "lv": 3,
+      "img": null,
+      "voice": "audio/voice/voca/21.mp3"
+    },
+    {
+      "id": 22,
+      "w": "neck",
+      "ja": "くび",
+      "lv": 4,
+      "img": "images/vocab/022.webp",
+      "voice": "audio/voice/voca/22.mp3"
+    },
+    {
+      "id": 23,
+      "w": "teeth",
+      "ja": "は",
+      "lv": 5,
+      "img": "images/vocab/023.webp",
+      "voice": "audio/voice/voca/23.mp3"
+    },
+    {
+      "id": 24,
+      "w": "twelve",
+      "ja": "12",
+      "lv": 5,
+      "img": "images/vocab/024.webp",
+      "voice": "audio/voice/voca/24.mp3"
+    },
+    {
+      "id": 25,
+      "w": "uncle",
+      "ja": "おじさん",
+      "lv": 4,
+      "img": "images/vocab/025.webp",
+      "voice": "audio/voice/voca/25.mp3"
+    },
+    {
+      "id": 26,
+      "w": "shop",
+      "ja": "お店",
+      "lv": 5,
+      "img": "images/vocab/026.webp",
+      "voice": "audio/voice/voca/26.mp3"
+    },
+    {
+      "id": 27,
+      "w": "cross",
+      "ja": "渡る",
+      "lv": 4,
+      "img": "images/vocab/027.webp",
+      "voice": "audio/voice/voca/27.mp3"
+    },
+    {
+      "id": 28,
+      "w": "short",
+      "ja": "背が低い",
+      "lv": 5,
+      "img": "images/vocab/028.webp",
+      "voice": "audio/voice/voca/28.mp3"
+    },
+    {
+      "id": 29,
+      "w": "popular",
+      "ja": "にんきもの",
+      "lv": 4,
+      "img": "images/vocab/029.webp",
+      "voice": "audio/voice/voca/29.mp3"
+    },
+    {
+      "id": 30,
+      "w": "convenience store",
+      "ja": "コンビニ",
+      "lv": 4,
+      "img": "images/vocab/030.webp",
+      "voice": "audio/voice/voca/30.mp3"
+    },
+    {
+      "id": 31,
+      "w": "protect",
+      "ja": "守る",
+      "lv": 3,
+      "img": null,
+      "voice": "audio/voice/voca/31.mp3"
+    },
+    {
+      "id": 32,
+      "w": "succeed",
+      "ja": "成功する",
+      "lv": 3,
+      "img": null,
+      "voice": "audio/voice/voca/32.mp3"
+    },
+    {
+      "id": 33,
+      "w": "city hall",
+      "ja": "しゃくしょ",
+      "lv": 3,
+      "img": "images/vocab/033.webp",
+      "voice": "audio/voice/voca/33.mp3"
+    },
+    {
+      "id": 34,
+      "w": "hope",
+      "ja": "望む",
+      "lv": 3,
+      "img": null,
+      "voice": "audio/voice/voca/34.mp3"
+    },
+    {
+      "id": 35,
+      "w": "crunchy",
+      "ja": "カリカリ",
+      "lv": 3,
+      "img": "images/vocab/035.webp",
+      "voice": "audio/voice/voca/35.mp3"
+    },
+    {
+      "id": 36,
+      "w": "important",
+      "ja": "重要な",
+      "lv": 3,
+      "img": null,
+      "voice": "audio/voice/voca/36.mp3"
+    },
+    {
+      "id": 37,
+      "w": "repair",
+      "ja": "修理する",
+      "lv": 3,
+      "img": null,
+      "voice": "audio/voice/voca/37.mp3"
+    },
+    {
+      "id": 38,
+      "w": "calendar",
+      "ja": "カレンダー",
+      "lv": 4,
+      "img": "images/vocab/038.webp",
+      "voice": "audio/voice/voca/38.mp3"
+    },
+    {
+      "id": 39,
+      "w": "dentist",
+      "ja": "はいしゃ",
+      "lv": 3,
+      "img": "images/vocab/039.webp",
+      "voice": "audio/voice/voca/39.mp3"
+    },
+    {
+      "id": 40,
+      "w": "nature",
+      "ja": "自然",
+      "lv": 3,
+      "img": null,
+      "voice": "audio/voice/voca/40.mp3"
+    },
+    {
+      "id": 41,
+      "w": "disappear",
+      "ja": "消える",
+      "lv": 3,
+      "img": null,
+      "voice": "audio/voice/voca/41.mp3"
+    },
+    {
+      "id": 42,
+      "w": "monorail",
+      "ja": "モノレール",
+      "lv": 3,
+      "img": "images/vocab/042.webp",
+      "voice": "audio/voice/voca/42.mp3"
+    },
+    {
+      "id": 43,
+      "w": "slim",
+      "ja": "ほそい",
+      "lv": 4,
+      "img": "images/vocab/043.webp",
+      "voice": "audio/voice/voca/43.mp3"
+    },
+    {
+      "id": 44,
+      "w": "first",
+      "ja": "1st",
+      "lv": 4,
+      "img": "images/vocab/044.webp",
+      "voice": "audio/voice/voca/44.mp3"
+    },
+    {
+      "id": 45,
+      "w": "teacher",
+      "ja": "せんせい",
+      "lv": 5,
+      "img": "images/vocab/045.webp",
+      "voice": "audio/voice/voca/45.mp3"
+    },
+    {
+      "id": 46,
+      "w": "study",
+      "ja": "勉強する",
+      "lv": 5,
+      "img": "images/vocab/046.webp",
+      "voice": "audio/voice/voca/46.mp3"
+    },
+    {
+      "id": 47,
+      "w": "jeans",
+      "ja": "ジーンズ",
+      "lv": 5,
+      "img": "images/vocab/047.webp",
+      "voice": "audio/voice/voca/47.mp3"
+    },
+    {
+      "id": 48,
+      "w": "suddenly",
+      "ja": "突然",
+      "lv": 3,
+      "img": null,
+      "voice": "audio/voice/voca/48.mp3"
+    },
+    {
+      "id": 49,
+      "w": "biology",
+      "ja": "せいぶつ",
+      "lv": 3,
+      "img": "images/vocab/049.webp",
+      "voice": "audio/voice/voca/49.mp3"
+    },
+    {
+      "id": 50,
+      "w": "give up",
+      "ja": "あきらめる",
+      "lv": 3,
+      "img": "images/vocab/050.webp",
+      "voice": "audio/voice/voca/50.mp3"
+    },
+    {
+      "id": 51,
+      "w": "custom",
+      "ja": "習慣",
+      "lv": 3,
+      "img": null,
+      "voice": "audio/voice/voca/51.mp3"
+    },
+    {
+      "id": 52,
+      "w": "marker",
+      "ja": "マーカー",
+      "lv": 4,
+      "img": "images/vocab/052.webp",
+      "voice": "audio/voice/voca/52.mp3"
+    },
+    {
+      "id": 53,
+      "w": "March",
+      "ja": "3月",
+      "lv": 5,
+      "img": "images/vocab/053.webp",
+      "voice": "audio/voice/voca/53.mp3"
+    },
+    {
+      "id": 54,
+      "w": "reason",
+      "ja": "理由",
+      "lv": 3,
+      "img": null,
+      "voice": "audio/voice/voca/54.mp3"
+    },
+    {
+      "id": 55,
+      "w": "expensive",
+      "ja": "高価な",
+      "lv": 4,
+      "img": "images/vocab/055.webp",
+      "voice": "audio/voice/voca/55.mp3"
+    },
+    {
+      "id": 56,
+      "w": "November",
+      "ja": "11月",
+      "lv": 5,
+      "img": "images/vocab/056.webp",
+      "voice": "audio/voice/voca/56.mp3"
+    },
+    {
+      "id": 57,
+      "w": "towel",
+      "ja": "てぬぐい",
+      "lv": 4,
+      "img": "images/vocab/057.webp",
+      "voice": "audio/voice/voca/57.mp3"
+    },
+    {
+      "id": 58,
+      "w": "hear about",
+      "ja": "～のうわさを聞く",
+      "lv": 3,
+      "img": "images/vocab/058.webp",
+      "voice": "audio/voice/voca/58.mp3"
+    },
+    {
+      "id": 59,
+      "w": "ship",
+      "ja": "ふね",
+      "lv": 5,
+      "img": "images/vocab/059.webp",
+      "voice": "audio/voice/voca/59.mp3"
+    },
+    {
+      "id": 60,
+      "w": "old",
+      "ja": "年をとった",
+      "lv": 5,
+      "img": "images/vocab/060.webp",
+      "voice": "audio/voice/voca/60.mp3"
+    },
+    {
+      "id": 61,
+      "w": "by bus",
+      "ja": "バスで",
+      "lv": 4,
+      "img": "images/vocab/061.webp",
+      "voice": "audio/voice/voca/61.mp3"
+    },
+    {
+      "id": 62,
+      "w": "a glass of",
+      "ja": "1杯の",
+      "lv": 4,
+      "img": "images/vocab/062.webp",
+      "voice": "audio/voice/voca/62.mp3"
+    },
+    {
+      "id": 63,
+      "w": "make friends",
+      "ja": "友達になる",
+      "lv": 4,
+      "img": "images/vocab/063.webp",
+      "voice": "audio/voice/voca/63.mp3"
+    },
+    {
+      "id": 64,
+      "w": "temple",
+      "ja": "お寺",
+      "lv": 4,
+      "img": "images/vocab/064.webp",
+      "voice": "audio/voice/voca/64.mp3"
+    },
+    {
+      "id": 65,
+      "w": "Saturday",
+      "ja": "土曜日",
+      "lv": 5,
+      "img": "images/vocab/065.webp",
+      "voice": "audio/voice/voca/65.mp3"
+    },
+    {
+      "id": 66,
+      "w": "imagine",
+      "ja": "想像する",
+      "lv": 3,
+      "img": null,
+      "voice": "audio/voice/voca/66.mp3"
+    },
+    {
+      "id": 67,
+      "w": "remember",
+      "ja": "覚えている",
+      "lv": 3,
+      "img": "images/vocab/067.webp",
+      "voice": "audio/voice/voca/67.mp3"
+    },
+    {
+      "id": 68,
+      "w": "sixteen",
+      "ja": "16",
+      "lv": 5,
+      "img": "images/vocab/068.webp",
+      "voice": "audio/voice/voca/68.mp3"
+    },
+    {
+      "id": 69,
+      "w": "geography",
+      "ja": "ちり",
+      "lv": 4,
+      "img": "images/vocab/069.webp",
+      "voice": "audio/voice/voca/69.mp3"
+    },
+    {
+      "id": 70,
+      "w": "eighth",
+      "ja": "8th",
+      "lv": 4,
+      "img": "images/vocab/070.webp",
+      "voice": "audio/voice/voca/70.mp3"
+    },
+    {
+      "id": 71,
+      "w": "improve",
+      "ja": "改善する",
+      "lv": 3,
+      "img": null,
+      "voice": "audio/voice/voca/71.mp3"
+    },
+    {
+      "id": 72,
+      "w": "fat",
+      "ja": "ふとい",
+      "lv": 4,
+      "img": "images/vocab/072.webp",
+      "voice": "audio/voice/voca/72.mp3"
+    },
+    {
+      "id": 73,
+      "w": "three",
+      "ja": "3",
+      "lv": 5,
+      "img": "images/vocab/073.webp",
+      "voice": "audio/voice/voca/73.mp3"
+    },
+    {
+      "id": 74,
+      "w": "all day",
+      "ja": "一日中",
+      "lv": 3,
+      "img": "images/vocab/074.webp",
+      "voice": "audio/voice/voca/74.mp3"
+    },
+    {
+      "id": 75,
+      "w": "reduce",
+      "ja": "減らす",
+      "lv": 3,
+      "img": null,
+      "voice": "audio/voice/voca/75.mp3"
+    },
+    {
+      "id": 76,
+      "w": "heavy",
+      "ja": "重い",
+      "lv": 4,
+      "img": "images/vocab/076.webp",
+      "voice": "audio/voice/voca/76.mp3"
+    },
+    {
+      "id": 77,
+      "w": "dirty",
+      "ja": "きたない",
+      "lv": 4,
+      "img": "images/vocab/077.webp",
+      "voice": "audio/voice/voca/77.mp3"
+    },
+    {
+      "id": 78,
+      "w": "ninety",
+      "ja": "90",
+      "lv": 5,
+      "img": "images/vocab/078.webp",
+      "voice": "audio/voice/voca/78.mp3"
+    },
+    {
+      "id": 79,
+      "w": "lonely",
+      "ja": "さびしい",
+      "lv": 4,
+      "img": "images/vocab/079.webp",
+      "voice": "audio/voice/voca/79.mp3"
+    },
+    {
+      "id": 80,
+      "w": "ten",
+      "ja": "10",
+      "lv": 5,
+      "img": "images/vocab/080.webp",
+      "voice": "audio/voice/voca/80.mp3"
+    },
+    {
+      "id": 81,
+      "w": "new",
+      "ja": "新しい",
+      "lv": 5,
+      "img": "images/vocab/081.webp",
+      "voice": "audio/voice/voca/81.mp3"
+    },
+    {
+      "id": 82,
+      "w": "in the park",
+      "ja": "公園で",
+      "lv": 4,
+      "img": "images/vocab/082.webp",
+      "voice": "audio/voice/voca/82.mp3"
+    },
+    {
+      "id": 83,
+      "w": "loud",
+      "ja": "うるさい",
+      "lv": 4,
+      "img": "images/vocab/083.webp",
+      "voice": "audio/voice/voca/83.mp3"
+    },
+    {
+      "id": 84,
+      "w": "pull",
+      "ja": "引く",
+      "lv": 4,
+      "img": "images/vocab/084.webp",
+      "voice": "audio/voice/voca/84.mp3"
+    },
+    {
+      "id": 85,
+      "w": "Monday",
+      "ja": "月曜日",
+      "lv": 5,
+      "img": "images/vocab/085.webp",
+      "voice": "audio/voice/voca/85.mp3"
+    },
+    {
+      "id": 86,
+      "w": "pizza",
+      "ja": "ピザ",
+      "lv": 5,
+      "img": "images/vocab/086.webp",
+      "voice": "audio/voice/voca/86.mp3"
+    },
+    {
+      "id": 87,
+      "w": "stadium",
+      "ja": "競技場",
+      "lv": 3,
+      "img": "images/vocab/087.webp",
+      "voice": "audio/voice/voca/87.mp3"
+    },
+    {
+      "id": 88,
+      "w": "angry",
+      "ja": "怒っている",
+      "lv": 4,
+      "img": "images/vocab/088.webp",
+      "voice": "audio/voice/voca/88.mp3"
+    },
+    {
+      "id": 89,
+      "w": "speak",
+      "ja": "話す",
+      "lv": 5,
+      "img": "images/vocab/089.webp",
+      "voice": "audio/voice/voca/89.mp3"
+    },
+    {
+      "id": 90,
+      "w": "clock",
+      "ja": "とけい",
+      "lv": 5,
+      "img": "images/vocab/090.webp",
+      "voice": "audio/voice/voca/90.mp3"
+    },
+    {
+      "id": 91,
+      "w": "talk to",
+      "ja": "話しかける",
+      "lv": 3,
+      "img": "images/vocab/091.webp",
+      "voice": "audio/voice/voca/91.mp3"
+    },
+    {
+      "id": 92,
+      "w": "agree",
+      "ja": "賛成する",
+      "lv": 3,
+      "img": null,
+      "voice": "audio/voice/voca/92.mp3"
+    },
+    {
+      "id": 93,
+      "w": "hamburger",
+      "ja": "ハンバーガー",
+      "lv": 5,
+      "img": "images/vocab/093.webp",
+      "voice": "audio/voice/voca/93.mp3"
+    },
+    {
+      "id": 94,
+      "w": "bank",
+      "ja": "ぎんこう",
+      "lv": 4,
+      "img": "images/vocab/094.webp",
+      "voice": "audio/voice/voca/94.mp3"
+    },
+    {
+      "id": 95,
+      "w": "seventeen",
+      "ja": "17",
+      "lv": 5,
+      "img": "images/vocab/095.webp",
+      "voice": "audio/voice/voca/95.mp3"
+    },
+    {
+      "id": 96,
+      "w": "lamp",
+      "ja": "でんきスタンド",
+      "lv": 4,
+      "img": "images/vocab/096.webp",
+      "voice": "audio/voice/voca/96.mp3"
+    },
+    {
+      "id": 97,
+      "w": "painter",
+      "ja": "えかき",
+      "lv": 4,
+      "img": "images/vocab/097.webp",
+      "voice": "audio/voice/voca/97.mp3"
+    },
+    {
+      "id": 98,
+      "w": "ruler",
+      "ja": "ものさし",
+      "lv": 5,
+      "img": "images/vocab/098.webp",
+      "voice": "audio/voice/voca/98.mp3"
+    },
+    {
+      "id": 99,
+      "w": "February",
+      "ja": "2月",
+      "lv": 5,
+      "img": "images/vocab/099.webp",
+      "voice": "audio/voice/voca/99.mp3"
+    },
+    {
+      "id": 100,
+      "w": "difficult",
+      "ja": "むずかしい",
+      "lv": 5,
+      "img": "images/vocab/100.webp",
+      "voice": "audio/voice/voca/100.mp3"
+    },
+    {
+      "id": 101,
+      "w": "artist",
+      "ja": "げいじゅつか",
+      "lv": 3,
+      "img": "images/vocab/101.webp",
+      "voice": "audio/voice/voca/101.mp3"
+    },
+    {
+      "id": 102,
+      "w": "scarf",
+      "ja": "マフラー",
+      "lv": 4,
+      "img": "images/vocab/102.webp",
+      "voice": "audio/voice/voca/102.mp3"
+    },
+    {
+      "id": 103,
+      "w": "chair",
+      "ja": "いす",
+      "lv": 5,
+      "img": "images/vocab/103.webp",
+      "voice": "audio/voice/voca/103.mp3"
+    },
+    {
+      "id": 104,
+      "w": "energy",
+      "ja": "エネルギー",
+      "lv": 3,
+      "img": null,
+      "voice": "audio/voice/voca/104.mp3"
+    },
+    {
+      "id": 105,
+      "w": "surprised",
+      "ja": "おどろいた",
+      "lv": 3,
+      "img": null,
+      "voice": "audio/voice/voca/105.mp3"
+    },
+    {
+      "id": 106,
+      "w": "what kind of",
+      "ja": "どんな種類の～",
+      "lv": 3,
+      "img": "images/vocab/106.webp",
+      "voice": "audio/voice/voca/106.mp3"
+    },
+    {
+      "id": 107,
+      "w": "thirty",
+      "ja": "30",
+      "lv": 5,
+      "img": "images/vocab/107.webp",
+      "voice": "audio/voice/voca/107.mp3"
+    },
+    {
+      "id": 108,
+      "w": "mirror",
+      "ja": "かがみ",
+      "lv": 4,
+      "img": "images/vocab/108.webp",
+      "voice": "audio/voice/voca/108.mp3"
+    },
+    {
+      "id": 109,
+      "w": "brain",
+      "ja": "のうみそ",
+      "lv": 3,
+      "img": "images/vocab/109.webp",
+      "voice": "audio/voice/voca/109.mp3"
+    },
+    {
+      "id": 110,
+      "w": "kick",
+      "ja": "蹴る",
+      "lv": 4,
+      "img": "images/vocab/110.webp",
+      "voice": "audio/voice/voca/110.mp3"
+    },
+    {
+      "id": 111,
+      "w": "friend",
+      "ja": "ともだち",
+      "lv": 5,
+      "img": "images/vocab/111.webp",
+      "voice": "audio/voice/voca/111.mp3"
+    },
+    {
+      "id": 112,
+      "w": "accept",
+      "ja": "受け入れる",
+      "lv": 3,
+      "img": null,
+      "voice": "audio/voice/voca/112.mp3"
+    },
+    {
+      "id": 113,
+      "w": "writer",
+      "ja": "さっか",
+      "lv": 4,
+      "img": "images/vocab/113.webp",
+      "voice": "audio/voice/voca/113.mp3"
+    },
+    {
+      "id": 114,
+      "w": "hot",
+      "ja": "あつい",
+      "lv": 5,
+      "img": "images/vocab/114.webp",
+      "voice": "audio/voice/voca/114.mp3"
+    },
+    {
+      "id": 115,
+      "w": "fog",
+      "ja": "きり",
+      "lv": 3,
+      "img": "images/vocab/115.webp",
+      "voice": "audio/voice/voca/115.mp3"
+    },
+    {
+      "id": 116,
+      "w": "Sunday",
+      "ja": "日曜日",
+      "lv": 5,
+      "img": "images/vocab/116.webp",
+      "voice": "audio/voice/voca/116.mp3"
+    },
+    {
+      "id": 117,
+      "w": "cheek",
+      "ja": "ほほ",
+      "lv": 4,
+      "img": "images/vocab/117.webp",
+      "voice": "audio/voice/voca/117.mp3"
+    },
+    {
+      "id": 118,
+      "w": "decision",
+      "ja": "決定",
+      "lv": 3,
+      "img": null,
+      "voice": "audio/voice/voca/118.mp3"
+    },
+    {
+      "id": 119,
+      "w": "cup",
+      "ja": "コップ",
+      "lv": 5,
+      "img": "images/vocab/119.webp",
+      "voice": "audio/voice/voca/119.mp3"
+    },
+    {
+      "id": 120,
+      "w": "April",
+      "ja": "4月",
+      "lv": 5,
+      "img": "images/vocab/120.webp",
+      "voice": "audio/voice/voca/120.mp3"
+    },
+    {
+      "id": 121,
+      "w": "cap",
+      "ja": "キャップ",
+      "lv": 5,
+      "img": "images/vocab/121.webp",
+      "voice": "audio/voice/voca/121.mp3"
+    },
+    {
+      "id": 122,
+      "w": "sea",
+      "ja": "うみ",
+      "lv": 5,
+      "img": "images/vocab/122.webp",
+      "voice": "audio/voice/voca/122.mp3"
+    },
+    {
+      "id": 123,
+      "w": "sleep",
+      "ja": "眠る",
+      "lv": 5,
+      "img": "images/vocab/123.webp",
+      "voice": "audio/voice/voca/123.mp3"
+    },
+    {
+      "id": 124,
+      "w": "habit",
+      "ja": "くせ",
+      "lv": 3,
+      "img": null,
+      "voice": "audio/voice/voca/124.mp3"
+    },
+    {
+      "id": 125,
+      "w": "young",
+      "ja": "若い",
+      "lv": 5,
+      "img": "images/vocab/125.webp",
+      "voice": "audio/voice/voca/125.mp3"
+    },
+    {
+      "id": 126,
+      "w": "beach",
+      "ja": "すなはま",
+      "lv": 4,
+      "img": "images/vocab/126.webp",
+      "voice": "audio/voice/voca/126.mp3"
+    },
+    {
+      "id": 127,
+      "w": "rich",
+      "ja": "お金もち",
+      "lv": 4,
+      "img": "images/vocab/127.webp",
+      "voice": "audio/voice/voca/127.mp3"
+    },
+    {
+      "id": 128,
+      "w": "clock",
+      "ja": "とけい",
+      "lv": 5,
+      "img": "images/vocab/128.webp",
+      "voice": "audio/voice/voca/128.mp3"
+    },
+    {
+      "id": 129,
+      "w": "sleepy",
+      "ja": "ねむい",
+      "lv": 4,
+      "img": "images/vocab/129.webp",
+      "voice": "audio/voice/voca/129.mp3"
+    },
+    {
+      "id": 130,
+      "w": "pen",
+      "ja": "ペン",
+      "lv": 5,
+      "img": "images/vocab/130.webp",
+      "voice": "audio/voice/voca/130.mp3"
+    },
+    {
+      "id": 131,
+      "w": "knowledge",
+      "ja": "知識",
+      "lv": 3,
+      "img": null,
+      "voice": "audio/voice/voca/131.mp3"
+    },
+    {
+      "id": 132,
+      "w": "seed",
+      "ja": "たね",
+      "lv": 3,
+      "img": "images/vocab/132.webp",
+      "voice": "audio/voice/voca/132.mp3"
+    },
+    {
+      "id": 133,
+      "w": "wall",
+      "ja": "かべ",
+      "lv": 4,
+      "img": "images/vocab/133.webp",
+      "voice": "audio/voice/voca/133.mp3"
+    },
+    {
+      "id": 134,
+      "w": "fifteen",
+      "ja": "15",
+      "lv": 5,
+      "img": "images/vocab/134.webp",
+      "voice": "audio/voice/voca/134.mp3"
+    },
+    {
+      "id": 135,
+      "w": "ugly",
+      "ja": "みにくい",
+      "lv": 3,
+      "img": "images/vocab/135.webp",
+      "voice": "audio/voice/voca/135.mp3"
+    },
+    {
+      "id": 136,
+      "w": "moral",
+      "ja": "どうとく",
+      "lv": 4,
+      "img": "images/vocab/136.webp",
+      "voice": "audio/voice/voca/136.mp3"
+    },
+    {
+      "id": 137,
+      "w": "tram",
+      "ja": "ろめんでんしゃ",
+      "lv": 3,
+      "img": "images/vocab/137.webp",
+      "voice": "audio/voice/voca/137.mp3"
+    },
+    {
+      "id": 138,
+      "w": "make a cake",
+      "ja": "ケーキを作る",
+      "lv": 4,
+      "img": "images/vocab/138.webp",
+      "voice": "audio/voice/voca/138.mp3"
+    },
+    {
+      "id": 139,
+      "w": "communicate",
+      "ja": "伝え合う",
+      "lv": 3,
+      "img": null,
+      "voice": "audio/voice/voca/139.mp3"
+    },
+    {
+      "id": 140,
+      "w": "awake",
+      "ja": "目がさえてる",
+      "lv": 4,
+      "img": "images/vocab/140.webp",
+      "voice": "audio/voice/voca/140.mp3"
+    },
+    {
+      "id": 141,
+      "w": "recently",
+      "ja": "最近",
+      "lv": 3,
+      "img": null,
+      "voice": "audio/voice/voca/141.mp3"
+    },
+    {
+      "id": 142,
+      "w": "prefer",
+      "ja": "より好む",
+      "lv": 3,
+      "img": null,
+      "voice": "audio/voice/voca/142.mp3"
+    },
+    {
+      "id": 143,
+      "w": "swim",
+      "ja": "泳ぐ",
+      "lv": 5,
+      "img": "images/vocab/143.webp",
+      "voice": "audio/voice/voca/143.mp3"
+    },
+    {
+      "id": 144,
+      "w": "eighty",
+      "ja": "80",
+      "lv": 5,
+      "img": "images/vocab/144.webp",
+      "voice": "audio/voice/voca/144.mp3"
+    },
+    {
+      "id": 145,
+      "w": "take a test",
+      "ja": "テストを受ける",
+      "lv": 4,
+      "img": "images/vocab/145.webp",
+      "voice": "audio/voice/voca/145.mp3"
+    },
+    {
+      "id": 146,
+      "w": "natural",
+      "ja": "自然の",
+      "lv": 3,
+      "img": null,
+      "voice": "audio/voice/voca/146.mp3"
+    },
+    {
+      "id": 147,
+      "w": "experience",
+      "ja": "経験",
+      "lv": 3,
+      "img": null,
+      "voice": "audio/voice/voca/147.mp3"
+    },
+    {
+      "id": 148,
+      "w": "talk about",
+      "ja": "～について話す",
+      "lv": 3,
+      "img": "images/vocab/148.webp",
+      "voice": "audio/voice/voca/148.mp3"
+    },
+    {
+      "id": 149,
+      "w": "bullet train",
+      "ja": "しんかんせん",
+      "lv": 4,
+      "img": "images/vocab/149.webp",
+      "voice": "audio/voice/voca/149.mp3"
+    },
+    {
+      "id": 150,
+      "w": "warm",
+      "ja": "あたたかい",
+      "lv": 5,
+      "img": "images/vocab/150.webp",
+      "voice": "audio/voice/voca/150.mp3"
+    },
+    {
+      "id": 151,
+      "w": "perhaps",
+      "ja": "もしかすると",
+      "lv": 3,
+      "img": null,
+      "voice": "audio/voice/voca/151.mp3"
+    },
+    {
+      "id": 152,
+      "w": "prepare",
+      "ja": "準備する",
+      "lv": 3,
+      "img": null,
+      "voice": "audio/voice/voca/152.mp3"
+    },
+    {
+      "id": 153,
+      "w": "teacher",
+      "ja": "せんせい",
+      "lv": 5,
+      "img": "images/vocab/153.webp",
+      "voice": "audio/voice/voca/153.mp3"
+    },
+    {
+      "id": 154,
+      "w": "watch",
+      "ja": "うでどけい",
+      "lv": 4,
+      "img": "images/vocab/154.webp",
+      "voice": "audio/voice/voca/154.mp3"
+    },
+    {
+      "id": 155,
+      "w": "serious",
+      "ja": "真剣な",
+      "lv": 3,
+      "img": null,
+      "voice": "audio/voice/voca/155.mp3"
+    },
+    {
+      "id": 156,
+      "w": "father",
+      "ja": "おとうさん",
+      "lv": 5,
+      "img": "images/vocab/156.webp",
+      "voice": "audio/voice/voca/156.mp3"
+    },
+    {
+      "id": 157,
+      "w": "love",
+      "ja": "大好き",
+      "lv": 5,
+      "img": "images/vocab/157.webp",
+      "voice": "audio/voice/voca/157.mp3"
+    },
+    {
+      "id": 158,
+      "w": "comfortable",
+      "ja": "快適な",
+      "lv": 3,
+      "img": null,
+      "voice": "audio/voice/voca/158.mp3"
+    },
+    {
+      "id": 159,
+      "w": "at home",
+      "ja": "家で",
+      "lv": 4,
+      "img": "images/vocab/159.webp",
+      "voice": "audio/voice/voca/159.mp3"
+    },
+    {
+      "id": 160,
+      "w": "look forward to",
+      "ja": "～を楽しみにする",
+      "lv": 3,
+      "img": "images/vocab/160.webp",
+      "voice": "audio/voice/voca/160.mp3"
+    },
+    {
+      "id": 161,
+      "w": "rice",
+      "ja": "ごはん",
+      "lv": 5,
+      "img": "images/vocab/161.webp",
+      "voice": "audio/voice/voca/161.mp3"
+    },
+    {
+      "id": 162,
+      "w": "chair",
+      "ja": "いす",
+      "lv": 5,
+      "img": "images/vocab/162.webp",
+      "voice": "audio/voice/voca/162.mp3"
+    },
+    {
+      "id": 163,
+      "w": "bookstore",
+      "ja": "本や",
+      "lv": 4,
+      "img": "images/vocab/163.webp",
+      "voice": "audio/voice/voca/163.mp3"
+    },
+    {
+      "id": 164,
+      "w": "write about",
+      "ja": "～について書く",
+      "lv": 4,
+      "img": "images/vocab/164.webp",
+      "voice": "audio/voice/voca/164.mp3"
+    },
+    {
+      "id": 165,
+      "w": "a few",
+      "ja": "少しの",
+      "lv": 3,
+      "img": "images/vocab/165.webp",
+      "voice": "audio/voice/voca/165.mp3"
+    },
+    {
+      "id": 166,
+      "w": "look around",
+      "ja": "見まわす",
+      "lv": 3,
+      "img": "images/vocab/166.webp",
+      "voice": "audio/voice/voca/166.mp3"
+    },
+    {
+      "id": 167,
+      "w": "one",
+      "ja": "1",
+      "lv": 5,
+      "img": "images/vocab/167.webp",
+      "voice": "audio/voice/voca/167.mp3"
+    },
+    {
+      "id": 168,
+      "w": "public",
+      "ja": "公の",
+      "lv": 3,
+      "img": null,
+      "voice": "audio/voice/voca/168.mp3"
+    },
+    {
+      "id": 169,
+      "w": "tell the truth",
+      "ja": "本当のことを言う",
+      "lv": 3,
+      "img": "images/vocab/169.webp",
+      "voice": "audio/voice/voca/169.mp3"
+    },
+    {
+      "id": 170,
+      "w": "juice",
+      "ja": "ジュース",
+      "lv": 5,
+      "img": "images/vocab/170.webp",
+      "voice": "audio/voice/voca/170.mp3"
+    },
+    {
+      "id": 171,
+      "w": "get on",
+      "ja": "乗る",
+      "lv": 4,
+      "img": "images/vocab/171.webp",
+      "voice": "audio/voice/voca/171.mp3"
+    },
+    {
+      "id": 172,
+      "w": "nineteen",
+      "ja": "19",
+      "lv": 5,
+      "img": "images/vocab/172.webp",
+      "voice": "audio/voice/voca/172.mp3"
+    },
+    {
+      "id": 173,
+      "w": "in the morning",
+      "ja": "午前中に",
+      "lv": 4,
+      "img": "images/vocab/173.webp",
+      "voice": "audio/voice/voca/173.mp3"
+    },
+    {
+      "id": 174,
+      "w": "mother",
+      "ja": "おかあさん",
+      "lv": 5,
+      "img": "images/vocab/174.webp",
+      "voice": "audio/voice/voca/174.mp3"
+    },
+    {
+      "id": 175,
+      "w": "ethics",
+      "ja": "りんり",
+      "lv": 3,
+      "img": "images/vocab/175.webp",
+      "voice": "audio/voice/voca/175.mp3"
+    },
+    {
+      "id": 176,
+      "w": "forty",
+      "ja": "40",
+      "lv": 5,
+      "img": "images/vocab/176.webp",
+      "voice": "audio/voice/voca/176.mp3"
+    },
+    {
+      "id": 177,
+      "w": "writing",
+      "ja": "かき",
+      "lv": 4,
+      "img": "images/vocab/177.webp",
+      "voice": "audio/voice/voca/177.mp3"
+    },
+    {
+      "id": 178,
+      "w": "nurse",
+      "ja": "かんごし",
+      "lv": 4,
+      "img": "images/vocab/178.webp",
+      "voice": "audio/voice/voca/178.mp3"
+    },
+    {
+      "id": 179,
+      "w": "summer",
+      "ja": "なつ",
+      "lv": 5,
+      "img": "images/vocab/179.webp",
+      "voice": "audio/voice/voca/179.mp3"
+    },
+    {
+      "id": 180,
+      "w": "shoes",
+      "ja": "くつ",
+      "lv": 5,
+      "img": "images/vocab/180.webp",
+      "voice": "audio/voice/voca/180.mp3"
+    },
+    {
+      "id": 181,
+      "w": "forest",
+      "ja": "もり",
+      "lv": 4,
+      "img": "images/vocab/181.webp",
+      "voice": "audio/voice/voca/181.mp3"
+    },
+    {
+      "id": 182,
+      "w": "danger",
+      "ja": "危険",
+      "lv": 3,
+      "img": null,
+      "voice": "audio/voice/voca/182.mp3"
+    },
+    {
+      "id": 183,
+      "w": "July",
+      "ja": "7月",
+      "lv": 5,
+      "img": "images/vocab/183.webp",
+      "voice": "audio/voice/voca/183.mp3"
+    },
+    {
+      "id": 184,
+      "w": "zoo",
+      "ja": "動物園",
+      "lv": 4,
+      "img": "images/vocab/184.webp",
+      "voice": "audio/voice/voca/184.mp3"
+    },
+    {
+      "id": 185,
+      "w": "nail",
+      "ja": "つめ",
+      "lv": 4,
+      "img": "images/vocab/185.webp",
+      "voice": "audio/voice/voca/185.mp3"
+    },
+    {
+      "id": 186,
+      "w": "socks",
+      "ja": "くつした",
+      "lv": 5,
+      "img": "images/vocab/186.webp",
+      "voice": "audio/voice/voca/186.mp3"
+    },
+    {
+      "id": 187,
+      "w": "submarine",
+      "ja": "せんすいかん",
+      "lv": 4,
+      "img": "images/vocab/187.webp",
+      "voice": "audio/voice/voca/187.mp3"
+    },
+    {
+      "id": 188,
+      "w": "hear from",
+      "ja": "～な連絡がある",
+      "lv": 3,
+      "img": "images/vocab/188.webp",
+      "voice": "audio/voice/voca/188.mp3"
+    },
+    {
+      "id": 189,
+      "w": "crayon",
+      "ja": "クレヨン",
+      "lv": 4,
+      "img": "images/vocab/189.webp",
+      "voice": "audio/voice/voca/189.mp3"
+    },
+    {
+      "id": 190,
+      "w": "man",
+      "ja": "おとこのひと",
+      "lv": 5,
+      "img": "images/vocab/190.webp",
+      "voice": "audio/voice/voca/190.mp3"
+    },
+    {
+      "id": 191,
+      "w": "receive",
+      "ja": "受け取る",
+      "lv": 3,
+      "img": "images/vocab/191.webp",
+      "voice": "audio/voice/voca/191.mp3"
+    },
+    {
+      "id": 192,
+      "w": "bread",
+      "ja": "パン",
+      "lv": 5,
+      "img": "images/vocab/192.webp",
+      "voice": "audio/voice/voca/192.mp3"
+    },
+    {
+      "id": 193,
+      "w": "future",
+      "ja": "未来",
+      "lv": 3,
+      "img": null,
+      "voice": "audio/voice/voca/193.mp3"
+    },
+    {
+      "id": 194,
+      "w": "sister",
+      "ja": "しまい",
+      "lv": 5,
+      "img": "images/vocab/194.webp",
+      "voice": "audio/voice/voca/194.mp3"
+    },
+    {
+      "id": 195,
+      "w": "May",
+      "ja": "5月",
+      "lv": 5,
+      "img": "images/vocab/195.webp",
+      "voice": "audio/voice/voca/195.mp3"
+    },
+    {
+      "id": 196,
+      "w": "desk",
+      "ja": "つくえ",
+      "lv": 5,
+      "img": "images/vocab/196.webp",
+      "voice": "audio/voice/voca/196.mp3"
+    },
+    {
+      "id": 197,
+      "w": "shampoo",
+      "ja": "シャンプー",
+      "lv": 4,
+      "img": "images/vocab/197.webp",
+      "voice": "audio/voice/voca/197.mp3"
+    },
+    {
+      "id": 198,
+      "w": "share",
+      "ja": "分け合う",
+      "lv": 3,
+      "img": "images/vocab/198.webp",
+      "voice": "audio/voice/voca/198.mp3"
+    },
+    {
+      "id": 199,
+      "w": "pass",
+      "ja": "通り過ぎる",
+      "lv": 3,
+      "img": "images/vocab/199.webp",
+      "voice": "audio/voice/voca/199.mp3"
+    },
+    {
+      "id": 200,
+      "w": "physics",
+      "ja": "ぶつり",
+      "lv": 3,
+      "img": "images/vocab/200.webp",
+      "voice": "audio/voice/voca/200.mp3"
+    },
+    {
+      "id": 201,
+      "w": "reading",
+      "ja": "よみ",
+      "lv": 4,
+      "img": "images/vocab/201.webp",
+      "voice": "audio/voice/voca/201.mp3"
+    },
+    {
+      "id": 202,
+      "w": "almost",
+      "ja": "ほとんど",
+      "lv": 3,
+      "img": null,
+      "voice": "audio/voice/voca/202.mp3"
+    },
+    {
+      "id": 203,
+      "w": "milk",
+      "ja": "ぎゅうにゅう",
+      "lv": 5,
+      "img": "images/vocab/203.webp",
+      "voice": "audio/voice/voca/203.mp3"
+    },
+    {
+      "id": 204,
+      "w": "believe",
+      "ja": "信じる",
+      "lv": 3,
+      "img": null,
+      "voice": "audio/voice/voca/204.mp3"
+    },
+    {
+      "id": 205,
+      "w": "teach",
+      "ja": "教える",
+      "lv": 4,
+      "img": "images/vocab/205.webp",
+      "voice": "audio/voice/voca/205.mp3"
+    },
+    {
+      "id": 206,
+      "w": "put on",
+      "ja": "身につける",
+      "lv": 4,
+      "img": "images/vocab/206.webp",
+      "voice": "audio/voice/voca/206.mp3"
+    },
+    {
+      "id": 207,
+      "w": "square",
+      "ja": "四角い",
+      "lv": 4,
+      "img": "images/vocab/207.webp",
+      "voice": "audio/voice/voca/207.mp3"
+    },
+    {
+      "id": 208,
+      "w": "brush",
+      "ja": "磨く",
+      "lv": 4,
+      "img": "images/vocab/208.webp",
+      "voice": "audio/voice/voca/208.mp3"
+    },
+    {
+      "id": 209,
+      "w": "a cup of",
+      "ja": "コップ1杯の",
+      "lv": 4,
+      "img": "images/vocab/209.webp",
+      "voice": "audio/voice/voca/209.mp3"
+    },
+    {
+      "id": 210,
+      "w": "depend",
+      "ja": "たよる",
+      "lv": 3,
+      "img": null,
+      "voice": "audio/voice/voca/210.mp3"
+    }
+  ]
+}

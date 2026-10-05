@@ -1,6 +1,8 @@
 import 'dart:convert';
 import 'dart:math';
 
+import 'package:ark_core/auth.dart';
+import 'package:flutter/foundation.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
 import '../core/progress/progress_keys.dart';
@@ -15,6 +17,15 @@ class ProgressService {
   Future<SharedPreferences> get _p async =>
       _prefs ??= await SharedPreferences.getInstance();
 
+  /// Bumps when progress changed outside the current screen (e.g. pulled
+  /// from the cloud on another device); screens can listen and reload.
+  final ValueNotifier<int> changes = ValueNotifier(0);
+
+  void notifyExternalChange() => changes.value++;
+
+  /// Saved progress changed: schedule a cloud sync (no-op when logged out).
+  void _changed() => ArkAuth.instance.notifyProgressChanged();
+
   Future<String> getPlayerName() async =>
       (await _p).getString(ProgressKeys.playerName) ?? '';
 
@@ -24,6 +35,7 @@ class ProgressService {
       ProgressKeys.playerName,
       n.length > 12 ? n.substring(0, 12) : n,
     );
+    _changed();
   }
 
   Future<bool> isSeOn() async =>
@@ -42,14 +54,18 @@ class ProgressService {
   Future<bool> isStorySeen() async =>
       (await _p).getString(ProgressKeys.storySeen) == '1';
 
-  Future<void> setStorySeen() async =>
-      (await _p).setString(ProgressKeys.storySeen, '1');
+  Future<void> setStorySeen() async {
+    await (await _p).setString(ProgressKeys.storySeen, '1');
+    _changed();
+  }
 
   Future<bool> isStory2Seen() async =>
       (await _p).getString(ProgressKeys.story2Seen) == '1';
 
-  Future<void> setStory2Seen() async =>
-      (await _p).setString(ProgressKeys.story2Seen, '1');
+  Future<void> setStory2Seen() async {
+    await (await _p).setString(ProgressKeys.story2Seen, '1');
+    _changed();
+  }
 
   static const monsterKeys = ['vocamon', 'lismon', 'gramon', 'talkmon'];
 
@@ -69,7 +85,10 @@ class ProgressService {
 
   Future<void> setBestIfHigher(String key, int score) async {
     final cur = await bestScore(key);
-    if (score > cur) await (await _p).setInt(key, score);
+    if (score > cur) {
+      await (await _p).setInt(key, score);
+      _changed();
+    }
   }
 
   Future<List<String>> friends() async {
@@ -87,6 +106,7 @@ class ProgressService {
     if (list.contains(monsterKey)) return;
     list.add(monsterKey);
     await (await _p).setString(ProgressKeys.friends, jsonEncode(list));
+    _changed();
   }
 
   Future<int> sRankCount(String monsterKey) async =>
@@ -96,6 +116,7 @@ class ProgressService {
   Future<void> addSRank(String monsterKey) async {
     final n = await sRankCount(monsterKey);
     await (await _p).setInt(ProgressKeys.sRankCount(monsterKey), n + 1);
+    _changed();
   }
 
   /// Web `awardCards(key)`: one pose card per 10 S ranks (max 30). Returns
@@ -115,6 +136,7 @@ class ProgressService {
         ProgressKeys.cards(monsterKey),
         jsonEncode(owned),
       );
+      _changed();
     }
     return got;
   }

@@ -6,7 +6,7 @@ import '../../game_kit/game_kit.dart';
 import '../../widgets/page_background.dart';
 import 'talk_widgets.dart';
 
-/// The play area (`#hud`, `.gameup-strip`, `#playArea`, `.brand`) and the
+/// The play area (`#hud`, `#playArea`, `.brand`) and the
 /// end screen (`#endScreen`) of Talk Buster.
 
 const _asset = 'assets/images/monsters/talkmon';
@@ -57,7 +57,8 @@ class TalkPlayView extends StatelessWidget {
   final FeedbackController feedback;
   final VoidCallback onHome;
   final VoidCallback onQuit;
-  final ValueChanged<String> onChoice;
+  /// Option text and the tapped button's context (for the answer burst).
+  final void Function(String option, BuildContext tapped) onChoice;
   final VoidCallback onListen;
   final VoidCallback onSaid;
   final VoidCallback onMic;
@@ -67,43 +68,14 @@ class TalkPlayView extends StatelessWidget {
   Widget build(BuildContext context) {
     final pad = MediaQuery.paddingOf(context);
     final size = MediaQuery.sizeOf(context);
-    // Short phones (< 760pt of usable height): shrink the game-up strip and
-    // the bottom gap so the question and all its buttons still fit.
+    // Short phones (< 760pt of usable height): shrink the bottom gap so the
+    // question and all its buttons still fit.
     final usable = size.height - pad.top - pad.bottom;
     final k = ((usable - 560) / 200).clamp(0.55, 1.0);
-    final stripH = 104 * k;
     final bottomGap = 64 + 26 * k;
     return Stack(
       children: [
         const Positioned.fill(child: TalkStarfront()),
-        // .gameup-strip: top 42, 96% (max 480) × max 104, contain.
-        Positioned(
-          top: pad.top + 42,
-          left: 0,
-          right: 0,
-          child: IgnorePointer(
-            child: Center(
-              child: SizedBox(
-                width: math.min(size.width * 0.96, 480),
-                height: stripH,
-                child: const Center(
-                  child: ArtShadow(
-                    color: Color(0x73000000),
-                    offset: Offset(0, 4),
-                    blur: 10,
-                    child: AspectRatio(
-                      aspectRatio: 800 / 280,
-                      child: Image(
-                        image: AssetImage('$_asset/talk-gameup.webp'),
-                        fit: BoxFit.contain,
-                      ),
-                    ),
-                  ),
-                ),
-              ),
-            ),
-          ),
-        ),
         // .brand
         Positioned(
           left: 0,
@@ -127,7 +99,7 @@ class TalkPlayView extends StatelessWidget {
           child: Padding(
             padding: EdgeInsets.fromLTRB(
               18,
-              pad.top + 42 + stripH + 12,
+              pad.top + 42 + 12, // below the HUD (no game-up strip)
               18,
               bottomGap + pad.bottom,
             ),
@@ -366,10 +338,12 @@ class TalkPlayView extends StatelessWidget {
                 for (var i = 0; i < options.length; i++) ...[
                   // live #mobileFit: .choices{gap:9px}
                   if (i > 0) const SizedBox(height: 9),
-                  _Choice(
-                    text: options[i],
-                    correct: picked == options[i],
-                    onTap: () => onChoice(options[i]),
+                  Builder(
+                    builder: (tapped) => _Choice(
+                      text: options[i],
+                      correct: picked == options[i],
+                      onTap: () => onChoice(options[i], tapped),
+                    ),
                   ),
                 ],
               ],

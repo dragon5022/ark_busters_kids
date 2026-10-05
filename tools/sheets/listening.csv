@@ -1,0 +1,201 @@
+﻿_path,id,t,en,ja,tip,ans,opts.0,opts.1,voice,q
+grades.g5.levels.0,g5_0_0,pic,It's a dog.,犬です。,「It's a 〜」は『〜です』。dog（ドッグ）が聞こえたら犬🐶,🐶,🐱,🐦,audio/voice/lis/g5_0_0.mp3,
+grades.g5.levels.0,g5_0_1,pic,It's a cat.,猫です。,cat（キャット）＝猫。さいごの音までよく聞こう🐱,🐱,🐶,🐟,audio/voice/lis/g5_0_1.mp3,
+grades.g5.levels.0,g5_0_2,pic,It's an apple.,りんごです。,apple（アップル）＝りんご🍎,🍎,🍌,🍇,audio/voice/lis/g5_0_2.mp3,
+grades.g5.levels.0,g5_0_3,pic,It's a fish.,魚です。,fish（フィッシュ）＝魚🐟,🐟,🐶,🐦,audio/voice/lis/g5_0_3.mp3,
+grades.g5.levels.0,g5_0_4,pic,It's a car.,車です。,car（カー）＝車🚗,🚗,🚌,✈️,audio/voice/lis/g5_0_4.mp3,
+grades.g5.levels.0,g5_0_5,pic,It's a cake.,ケーキです。,cake（ケイク）＝ケーキ🍰,🍰,🍞,🍕,audio/voice/lis/g5_0_5.mp3,
+grades.g5.levels.0,g5_0_6,pic,It's a book.,本です。,book（ブック）＝本📖,📖,✏️,🎒,audio/voice/lis/g5_0_6.mp3,
+grades.g5.levels.0,g5_0_7,pic,It's the sun.,太陽です。,sun（サン）＝太陽☀️,☀️,🌙,⭐,audio/voice/lis/g5_0_7.mp3,
+grades.g5.levels.0,g5_0_8,pic,It's a flower.,花です。,flower（フラワー）＝花🌸,🌸,🌳,🍄,audio/voice/lis/g5_0_8.mp3,
+grades.g5.levels.0,g5_0_9,pic,It's an egg.,卵です。,egg（エッグ）＝卵🥚,🥚,🍙,🧀,audio/voice/lis/g5_0_9.mp3,
+grades.g5.levels.0,g5_0_10,pic,It's a bird.,鳥です。,bird（バード）＝鳥🐦,🐦,🐶,🐟,audio/voice/lis/g5_0_10.mp3,
+grades.g5.levels.0,g5_0_11,pic,It's a banana.,バナナです。,banana（バナナ）＝バナナ🍌,🍌,🍎,🍓,audio/voice/lis/g5_0_11.mp3,
+grades.g5.levels.0,g5_0_12,pic,It's a bus.,バスです。,bus（バス）＝バス🚌,🚌,🚗,🚲,audio/voice/lis/g5_0_12.mp3,
+grades.g5.levels.0,g5_0_13,pic,It's a pen.,ペンです。,pen（ペン）＝ペン🖊️,🖊️,📕,🎒,audio/voice/lis/g5_0_13.mp3,
+grades.g5.levels.0,g5_0_14,pic,It's a hat.,ぼうしです。,hat（ハット）＝ぼうし👒,👒,👜,👟,audio/voice/lis/g5_0_14.mp3,
+grades.g5.levels.0,g5_0_15,pic,It's a clock.,時計です。,clock（クロック）＝時計🕐,🕐,📺,☎️,audio/voice/lis/g5_0_15.mp3,
+grades.g5.levels.0,g5_0_16,pic,It's a star.,星です。,star（スター）＝星⭐,⭐,🌙,☀️,audio/voice/lis/g5_0_16.mp3,
+grades.g5.levels.1,g5_1_0,pic,This is a dog.,これは犬です。,This is 〜＝『これは〜です』。dog＝犬🐶,🐶,🐱,🐦,audio/voice/lis/g5_1_0.mp3,
+grades.g5.levels.1,g5_1_1,pic,This is a cat.,これは猫です。,cat＝猫🐱,🐱,🐶,🐭,audio/voice/lis/g5_1_1.mp3,
+grades.g5.levels.1,g5_1_2,pic,I like apples.,りんごが好きです。,like＝好き、apple＝りんご。『りんごが好き』🍎,🍎,🍌,🍇,audio/voice/lis/g5_1_2.mp3,
+grades.g5.levels.1,g5_1_3,pic,I like bananas.,バナナが好きです。,banana＝バナナ🍌,🍌,🍎,🍓,audio/voice/lis/g5_1_3.mp3,
+grades.g5.levels.1,g5_1_4,pic,It is a cake.,それはケーキです。,cake＝ケーキ🍰,🍰,🍞,🍕,audio/voice/lis/g5_1_4.mp3,
+grades.g5.levels.1,g5_1_5,pic,I see a bird.,鳥が見えます。,see＝見える、bird＝鳥🐦,🐦,🐟,🐸,audio/voice/lis/g5_1_5.mp3,
+grades.g5.levels.1,g5_1_6,pic,I see a fish.,魚が見えます。,fish＝魚🐟,🐟,🐦,🐶,audio/voice/lis/g5_1_6.mp3,
+grades.g5.levels.1,g5_1_7,pic,It is a car.,それは車です。,car＝車🚗,🚗,🚌,✈️,audio/voice/lis/g5_1_7.mp3,
+grades.g5.levels.1,g5_1_8,pic,It is a bus.,それはバスです。,bus＝バス🚌。car と音がにているので注意,🚌,🚗,🚲,audio/voice/lis/g5_1_8.mp3,
+grades.g5.levels.1,g5_1_9,pic,I ride a bike.,自転車に乗ります。,ride＝乗る、bike＝自転車🚲,🚲,🚗,🚂,audio/voice/lis/g5_1_9.mp3,
+grades.g5.levels.1,g5_1_10,pic,I play soccer.,サッカーをします。,play＝(スポーツを)する、soccer＝サッカー⚽,⚽,🏀,⚾,audio/voice/lis/g5_1_10.mp3,
+grades.g5.levels.1,g5_1_11,pic,I play baseball.,野球をします。,baseball＝野球⚾,⚾,⚽,🎾,audio/voice/lis/g5_1_11.mp3,
+grades.g5.levels.1,g5_1_12,pic,It is an umbrella.,それはかさです。,umbrella＝かさ☂️,☂️,👒,👜,audio/voice/lis/g5_1_12.mp3,
+grades.g5.levels.1,g5_1_13,pic,I have a pen.,ペンを持っています。,have＝持っている、pen＝ペン🖊️,🖊️,📕,✏️,audio/voice/lis/g5_1_13.mp3,
+grades.g5.levels.1,g5_1_14,pic,Look at the clock.,時計を見て。,Look at 〜＝『〜を見て』、clock＝時計🕐,🕐,📺,☎️,audio/voice/lis/g5_1_14.mp3,
+grades.g5.levels.1,g5_1_15,pic,Look at the sun.,太陽を見て。,sun＝太陽☀️,☀️,🌙,⭐,audio/voice/lis/g5_1_15.mp3,
+grades.g5.levels.1,g5_1_16,pic,It is a flower.,それは花です。,flower＝花🌸,🌸,🌳,🍄,audio/voice/lis/g5_1_16.mp3,
+grades.g5.levels.2,g5_2_0,text,How are you?,How are you?＝『元気？』とたずねるあいさつ。,"あいさつには I'm fine, thank you.（元気です、ありがとう）で返す。","I'm fine, thank you.",It's a dog.,On Monday.,audio/voice/lis/g5_2_0.mp3,
+grades.g5.levels.2,g5_2_1,text,What's this?,What's this?＝『これは何？』,『何？』ときかれたら It's a 〜（〜です）で答える。,It's a pen.,I'm ten.,"Yes, I do.",audio/voice/lis/g5_2_1.mp3,
+grades.g5.levels.2,g5_2_2,text,How old are you?,How old are you?＝『何歳？』,年れいは I'm ten.（10歳です）のように I'm 〜 で答える。,I'm ten.,It's blue.,At seven.,audio/voice/lis/g5_2_2.mp3,
+grades.g5.levels.2,g5_2_3,text,What color is it?,What color〜＝『何色？』,色は It's red.（赤です）のように It's 〜 で答える。,It's red.,I'm fine.,It's Monday.,audio/voice/lis/g5_2_3.mp3,
+grades.g5.levels.2,g5_2_4,text,Do you like dogs?,Do you like 〜?＝『〜は好き？』,"Do you 〜? には Yes, I do. / No, I don't. で答える。","Yes, I do.",It's a cat.,I'm eleven.,audio/voice/lis/g5_2_4.mp3,
+grades.g5.levels.2,g5_2_5,text,What time is it?,What time〜＝『何時？』,時こくは It's three o'clock.（3時です）。,It's three o'clock.,It's a bird.,"Yes, please.",audio/voice/lis/g5_2_5.mp3,
+grades.g5.levels.2,g5_2_6,text,Where is my bag?,Where〜＝『どこ？』,場所は on the desk（机の上）など on/in で答える。,It's on the desk.,I'm fine.,It's Sunday.,audio/voice/lis/g5_2_6.mp3,
+grades.g5.levels.2,g5_2_7,text,Nice to meet you.,『はじめまして』のあいさつ。,"返事は Nice to meet you, too.（こちらこそ）。","Nice to meet you, too.",It's a cat.,I'm fine.,audio/voice/lis/g5_2_7.mp3,
+grades.g5.levels.2,g5_2_8,text,What day is it today?,What day〜＝『何曜日？』,曜日は It's Monday.（月曜です）で答える。,It's Monday.,It's red.,I'm ten.,audio/voice/lis/g5_2_8.mp3,
+grades.g5.levels.2,g5_2_9,text,Goodbye!,『さようなら』のあいさつ。,別れのあいさつには See you!（またね）。,See you!,Thank you.,It's a dog.,audio/voice/lis/g5_2_9.mp3,
+grades.g5.levels.2,g5_2_10,text,What's your name?,名前は？→ユキです。,名前は I'm 〜 で答える。,I'm Yuki.,It's a cat.,On Monday.,audio/voice/lis/g5_2_10.mp3,
+grades.g5.levels.2,g5_2_11,text,Where are you from?,出身は？→日本です。,Where from＝出身。I'm from 〜。,I'm from Japan.,I'm ten.,It's red.,audio/voice/lis/g5_2_11.mp3,
+grades.g5.levels.2,g5_2_12,text,How's the weather today?,天気は？→晴れ。,weather＝天気。It's sunny.,It's sunny.,I'm fine.,"Yes, I do.",audio/voice/lis/g5_2_12.mp3,
+grades.g5.levels.2,g5_2_13,text,What do you have?,何を持ってる？→ボール。,have＝持っている。I have 〜。,I have a ball.,It's Monday.,At seven.,audio/voice/lis/g5_2_13.mp3,
+grades.g5.levels.2,g5_2_14,text,Is this a cat?,これ猫？→うん。,"Is this〜? には Yes, it is.","Yes, it is.",I'm ten.,On Sunday.,audio/voice/lis/g5_2_14.mp3,
+grades.g5.levels.2,g5_2_15,text,Thank you.,ありがとう→どういたしまして。,Thank you には You're welcome.,You're welcome.,It's a dog.,I'm ten.,audio/voice/lis/g5_2_15.mp3,
+grades.g5.levels.2,g5_2_16,text,Let's go to the park.,公園行こう→いいね！,"Let's〜 のさそいに OK, let's go!","OK, let's go!",It's a park.,I'm fine.,audio/voice/lis/g5_2_16.mp3,
+grades.g5.levels.3,g5_3_0,text,"Do you like apples? ... No, I like bananas.",「りんご好き？」「いや、バナナが好き」,"Bの No, I like bananas. に注目！すきな果物は bananas。",bananas,apples,oranges,audio/voice/lis/g5_3_0.mp3,すきな果物は？
+grades.g5.levels.3,g5_3_1,text,What's your name? ... I'm Ken.,「名前は？」「ケンです」,I'm の後ろが名前。だから Ken。,Ken,Tom,Mike,audio/voice/lis/g5_3_1.mp3,名前は？
+grades.g5.levels.3,g5_3_2,text,What time is it? ... It's seven o'clock.,「何時？」「7時」,o'clock の前の数字を聞く。seven＝7。,seven,six,eight,audio/voice/lis/g5_3_2.mp3,何時？
+grades.g5.levels.3,g5_3_3,text,"Is this your cat? ... No, it's my dog.",「これ猫？」「いや、ぼくの犬」,No のあとに本当の答え。my dog なので a dog。,a dog,a cat,a bird,audio/voice/lis/g5_3_3.mp3,かっているのは？
+grades.g5.levels.3,g5_3_4,text,Where is the ball? ... It's under the chair.,「ボールはどこ？」「いすの下」,under＝下。under the chair（いすの下）。,under the chair,on the desk,in the bag,audio/voice/lis/g5_3_4.mp3,ボールはどこ？
+grades.g5.levels.3,g5_3_5,text,How many dogs do you have? ... I have two dogs.,「犬は何匹？」「2匹」,How many＝いくつ。two dogs なので two。,two,one,three,audio/voice/lis/g5_3_5.mp3,犬は何匹？
+grades.g5.levels.3,g5_3_6,text,What do you want? ... I want some water.,「何がほしい？」「水」,want＝ほしい。water＝水。,water,juice,milk,audio/voice/lis/g5_3_6.mp3,ほしいものは？
+grades.g5.levels.3,g5_3_7,text,"Let's play soccer. ... OK, let's go!",「サッカーしよう」「いいね！」,play のあとのスポーツ＝soccer。,soccer,tennis,baseball,audio/voice/lis/g5_3_7.mp3,何をする？
+grades.g5.levels.3,g5_3_8,text,When is your birthday? ... It's in May.,「誕生日は？」「5月」,in のあとの月＝May（5月）。,May,March,July,audio/voice/lis/g5_3_8.mp3,たんじょう日は何月？
+grades.g5.levels.3,g5_3_9,text,"Do you go to school by bus? ... No, by bike.",「バスで行く？」「いや、自転車」,"No, by bike なので答えは by bike。",by bike,by bus,by train,audio/voice/lis/g5_3_9.mp3,学校へどうやって行く？
+grades.g5.levels.3,g5_3_10,text,"Do you have a pencil? ... Yes, here you are.",持ってる?→うん、どうぞ。,"Yes, here you are.＝はい、どうぞ。",Yes,No,Maybe,audio/voice/lis/g5_3_10.mp3,えんぴつ持ってる？
+grades.g5.levels.3,g5_3_11,text,What color do you like? ... I like blue.,何色?→青。,like のあとの色。blue。,blue,red,green,audio/voice/lis/g5_3_11.mp3,何色が好き？
+grades.g5.levels.3,g5_3_12,text,How many apples do you have? ... I have three apples.,何個?→3個。,three＝3。,three,two,four,audio/voice/lis/g5_3_12.mp3,りんごは何個？
+grades.g5.levels.3,g5_3_13,text,Where is the cat? ... It's on the bed.,猫どこ?→ベッドの上。,on the bed＝ベッドの上。,on the bed,under the chair,in the box,audio/voice/lis/g5_3_13.mp3,猫はどこ？
+grades.g5.levels.3,g5_3_14,text,Is it a dog or a cat? ... It's a dog.,どっち?→犬。,It's a dog. に注目。,a dog,a cat,a bird,audio/voice/lis/g5_3_14.mp3,犬？猫？
+grades.g5.levels.3,g5_3_15,text,What time do you go to bed? ... At nine.,何時に寝る?→9時。,At nine＝9時に。,nine,seven,ten,audio/voice/lis/g5_3_15.mp3,何時に寝る？
+grades.g5.levels.3,g5_3_16,text,"Do you like milk? ... No, I like juice.",牛乳好き?→いや、ジュース。,"No, I like juice. に注目。",juice,milk,water,audio/voice/lis/g5_3_16.mp3,牛乳好き？
+grades.g4.levels.0,g4_0_0,pic,I go to school by bus.,バスで学校へ行きます。,by bus（バスで）が聞こえたらバス🚌,🚌,🚲,🚆,audio/voice/lis/g4_0_0.mp3,
+grades.g4.levels.0,g4_0_1,pic,I play soccer after school.,放課後サッカーをします。,play soccer＝サッカーをする⚽,⚽,🎾,🏀,audio/voice/lis/g4_0_1.mp3,
+grades.g4.levels.0,g4_0_2,pic,I have a music class today.,今日は音楽の授業があります。,music（ミュージック）＝音楽🎵,🎵,🎨,📕,audio/voice/lis/g4_0_2.mp3,
+grades.g4.levels.0,g4_0_3,pic,It's snowy today.,今日は雪です。,snowy（スノウィー）＝雪の❄️,❄️,☀️,🌧️,audio/voice/lis/g4_0_3.mp3,
+grades.g4.levels.0,g4_0_4,pic,I want some milk.,牛乳がほしいです。,milk（ミルク）＝牛乳🥛,🥛,💧,🍞,audio/voice/lis/g4_0_4.mp3,
+grades.g4.levels.0,g4_0_5,pic,I read a book every day.,毎日本を読みます。,read a book＝本を読む📖,📖,✏️,📺,audio/voice/lis/g4_0_5.mp3,
+grades.g4.levels.0,g4_0_6,pic,My father is a doctor.,父は医者です。,doctor（ドクター）＝医者👨‍⚕️,👨‍⚕️,👮‍♂️,👨‍🍳,audio/voice/lis/g4_0_6.mp3,
+grades.g4.levels.0,g4_0_7,pic,I take a train to the city.,電車で町へ行きます。,train（トレイン）＝電車🚆,🚆,🚌,🚗,audio/voice/lis/g4_0_7.mp3,
+grades.g4.levels.0,g4_0_8,pic,I eat breakfast at seven.,7時に朝食を食べます。,breakfast（ブレックファスト）＝朝食🍳,🍳,🍱,🍰,audio/voice/lis/g4_0_8.mp3,
+grades.g4.levels.0,g4_0_9,pic,I have a pet rabbit.,うさぎを飼っています。,rabbit（ラビット）＝うさぎ🐰,🐰,🐶,🐱,audio/voice/lis/g4_0_9.mp3,
+grades.g4.levels.0,g4_0_10,pic,I like science.,理科が好きです。,science（サイエンス）＝理科🔬,🔬,🎵,🎨,audio/voice/lis/g4_0_10.mp3,
+grades.g4.levels.0,g4_0_11,pic,It's cloudy today.,今日はくもりです。,cloudy（クラウディ）＝くもり☁️,☁️,☀️,❄️,audio/voice/lis/g4_0_11.mp3,
+grades.g4.levels.0,g4_0_12,pic,I have a piano lesson.,ピアノのレッスンがあります。,piano（ピアノ）＝ピアノ🎹,🎹,🎸,🥁,audio/voice/lis/g4_0_12.mp3,
+grades.g4.levels.0,g4_0_13,pic,I go to the library.,図書館へ行きます。,library（ライブラリー）＝図書館📚,📚,🏥,🏪,audio/voice/lis/g4_0_13.mp3,
+grades.g4.levels.0,g4_0_14,pic,I want a hamburger.,ハンバーガーがほしい。,hamburger＝ハンバーガー🍔,🍔,🍣,🍜,audio/voice/lis/g4_0_14.mp3,
+grades.g4.levels.0,g4_0_15,pic,My sister is a nurse.,姉[妹]は看護師です。,nurse（ナース）＝看護師👩‍⚕️,👩‍⚕️,👮‍♀️,👩‍🏫,audio/voice/lis/g4_0_15.mp3,
+grades.g4.levels.0,g4_0_16,pic,I ride my bike to school.,自転車で学校へ行きます。,bike（バイク）＝自転車🚲,🚲,🚌,🚗,audio/voice/lis/g4_0_16.mp3,
+grades.g4.levels.1,g4_1_0,text,I play tennis after school.,放課後テニスをします。,tennis＝テニス,tennis,soccer,basketball,audio/voice/lis/g4_1_0.mp3,
+grades.g4.levels.1,g4_1_1,text,She goes to school by bus.,彼女はバスで学校へ行きます。,by bus＝バスで,by bus,by train,by bike,audio/voice/lis/g4_1_1.mp3,
+grades.g4.levels.1,g4_1_2,text,I get up at seven.,7時に起きます。,seven＝7,seven,eleven,nine,audio/voice/lis/g4_1_2.mp3,
+grades.g4.levels.1,g4_1_3,text,My brother likes math.,兄[弟]は数学が好き。,math＝数学,math,music,science,audio/voice/lis/g4_1_3.mp3,
+grades.g4.levels.1,g4_1_4,text,We have lunch at noon.,正午に昼食をとります。,lunch＝昼食,lunch,breakfast,dinner,audio/voice/lis/g4_1_4.mp3,
+grades.g4.levels.1,g4_1_5,text,My uncle is a doctor.,おじは医者です。,doctor＝医者,doctor,teacher,driver,audio/voice/lis/g4_1_5.mp3,
+grades.g4.levels.1,g4_1_6,text,I want some water.,水がほしいです。,water＝水,water,juice,milk,audio/voice/lis/g4_1_6.mp3,
+grades.g4.levels.1,g4_1_7,text,Let's meet on Monday.,月曜日に会いましょう。,Monday＝月曜日,Monday,Sunday,Friday,audio/voice/lis/g4_1_7.mp3,
+grades.g4.levels.1,g4_1_8,text,The book is on the desk.,本は机の上にあります。,on the desk＝机の上,on the desk,under the bed,by the door,audio/voice/lis/g4_1_8.mp3,
+grades.g4.levels.1,g4_1_9,text,She has two dogs.,犬を2匹飼っています。,two＝2,two,three,ten,audio/voice/lis/g4_1_9.mp3,
+grades.g4.levels.1,g4_1_10,text,It is rainy today.,今日は雨です。,rainy＝雨の,rainy,sunny,cloudy,audio/voice/lis/g4_1_10.mp3,
+grades.g4.levels.1,g4_1_11,text,My birthday is in May.,誕生日は5月です。,May＝5月,May,March,July,audio/voice/lis/g4_1_11.mp3,
+grades.g4.levels.1,g4_1_12,text,I usually walk to school.,たいてい歩いて学校へ行きます。,walk＝歩く。,walk,run,swim,audio/voice/lis/g4_1_12.mp3,
+grades.g4.levels.1,g4_1_13,text,She likes music very much.,彼女は音楽が大好きです。,music＝音楽。,music,math,art,audio/voice/lis/g4_1_13.mp3,
+grades.g4.levels.1,g4_1_14,text,We play in the park on Sunday.,日曜は公園で遊びます。,in the park＝公園で。,in the park,at home,at school,audio/voice/lis/g4_1_14.mp3,
+grades.g4.levels.1,g4_1_15,text,It is hot in summer.,夏は暑いです。,hot＝暑い、summer＝夏。,hot,cold,cool,audio/voice/lis/g4_1_15.mp3,
+grades.g4.levels.1,g4_1_16,text,My class starts at eight thirty.,授業は8時半に始まります。,eight thirty＝8時半。,eight thirty,eight,nine thirty,audio/voice/lis/g4_1_16.mp3,
+grades.g4.levels.2,g4_2_0,text,What time do you get up?,何時に起きる？→7時。,What time＝何時。時こくで答える。,At seven.,It's Tuesday.,In the park.,audio/voice/lis/g4_2_0.mp3,
+grades.g4.levels.2,g4_2_1,text,Where is my pen?,ペンはどこ？→机の上。,Where＝どこ。場所で答える。,It's on the desk.,I'm fine.,"Yes, please.",audio/voice/lis/g4_2_1.mp3,
+grades.g4.levels.2,g4_2_2,text,How do you go to school?,どうやって学校へ？→バスで。,How＝どうやって。手段で答える。,By bus.,At six.,It's red.,audio/voice/lis/g4_2_2.mp3,
+grades.g4.levels.2,g4_2_3,text,Whose bag is this?,これだれのバッグ？→私の。,Whose＝だれの。所有で答える。,It's mine.,It's Monday.,I'm twelve.,audio/voice/lis/g4_2_3.mp3,
+grades.g4.levels.2,g4_2_4,text,What subject do you like?,何の教科が好き？→数学。,subject＝教科。教科名で答える。,I like math.,At school.,On Sunday.,audio/voice/lis/g4_2_4.mp3,
+grades.g4.levels.2,g4_2_5,text,Can you play the piano?,ピアノ弾ける？→うん、ちょっとね。,Can you〜? には Yes/No で答える。,"Yes, a little.",It's a piano.,In May.,audio/voice/lis/g4_2_5.mp3,
+grades.g4.levels.2,g4_2_6,text,What are you doing?,何してる？→宿題してる。,What are you doing?＝今なにしてる？,I'm doing my homework.,It's Friday.,"Yes, I am.",audio/voice/lis/g4_2_6.mp3,
+grades.g4.levels.2,g4_2_7,text,How many books do you have?,本は何冊？→3冊。,How many＝いくつ。数で答える。,I have three.,I'm fine.,It's a book.,audio/voice/lis/g4_2_7.mp3,
+grades.g4.levels.2,g4_2_8,text,When is the festival?,お祭りいつ？→日曜。,When＝いつ。時で答える。,It's on Sunday.,At school.,It's mine.,audio/voice/lis/g4_2_8.mp3,
+grades.g4.levels.2,g4_2_9,text,Would you like some tea?,お茶どう？→はい、お願い。,"Would you like〜? のさそいに Yes, please.","Yes, please.",It's hot.,On the desk.,audio/voice/lis/g4_2_9.mp3,
+grades.g4.levels.2,g4_2_10,text,What do you do on weekends?,週末は何をする？→野球。,What do you do＝何をする。,I play baseball.,It's Sunday.,At home.,audio/voice/lis/g4_2_10.mp3,
+grades.g4.levels.2,g4_2_11,text,How old is your brother?,お兄さん何歳？→15歳。,How old＝何歳。,He is fifteen.,It's Monday.,By bus.,audio/voice/lis/g4_2_11.mp3,
+grades.g4.levels.2,g4_2_12,text,Where do you live?,どこに住んでる？→東京。,Where do you live＝どこに住む。,I live in Tokyo.,I'm fine.,It's red.,audio/voice/lis/g4_2_12.mp3,
+grades.g4.levels.2,g4_2_13,text,What time is it now?,今何時？→4時半。,時こくで答える。,It's four thirty.,It's Tuesday.,"Yes, I do.",audio/voice/lis/g4_2_13.mp3,
+grades.g4.levels.2,g4_2_14,text,Do you want some juice?,ジュースいる？→はい、お願い。,"Do you want〜? に Yes, please.","Yes, please.",It's juice.,On Monday.,audio/voice/lis/g4_2_14.mp3,
+grades.g4.levels.2,g4_2_15,text,Can I open the window?,窓開けてもいい？→いいよ。,Can I〜?＝〜してもいい？,Sure.,It's a window.,I'm twelve.,audio/voice/lis/g4_2_15.mp3,
+grades.g4.levels.3,g4_3_0,text,What time do you get up? ... I get up at six thirty.,何時？→6時半。,at のあとの時こく。six thirty＝6時半。,six thirty,seven,six,audio/voice/lis/g4_3_0.mp3,何時に起きる？
+grades.g4.levels.3,g4_3_1,text,Where did you go yesterday? ... I went to the library.,昨日どこ？→図書館。,went to＝〜へ行った。the library。,the library,the zoo,the park,audio/voice/lis/g4_3_1.mp3,昨日どこへ行った？
+grades.g4.levels.3,g4_3_2,text,What sport do you play? ... I play basketball.,何のスポーツ？→バスケ。,play のあと＝basketball。,basketball,soccer,tennis,audio/voice/lis/g4_3_2.mp3,何のスポーツ？
+grades.g4.levels.3,g4_3_3,text,How is the weather today? ... It's cloudy.,天気は？→くもり。,weather＝天気。cloudy＝くもり。,cloudy,sunny,rainy,audio/voice/lis/g4_3_3.mp3,今日の天気は？
+grades.g4.levels.3,g4_3_4,text,Whose notebook is this? ... It's Emi's.,だれの？→エミの。,〜's＝〜の。Emi's＝エミの。,Emi's,Ken's,mine,audio/voice/lis/g4_3_4.mp3,だれのノート？
+grades.g4.levels.3,g4_3_5,text,What do you want for your birthday? ... I want a new bike.,何がほしい？→新しい自転車。,want a new bike＝新しい自転車がほしい。,a bike,a book,a dog,audio/voice/lis/g4_3_5.mp3,誕生日に何がほしい？
+grades.g4.levels.3,g4_3_6,text,How many people are in your family? ... We are four.,家族何人？→4人。,four＝4人。,four,three,five,audio/voice/lis/g4_3_6.mp3,家族は何人？
+grades.g4.levels.3,g4_3_7,text,When is your English class? ... It's on Monday.,いつ？→月曜。,on のあとの曜日。Monday。,Monday,Friday,Sunday,audio/voice/lis/g4_3_7.mp3,英語の授業はいつ？
+grades.g4.levels.3,g4_3_8,text,What time does the movie start? ... At two o'clock.,何時に始まる？→2時。,At two o'clock＝2時に。,two o'clock,three o'clock,ten o'clock,audio/voice/lis/g4_3_8.mp3,映画は何時に始まる？
+grades.g4.levels.3,g4_3_9,text,How was your trip? ... It was great!,旅行どう？→最高！,How was〜?＝どうだった？ great＝最高。,great,boring,short,audio/voice/lis/g4_3_9.mp3,旅行はどうだった？
+grades.g4.levels.3,g4_3_10,text,What did you eat for lunch? ... I ate a sandwich.,昼食?→サンドイッチ。,ate＝食べた(過去)。sandwich。,a sandwich,a hamburger,rice,audio/voice/lis/g4_3_10.mp3,昼ごはんは？
+grades.g4.levels.3,g4_3_11,text,How do you come to school? ... I come by train.,どうやって?→電車。,by train＝電車で。,by train,by bus,by bike,audio/voice/lis/g4_3_11.mp3,どうやって学校へ？
+grades.g4.levels.3,g4_3_12,text,What club are you in? ... I'm in the tennis club.,何部?→テニス部。,tennis club＝テニス部。,tennis club,soccer club,music club,audio/voice/lis/g4_3_12.mp3,何部？
+grades.g4.levels.3,g4_3_13,text,When do you study? ... I study after dinner.,いつ?→夕食後。,after dinner＝夕食後。,after dinner,before school,at noon,audio/voice/lis/g4_3_13.mp3,いつ勉強する？
+grades.g4.levels.3,g4_3_14,text,How much is this cap? ... It's ten dollars.,いくら?→10ドル。,ten dollars＝10ドル。,ten dollars,two dollars,twenty dollars,audio/voice/lis/g4_3_14.mp3,ぼうしはいくら？
+grades.g4.levels.3,g4_3_15,text,Who is that girl? ... She is my sister.,だれ?→姉[妹]。,my sister＝姉/妹。,sister,friend,teacher,audio/voice/lis/g4_3_15.mp3,あの女の子はだれ？
+grades.g3.levels.0,g3_0_0,pic,I went to the sea last summer.,去年の夏、海へ行きました。,sea（シー）＝海🌊。went＝行った(過去),🌊,⛰️,🏝️,audio/voice/lis/g3_1_0.mp3,
+grades.g3.levels.0,g3_0_1,pic,I will visit my grandmother.,おばあちゃんを訪ねます。,grandmother＝おばあちゃん👵,👵,👶,👦,audio/voice/lis/g3_1_1.mp3,
+grades.g3.levels.0,g3_0_2,pic,I want to be a doctor.,医者になりたいです。,doctor＝医者👨‍⚕️。want to be＝〜になりたい,👨‍⚕️,👮‍♂️,👨‍🏫,audio/voice/lis/g3_1_2.mp3,
+grades.g3.levels.0,g3_0_3,pic,It will be sunny tomorrow.,明日は晴れるでしょう。,sunny＝晴れ☀️。will be＝〜でしょう(未来),☀️,🌧️,❄️,audio/voice/lis/g3_1_3.mp3,
+grades.g3.levels.0,g3_0_4,pic,I bought a new bike.,新しい自転車を買いました。,bike＝自転車🚲。bought＝買った(過去),🚲,🚗,🚆,audio/voice/lis/g3_1_4.mp3,
+grades.g3.levels.0,g3_0_5,pic,I'm reading a book now.,今、本を読んでいます。,reading a book＝本を読んでいる📖,📖,📺,🎮,audio/voice/lis/g3_1_5.mp3,
+grades.g3.levels.0,g3_0_6,pic,I went to the hospital.,病院へ行きました。,hospital（ホスピタル）＝病院🏥,🏥,🏫,🏪,audio/voice/lis/g3_1_6.mp3,
+grades.g3.levels.0,g3_0_7,pic,I like the mountains.,山が好きです。,mountains（マウンテンズ）＝山⛰️,⛰️,🌊,🏖️,audio/voice/lis/g3_1_7.mp3,
+grades.g3.levels.0,g3_0_8,pic,I took a lot of pictures.,写真をたくさん撮りました。,pictures＝写真📷。took＝撮った(過去),📷,📱,💻,audio/voice/lis/g3_1_8.mp3,
+grades.g3.levels.0,g3_0_9,pic,I'm going to the airport.,空港へ行くところです。,airport（エアポート）＝空港✈️,✈️,🚉,🚌,audio/voice/lis/g3_1_9.mp3,
+grades.g3.levels.0,g3_0_10,pic,I'm going to play tennis.,テニスをするつもりです。,tennis＝テニス🎾。be going to＝〜するつもり,🎾,⚽,🏀,audio/voice/lis/g3_1_10.mp3,
+grades.g3.levels.0,g3_0_11,pic,I bought a present.,プレゼントを買いました。,present＝おくりもの🎁。bought＝買った,🎁,🎂,🎈,audio/voice/lis/g3_1_11.mp3,
+grades.g3.levels.0,g3_0_12,pic,It was rainy yesterday.,昨日は雨でした。,rainy＝雨🌧️。was＝〜だった(過去),🌧️,☀️,❄️,audio/voice/lis/g3_1_12.mp3,
+grades.g3.levels.0,g3_0_13,pic,I want to be a teacher.,先生になりたい。,teacher＝先生👩‍🏫。want to be＝〜になりたい,👩‍🏫,👮‍♀️,👩‍⚕️,audio/voice/lis/g3_1_13.mp3,
+grades.g3.levels.0,g3_0_14,pic,I watched a soccer game.,サッカーの試合を見ました。,soccer＝サッカー⚽。watched＝見た,⚽,🎾,🏀,audio/voice/lis/g3_1_14.mp3,
+grades.g3.levels.0,g3_0_15,pic,I'll take the train.,電車に乗ります。,train＝電車🚆。I'll＝〜するつもり,🚆,🚌,🚗,audio/voice/lis/g3_1_15.mp3,
+grades.g3.levels.0,g3_0_16,pic,I made a cake.,ケーキを作りました。,cake＝ケーキ🍰。made＝作った(過去),🍰,🍞,🍕,audio/voice/lis/g3_1_16.mp3,
+grades.g3.levels.1,g3_1_0,text,I went to Kyoto last summer.,去年の夏、京都へ行きました。,went＝go の過去形。場所Kyotoを聞きとる。,Kyoto,Tokyo,Osaka,audio/voice/lis/g3_0_0.mp3,
+grades.g3.levels.1,g3_1_1,text,She is taller than her sister.,姉[妹]より背が高い。,taller than＝〜より背が高い(比較級)。,taller,shorter,older,audio/voice/lis/g3_0_1.mp3,
+grades.g3.levels.1,g3_1_2,text,I will visit my grandmother next week.,来週おばあちゃんを訪ねます。,next week＝来週(未来)。,next week,last week,yesterday,audio/voice/lis/g3_0_2.mp3,
+grades.g3.levels.1,g3_1_3,text,He has lived here for ten years.,10年間ここに住んでいます。,for ten years＝10年間(現在完了)。,ten years,five years,two months,audio/voice/lis/g3_0_3.mp3,
+grades.g3.levels.1,g3_1_4,text,This movie is more interesting than that one.,この映画はあれよりおもしろい。,more interesting＝よりおもしろい(長い語の比較級)。,more interesting,more difficult,more expensive,audio/voice/lis/g3_0_4.mp3,
+grades.g3.levels.1,g3_1_5,text,She wants to be a nurse in the future.,将来看護師になりたい。,want to be＝〜になりたい。a nurse＝看護師。,a nurse,a teacher,a pilot,audio/voice/lis/g3_0_5.mp3,
+grades.g3.levels.1,g3_1_6,text,He was born in Canada.,カナダで生まれました。,was born＝生まれた。場所Canada。,Canada,America,Australia,audio/voice/lis/g3_0_6.mp3,
+grades.g3.levels.1,g3_1_7,text,I am looking forward to the festival.,お祭りを楽しみにしています。,look forward to＝〜を楽しみにする。,the festival,the exam,the trip,audio/voice/lis/g3_0_7.mp3,
+grades.g3.levels.1,g3_1_8,text,She can speak three languages.,3つの言語を話せます。,three＝3。数を聞きとる。,three,two,four,audio/voice/lis/g3_0_8.mp3,
+grades.g3.levels.1,g3_1_9,text,My father usually comes home at seven.,父はたいてい7時に帰宅します。,at seven＝7時に。,at seven,at six,at eight,audio/voice/lis/g3_0_9.mp3,
+grades.g3.levels.1,g3_1_10,text,He is the tallest in his class.,クラスで一番背が高い。,tallest＝一番背が高い(最上級)。,tallest,fastest,oldest,audio/voice/lis/g3_0_10.mp3,
+grades.g3.levels.1,g3_1_11,text,I have been to America twice.,アメリカに2回行ったことがある。,have been to＝行ったことがある。twice＝2回。,twice,once,never,audio/voice/lis/g3_0_11.mp3,
+grades.g3.levels.1,g3_1_12,text,She was cooking when I came home.,帰宅したとき料理していた。,was cooking＝料理していた(過去進行)。,cooking,sleeping,reading,audio/voice/lis/g3_0_12.mp3,
+grades.g3.levels.1,g3_1_13,text,This book is more difficult than that one.,この本はあれより難しい。,more difficult＝より難しい(比較級)。,more difficult,more fun,cheaper,audio/voice/lis/g3_0_13.mp3,
+grades.g3.levels.1,g3_1_14,text,"If it rains, we will stay home.",雨なら家にいます。,if＝もし〜なら。stay home＝家にいる。,stay home,go out,play soccer,audio/voice/lis/g3_0_14.mp3,
+grades.g3.levels.1,g3_1_15,text,I have known him for ten years.,彼を10年間知っている。,for ten years＝10年間(現在完了)。,ten years,two years,one month,audio/voice/lis/g3_0_15.mp3,
+grades.g3.levels.1,g3_1_16,text,The movie was more exciting than the book.,映画は本よりわくわくした。,more exciting＝よりわくわく。,the movie,the book,both,audio/voice/lis/g3_0_16.mp3,
+grades.g3.levels.2,g3_2_0,text,Could you help me with my homework?,宿題手伝ってくれる？→いいよ。,Could you〜? のお願いに Sure.,"Sure, no problem.",I'm from Canada.,It's mine.,audio/voice/lis/g3_2_0.mp3,
+grades.g3.levels.2,g3_2_1,text,How was your weekend?,週末どうだった？→楽しかった。,How was〜?＝どうだった？,It was fun.,"Yes, I do.",On Monday.,audio/voice/lis/g3_2_1.mp3,
+grades.g3.levels.2,g3_2_2,text,Why are you so happy?,なぜそんなに嬉しいの？→試験に受かったから。,Why＝なぜ。Because〜で答える。,Because I passed the test.,It's seven.,At school.,audio/voice/lis/g3_2_2.mp3,
+grades.g3.levels.2,g3_2_3,text,Have you ever been to Okinawa?,沖縄に行ったことある？→うん、2回。,Have you ever〜? の経験に Yes/No。,"Yes, twice.",It's far.,I'm fine.,audio/voice/lis/g3_2_3.mp3,
+grades.g3.levels.2,g3_2_4,text,What are you going to do this weekend?,週末何するの？→映画を見に行く。,be going to＝〜する予定。,I'm going to see a movie.,It was great.,"Yes, I am.",audio/voice/lis/g3_2_4.mp3,
+grades.g3.levels.2,g3_2_5,text,Shall I open the window?,窓開けようか？→うん、お願い。,Shall I〜?＝〜しようか？,"Yes, please.",It's a window.,I'm twelve.,audio/voice/lis/g3_2_5.mp3,
+grades.g3.levels.2,g3_2_6,text,"Which do you like better, summer or winter?",夏と冬どっちが好き？→夏。,Which〜better＝どっちが好き。,I like summer better.,"Yes, I do.",It's cold.,audio/voice/lis/g3_2_6.mp3,
+grades.g3.levels.2,g3_2_7,text,How long does it take to the station?,駅までどのくらい？→10分。,How long＝どのくらい(時間)。,About ten minutes.,By bus.,It's near.,audio/voice/lis/g3_2_7.mp3,
+grades.g3.levels.2,g3_2_8,text,May I use your pen?,ペン使ってもいい？→いいよ、どうぞ。,May I〜?＝〜してもいい？,"Sure, here you are.",It's a pen.,I'm fine.,audio/voice/lis/g3_2_8.mp3,
+grades.g3.levels.2,g3_2_9,text,What's wrong?,どうしたの？→頭が痛い。,What's wrong?＝どうしたの？,I have a headache.,You're welcome.,It's Monday.,audio/voice/lis/g3_2_9.mp3,
+grades.g3.levels.2,g3_2_10,text,What time will you arrive?,何時に着く？→お昼ごろ。,What time＝何時に。,Around noon.,By train.,It's mine.,audio/voice/lis/g3_2_10.mp3,
+grades.g3.levels.2,g3_2_11,text,Would you like to come to my party?,パーティ来る？→ぜひ。,Would you like to〜? のさそい。,"Yes, I'd love to.",It's a party.,I'm fine.,audio/voice/lis/g3_2_11.mp3,
+grades.g3.levels.2,g3_2_12,text,How often do you play tennis?,どのくらいテニスする？→週2回。,How often＝どのくらいの頻度。,Twice a week.,At the park.,"Yes, I do.",audio/voice/lis/g3_2_12.mp3,
+grades.g3.levels.2,g3_2_13,text,Do you know where the station is?,駅どこか知ってる？→あそこ。,場所をたずねる。,"Yes, it's over there.",It's a station.,I'm twelve.,audio/voice/lis/g3_2_13.mp3,
+grades.g3.levels.2,g3_2_14,text,Why don't we go shopping?,買い物しない？→いいね！,Why don't we〜?＝〜しない? のさそい。,Sounds good!,It's mine.,On Monday.,audio/voice/lis/g3_2_14.mp3,
+grades.g3.levels.2,g3_2_15,text,What's the matter?,どうしたの？→かぜをひいた。,What's the matter?＝どうしたの?,I have a cold.,You're welcome.,It's Friday.,audio/voice/lis/g3_2_15.mp3,
+grades.g3.levels.3,g3_3_0,text,Where are you going this summer? ... I'm going to Hokkaido with my family.,夏どこ？→家族で北海道。,going to のあとの場所。Hokkaido。,Hokkaido,Okinawa,Kyoto,audio/voice/lis/g3_3_0.mp3,今年の夏どこへ行く？
+grades.g3.levels.3,g3_3_1,text,How long have you studied English? ... For five years.,何年？→5年間。,For five years＝5年間。,five years,three years,ten years,audio/voice/lis/g3_3_1.mp3,英語を何年勉強してる？
+grades.g3.levels.3,g3_3_2,text,What do you want to be in the future? ... I want to be a doctor.,将来何になりたい？→医者。,want to be a doctor＝医者になりたい。,a doctor,a teacher,a nurse,audio/voice/lis/g3_3_2.mp3,将来の夢は？
+grades.g3.levels.3,g3_3_3,text,Why were you late? ... Because I missed the bus.,なぜ遅刻？→バスに乗り遅れた。,Because〜＝〜だから。missed the bus＝バスに乗り遅れた。,missed the bus,woke up late,was sick,audio/voice/lis/g3_3_3.mp3,なぜ遅れた？
+grades.g3.levels.3,g3_3_4,text,"Which is taller, Ken or Tom? ... Tom is taller.",どっちが背高い？→トム。,taller＝より背が高い。Tom is taller。,Tom,Ken,both,audio/voice/lis/g3_3_4.mp3,背が高いのは？
+grades.g3.levels.3,g3_3_5,text,What did you do last Sunday? ... I played tennis with my friends.,日曜何した？→友達とテニス。,played tennis＝テニスをした(過去)。,played tennis,watched TV,studied math,audio/voice/lis/g3_3_5.mp3,先週の日曜何した？
+grades.g3.levels.3,g3_3_6,text,How much is this T-shirt? ... It's fifteen dollars.,いくら？→15ドル。,How much＝いくら。fifteen dollars。,fifteen dollars,fifty dollars,five dollars,audio/voice/lis/g3_3_6.mp3,Tシャツいくら？
+grades.g3.levels.3,g3_3_7,text,Have you finished your homework? ... Not yet.,終わった？→まだ。,Not yet＝まだ。終わっていない。,Not yet,"Yes, all done.",Yesterday.,audio/voice/lis/g3_3_7.mp3,宿題は終わった？
+grades.g3.levels.3,g3_3_8,text,What will the weather be like tomorrow? ... It will be sunny.,明日の天気？→晴れ。,will be sunny＝晴れるでしょう(未来)。,sunny,rainy,cloudy,audio/voice/lis/g3_3_8.mp3,明日の天気は？
+grades.g3.levels.3,g3_3_9,text,Whose idea was it? ... It was Yuki's idea.,だれの考え？→ユキの。,Yuki's＝ユキの。,Yuki's,Ken's,the teacher's,audio/voice/lis/g3_3_9.mp3,だれのアイデア？
+grades.g3.levels.3,g3_3_10,text,What are you going to do after school? ... I'm going to practice the piano.,放課後?→ピアノの練習。,practice the piano＝ピアノを練習。,practice the piano,play soccer,go home,audio/voice/lis/g3_3_10.mp3,放課後何する？
+grades.g3.levels.3,g3_3_11,text,How was the test? ... It was difficult.,テスト?→難しかった。,difficult＝難しい。,difficult,easy,fun,audio/voice/lis/g3_3_11.mp3,テストどうだった？
+grades.g3.levels.3,g3_3_12,text,Where did you buy that bag? ... I bought it at the mall.,どこで?→モール。,at the mall＝モールで。,the mall,the station,the school,audio/voice/lis/g3_3_12.mp3,どこで買った？
+grades.g3.levels.3,g3_3_13,text,Who cooked dinner? ... My father did.,だれが?→お父さん。,My father did.＝父が作った。,father,mother,sister,audio/voice/lis/g3_3_13.mp3,だれが夕食を作った？
+grades.g3.levels.3,g3_3_14,text,How long will you stay in Tokyo? ... For three days.,何日?→3日間。,For three days＝3日間。,three days,one day,a week,audio/voice/lis/g3_3_14.mp3,東京に何日いる？
+grades.g3.levels.3,g3_3_15,text,What sport is the most popular? ... Soccer is.,一番人気?→サッカー。,the most popular＝一番人気。,soccer,baseball,tennis,audio/voice/lis/g3_3_15.mp3,一番人気のスポーツは？

@@ -1,0 +1,37 @@
+﻿_path,id,ja,en,voice
+grades.g5,g5_0,おはよう,Good morning!,audio/voice/talk/1.mp3
+grades.g5,g5_1,はじめまして,Nice to meet you.,audio/voice/talk/2.mp3
+grades.g5,g5_2,ありがとう,Thank you.,audio/voice/talk/3.mp3
+grades.g5,g5_3,なまえは なに？,What's your name?,audio/voice/talk/4.mp3
+grades.g5,g5_4,げんき？,How are you?,audio/voice/talk/5.mp3
+grades.g5,g5_5,げんきだよ,I'm fine.,audio/voice/talk/6.mp3
+grades.g5,g5_6,またね！,See you!,audio/voice/talk/7.mp3
+grades.g5,g5_7,ごめんね,I'm sorry.,audio/voice/talk/8.mp3
+grades.g5,g5_8,あおが すき,I like blue.,audio/voice/talk/9.mp3
+grades.g5,g5_9,なんさい？,How old are you?,audio/voice/talk/10.mp3
+grades.g5,g5_10,9さいだよ,I'm nine.,audio/voice/talk/11.mp3
+grades.g5,g5_11,おねがい,Please.,audio/voice/talk/12.mp3
+grades.g4,g4_0,えきは どこ？,Where is the station?,audio/voice/talk/13.mp3
+grades.g4,g4_1,いくら？,How much is it?,audio/voice/talk/14.mp3
+grades.g4,g4_2,いま なんじ？,What time is it?,audio/voice/talk/15.mp3
+grades.g4,g4_3,てつだおうか？,Can I help you?,audio/voice/talk/16.mp3
+grades.g4,g4_4,トイレ かりていい？,May I use the bathroom?,audio/voice/talk/17.mp3
+grades.g4,g4_5,しゅみは なに？,What do you like to do?,audio/voice/talk/18.mp3
+grades.g4,g4_6,いっしょに いこう,Let's go together.,audio/voice/talk/19.mp3
+grades.g4,g4_7,おなか すいた,I'm hungry.,audio/voice/talk/20.mp3
+grades.g4,g4_8,もういちど 言って？,Pardon?,audio/voice/talk/21.mp3
+grades.g4,g4_9,きをつけてね,Take care!,audio/voice/talk/22.mp3
+grades.g4,g4_10,おめでとう,Congratulations!,audio/voice/talk/23.mp3
+grades.g4,g4_11,だいじょうぶ,It's okay.,audio/voice/talk/24.mp3
+grades.g3,g3_0,みちに まよった,I'm lost.,audio/voice/talk/25.mp3
+grades.g3,g3_1,どう おもう？,What do you think?,audio/voice/talk/26.mp3
+grades.g3,g3_2,いっしょに いかない？,Why don't we go?,audio/voice/talk/27.mp3
+grades.g3,g3_3,なんで そう おもうの？,Why do you think so?,audio/voice/talk/28.mp3
+grades.g3,g3_4,おすすめは なに？,What do you recommend?,audio/voice/talk/29.mp3
+grades.g3,g3_5,さんせい！,I agree with you.,audio/voice/talk/30.mp3
+grades.g3,g3_6,たのしみ！,I'm looking forward to it.,audio/voice/talk/31.mp3
+grades.g3,g3_7,きが かわった,I changed my mind.,audio/voice/talk/32.mp3
+grades.g3,g3_8,おかげさまで,Thanks to you.,audio/voice/talk/33.mp3
+grades.g3,g3_9,じしんが ない,I'm not sure.,audio/voice/talk/34.mp3
+grades.g3,g3_10,れんらく とりあおう,Let's keep in touch.,audio/voice/talk/35.mp3
+grades.g3,g3_11,むりしないで,Don't push yourself.,audio/voice/talk/36.mp3

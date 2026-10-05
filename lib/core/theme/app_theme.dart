@@ -16,6 +16,9 @@ class AppTheme {
       ),
       scaffoldBackgroundColor: AppColors.bgBottom,
       fontFamily: 'M PLUS Rounded 1c',
+      // Latin display fonts (Fredoka, Bungee) have no Japanese glyphs; text
+      // that mixes them falls back to the bundled rounded font.
+      fontFamilyFallback: const ['M PLUS Rounded 1c'],
     );
 
     return base.copyWith(

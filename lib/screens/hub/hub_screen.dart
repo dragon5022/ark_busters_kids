@@ -28,7 +28,14 @@ class _HubScreenState extends State<HubScreen> {
   void initState() {
     super.initState();
     AudioService.instance.playHubBgm();
+    ProgressService.instance.changes.addListener(_refreshCards);
     WidgetsBinding.instance.addPostFrameCallback((_) => _autoStory());
+  }
+
+  @override
+  void dispose() {
+    ProgressService.instance.changes.removeListener(_refreshCards);
+    super.dispose();
   }
 
   /// Web: intro opens until seen; sequel opens once when it unlocks.

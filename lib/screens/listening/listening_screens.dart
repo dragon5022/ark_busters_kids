@@ -149,6 +149,8 @@ class _ListeningHomeScreenState extends State<ListeningHomeScreen> {
       return;
     }
     _starting = true;
+    await AnswerFx.battleFlash(context);
+    if (!mounted) return;
     await showLisEncounter(context);
     _starting = false;
     if (!mounted) return;
@@ -263,13 +265,14 @@ class _ListeningHomeScreenState extends State<ListeningHomeScreen> {
       AudioService.instance.playSfx('correct');
       AudioService.instance.playTone('tone_ok_sparkle');
       _react.show(true);
+      HapticFeedback.lightImpact();
       _feedback.pop('⭕ せいかい！', const Color(0xFFFFD84D));
       _later(1100, _advance);
     } else {
       // sndWrong()
       _react.show(false);
       AudioService.instance.playTone('tone_wrong');
-      HapticFeedback.vibrate();
+      AnswerFx.wrong(context, shaker: _shakeKey.currentState);
       setState(() {
         _picked = index;
         _pickedOk = false;
@@ -290,6 +293,7 @@ class _ListeningHomeScreenState extends State<ListeningHomeScreen> {
       _lives--;
     });
     AudioService.instance.playTone('tone_timeup');
+    AnswerFx.wrong(context, shaker: _shakeKey.currentState);
     _later(300, () => _showReview('⏰ 時間切れ！'));
   }
 
@@ -416,6 +420,8 @@ class _ListeningHomeScreenState extends State<ListeningHomeScreen> {
     }
   }
 
+  final _shakeKey = GlobalKey<ShakeScopeState>();
+
   bool get _playing => _phase == _Phase.play;
 
   /// Web `homeMenu()`: confirm only while playing (confirm() also freezes
@@ -440,7 +446,7 @@ class _ListeningHomeScreenState extends State<ListeningHomeScreen> {
   Widget build(BuildContext context) {
     final Widget body = switch (_phase) {
       _Phase.start => _buildStart(),
-      _Phase.play => _buildGame(context),
+      _Phase.play => ShakeScope(key: _shakeKey, child: _buildGame(context)),
       _Phase.end => _buildEnd(context),
     };
     return PopScope(
@@ -471,6 +477,9 @@ class _ListeningHomeScreenState extends State<ListeningHomeScreen> {
             asset: 'assets/images/hub/tab-lis-$lv.webp',
             shineDelay: Duration(milliseconds: 220 * lv),
             onTap: _pack == null ? null : () => _startGame(lv),
+            lockPack: 'listening',
+            lockIndex: lv,
+            lockGroup: _grade,
           ),
       ],
     );
@@ -526,26 +535,6 @@ class _ListeningHomeScreenState extends State<ListeningHomeScreen> {
                           fontWeight: FontWeight.w700,
                           fontSize: 12,
                           color: Color(0x73FFFFFF),
-                        ),
-                      ),
-                    ),
-                    // .gameup-strip
-                    Positioned(
-                      top: pad.top + 42,
-                      left: w * 0.02,
-                      right: w * 0.02,
-                      height: 104,
-                      child: const IgnorePointer(
-                        child: ArtShadow(
-                          color: Color(0x73000000),
-                          offset: Offset(0, 4),
-                          blur: 10,
-                          child: Center(
-                            child: Image(
-                              image: AssetImage('$kLisDir/lismon-gameup.webp'),
-                              fit: BoxFit.contain,
-                            ),
-                          ),
                         ),
                       ),
                     ),

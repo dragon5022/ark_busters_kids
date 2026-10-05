@@ -421,6 +421,9 @@ class _FeedbackPopState extends State<FeedbackPop>
             textAlign: TextAlign.center,
             style: TextStyle(
               fontFamily: 'Fredoka',
+              // Fredoka has no Japanese: 「せいかい！」 uses the bundled
+              // rounded font instead of a system fallback (or □ boxes).
+              fontFamilyFallback: const ['M PLUS Rounded 1c'],
               fontWeight: FontWeight.w700,
               fontSize: widget.fontSize,
               color: widget.controller.color,

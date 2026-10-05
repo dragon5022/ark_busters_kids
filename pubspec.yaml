@@ -9,15 +9,19 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
+  # Shared series foundation. Local development uses ../ark_core via
+  # pubspec_overrides.yaml (gitignored).
+  ark_core:
+    git:
+      url: git@github.com:dragon5022/ark_core.git
+      ref: main
   cupertino_icons: ^1.0.8
   shared_preferences: ^2.5.3
   audioplayers: ^6.5.0
   google_fonts: ^6.3.2
-  http: ^1.2.2
-  path_provider: ^2.1.5
-  path: ^1.9.1
   flutter_tts: ^4.2.5
   speech_to_text: ^7.5.0
+  url_launcher: ^6.3.3
 
 dev_dependencies:
   flutter_test:

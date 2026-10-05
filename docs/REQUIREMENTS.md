@@ -332,22 +332,25 @@ Detailed TEEN requirements should be a separate appendix after KIDS hub+modes ar
 
 ---
 
-## 13. Implementation status (as of 2026-09-11)
+## 13. Implementation status (as of 2026-10-03)
 
 | Area | Status |
 |---|---|
-| Flutter project `ark_busters_kids` | Created (Android + iOS) |
-| Hub UI (hero, brand, cards, bg, sparkles) | Done (visual) |
-| Mode screens | Placeholder only |
-| Collection / profile / settings | Icons only — not wired |
-| Progress service | Keys defined; not persisted yet |
-| Audio | Dep added; hub BGM/SFX not wired; voice not bundled |
-| Question JSON | Stub sample only |
-| Story | Not ported |
-| IAP / parent gate | Not started |
-| TEEN Flutter app | Not started |
-
----
+| Flutter project `ark_busters_kids` | Done (Android + iOS); pushed to `dragon5022/ark_busters_kids` |
+| Hub, story 1 / 2, collection / profile / settings panels | Done — ported from live site, phone layout fixes, animations |
+| Vocabulary / Listening / Sentence / Talk | Done — full port of the **live** site (newer than the web pack), incl. encounter intro, review/explain panels, ranks, befriend, weighted card draw |
+| Question data | Verified against live web: vocab 210, listening 200, sentence 42, talk 36 |
+| Progress (web key names) | Done — local `shared_preferences` |
+| Audio | Done — BGM + ducking, SFX, pre-rendered web tones, voice clips, TTS (`flutter_tts`) |
+| Speech recognition (Talk STEP2) | Done (`speech_to_text`, permissions) — **not yet tested on a real device** |
+| Fonts | Bundled (M PLUS Rounded 1c, Mochiy Pop One, Fredoka, Zen Maru Gothic, Bungee, DotGothic16) |
+| Image lightweighting | Done — WebP q90; AI upscale (Real-ESRGAN) 199 / 466 images, rest pending |
+| Content updates without re-submit (§16) | **Done** — Google Sheet → app (`ark_core` content module, version flag in `manifest` tab, validated, offline fallback). Off until the school's sheet ID is set in `assets/data/content_source.json`. Guide: `ark_core/doc/CONTENT_SHEETS.md` |
+| IAP / free vs paid split / restore / parent gate / Offer Codes | **Built** (`ark_core` purchase module, wired into hub settings + mode-card locks). Hidden in release (`KidsStore.monetizationEnabled = false`) until the client defines paid content, price and product IDs |
+| Light login (progress sync, device change) | **Built** (`ark_core` auth module: Firebase, school-issued IDs, merge-safe sync, admin CSV tool). Hidden until the school's Firebase project exists (`flutterfire configure`) |
+| App icon, splash, app name, bundle id | **Not started** (still Flutter defaults, `com.ark.ark_busters_kids`) |
+| Real-device QA (sound, mic, performance) | **Not started** — no emulator on the dev VM |
+| TEEN Flutter app | **Done** — 21 stages / 1,210 questions (live site), same Sheet updater, purchase and login modules (`ark_busters_teen`) |
 
 ## 14. Delivery phases (recommended)
 

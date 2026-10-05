@@ -1,0 +1,6 @@
+{
+  "_comment": "Google Sheet that question updates come from. Fill ONE of spreadsheetId (sheet shared as 'anyone with the link can view') or publishedId (File > Share > Publish to web). manifestGid = gid of the manifest tab. Empty = updates off. See ark_core/doc/CONTENT_SHEETS.md",
+  "spreadsheetId": "",
+  "publishedId": "",
+  "manifestGid": "0"
+}

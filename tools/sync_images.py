@@ -42,6 +42,10 @@ LIVE = {
     "b64_lis_0.png": "monsters/lismon/lismon-battle.webp",  # transparent battle art
     "b64_sen_0.png": "monsters/gramon/gramon-coin.webp",  # round battle medallion
 }
+# Pack files the app intentionally does not use (replaced in the app).
+SKIP = {
+    "hub/kidtop1.webp", "hub/kidtop2.webp", "hub/kidtop3.webp", "hub/kidtop4.webp",  # → hub/kidtop.png
+}
 EXTS = {".png", ".jpg", ".jpeg", ".webp"}
 QUALITY = 90
 
@@ -72,6 +76,7 @@ def main():
             jobs.append((p, UPSCALED / "vocab" / (p.stem + ".png"), ASSETS / "vocab" / (p.stem + ".webp")))
 
     written = upscaled = 0
+    jobs = [j for j in jobs if j[2].relative_to(ASSETS).as_posix() not in SKIP]
     for orig, up, dst in jobs:
         src = up if up.exists() else orig
         key = dst.relative_to(ASSETS).as_posix()
@@ -84,11 +89,13 @@ def main():
         written += 1
         upscaled += src == up
 
-    # Old PNG copies in managed folders are superseded by the WebP files.
+    # A PNG is superseded only when this script wrote a WebP of the same
+    # name; other PNGs (e.g. hand-made hub/kidtop.png) are kept.
     removed = 0
-    for dest in FOLDERS.values():
-        for p in (ASSETS / dest).glob("*.png"):
-            p.unlink()
+    for _, _, dst in jobs:
+        png = dst.with_suffix(".png")
+        if png.exists():
+            png.unlink()
             removed += 1
 
     # Point vocab.json at the WebP files.

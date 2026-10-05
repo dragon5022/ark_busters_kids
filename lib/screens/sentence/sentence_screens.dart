@@ -59,6 +59,8 @@ class _SentenceHomeScreenState extends State<SentenceHomeScreen> {
     final pack = _pack;
     if (pack == null || _busy) return;
     _busy = true;
+    await AnswerFx.battleFlash(context);
+    if (!mounted) return;
     await showGramEncounter(context);
     if (!mounted) return;
     // Web: BGM ducks to .17 while #startScreen is hidden, .35 when shown.
@@ -67,8 +69,9 @@ class _SentenceHomeScreenState extends State<SentenceHomeScreen> {
       PageRouteBuilder<bool>(
         transitionDuration: const Duration(milliseconds: 260),
         reverseTransitionDuration: const Duration(milliseconds: 220),
-        pageBuilder: (_, _, _) =>
-            SentenceBattleScreen(pack: pack, grade: _grade, course: course),
+        pageBuilder: (_, _, _) => ShakeScope(
+          child: SentenceBattleScreen(pack: pack, grade: _grade, course: course),
+        ),
         transitionsBuilder: (_, a, _, child) =>
             FadeTransition(opacity: a, child: child),
       ),
@@ -155,6 +158,8 @@ class _SentenceHomeScreenState extends State<SentenceHomeScreen> {
                       child: ModeCardButton(
                         asset: SenAssets.tabTen,
                         onTap: () => _begin(SenCourse.ten),
+                        lockPack: 'sentence',
+                        lockGroup: _grade,
                       ),
                     ),
                     const SizedBox(height: 12),
@@ -165,6 +170,9 @@ class _SentenceHomeScreenState extends State<SentenceHomeScreen> {
                         asset: SenAssets.tabEndless,
                         shineDelay: const Duration(milliseconds: 900),
                         onTap: () => _begin(SenCourse.endless),
+                        lockPack: 'sentence',
+                        lockIndex: 1,
+                        lockGroup: _grade,
                       ),
                     ),
                   ],

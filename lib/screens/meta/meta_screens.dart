@@ -1,9 +1,12 @@
 import 'dart:math' as math;
 
+import 'package:ark_core/auth.dart';
+import 'package:ark_core/purchase.dart';
 import 'package:flutter/material.dart';
 
 import '../../core/theme/app_colors.dart';
 import '../../services/content_repository.dart';
+import '../../services/kids_store.dart';
 import '../../services/progress_service.dart';
 import '../../widgets/pressable.dart';
 
@@ -133,13 +136,11 @@ class _ArkPanelState extends State<ArkPanel> {
       _syncing = true;
       _syncMsg = 'こうしんちゅう…';
     });
-    final ok = await ContentRepository.instance.syncRemotePacks();
+    final report = await ContentRepository.instance.checkForUpdates(force: true);
     if (!mounted) return;
     setState(() {
       _syncing = false;
-      _syncMsg = ok
-          ? 'もんだいデータを こうしんしたよ'
-          : 'さいしんの もんだいデータを つかっているよ';
+      _syncMsg = report.messageJa;
     });
   }
 
@@ -301,6 +302,11 @@ class _ArkPanelState extends State<ArkPanel> {
         _ArkButton(label: 'なまえを かえる', onTap: _rename),
         _Row('なかま', '${_friends.length} / ${_mons.length}'),
         _Row('あつめた ポーズ', '$_totalCards'),
+        // School-issued login; hidden until Firebase is configured.
+        const Padding(
+          padding: EdgeInsets.only(top: 10),
+          child: ArkAccountRow(),
+        ),
       ],
     );
   }
@@ -332,6 +338,17 @@ class _ArkPanelState extends State<ArkPanel> {
             },
           ),
         ),
+        if (KidsStore.showPurchaseUi)
+          ValueListenableBuilder<bool>(
+            valueListenable: PurchaseService.instance.isUnlocked,
+            builder: (context, unlocked, _) => unlocked
+                ? const _Row('ぜんぶの もんだい', 'あそべるよ ✅')
+                : _ArkButton(
+                    label: 'ぜんぶの もんだいを あそぶ',
+                    // Parent gate first; restore / codes are in the sheet.
+                    onTap: () => KidsStore.openPaywall(context),
+                  ),
+          ),
         const SizedBox(height: 8),
         _ArkButton(
           label: _syncing ? 'こうしんちゅう…' : 'もんだいデータを こうしん',

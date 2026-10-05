@@ -2,6 +2,9 @@ import 'dart:math' as math;
 
 import 'package:flutter/material.dart';
 
+import 'package:ark_core/purchase.dart';
+
+import '../services/kids_store.dart';
 import '../widgets/deco_stars.dart';
 import '../widgets/effects.dart';
 import '../widgets/page_background.dart';
@@ -86,7 +89,9 @@ class GameStartLayout extends StatelessWidget {
                       const SizedBox(height: 6),
                       Reveal(
                         delay: next(),
-                        child: const _Banner('assets/images/hub/banner-kyuu.webp'),
+                        child: const _Banner(
+                          'assets/images/hub/banner-kyuu.webp',
+                        ),
                       ),
                       const SizedBox(height: 6),
                       Reveal(
@@ -101,7 +106,9 @@ class GameStartLayout extends StatelessWidget {
                     const SizedBox(height: 18),
                     Reveal(
                       delay: next(),
-                      child: const _Banner('assets/images/hub/banner-asobi.webp'),
+                      child: const _Banner(
+                        'assets/images/hub/banner-asobi.webp',
+                      ),
                     ),
                     const SizedBox(height: 12),
                     for (var m = 0; m < modes.length; m++) ...[
@@ -125,7 +132,11 @@ class GameStartLayout extends StatelessWidget {
                     gradient: LinearGradient(
                       begin: Alignment.topCenter,
                       end: Alignment.bottomCenter,
-                      colors: [Color(0xF55A3AB3), Color(0xD95A3AB3), Color(0x005A3AB3)],
+                      colors: [
+                        Color(0xF55A3AB3),
+                        Color(0xD95A3AB3),
+                        Color(0x005A3AB3),
+                      ],
                       stops: [0, 0.6, 1],
                     ),
                   ),
@@ -201,7 +212,8 @@ class GradeTabs extends StatelessWidget {
         builder: (context, c) {
           // .tab{flex:1 1 0; max-width:118px}, 10px gaps
           const gap = 10.0;
-          final share = (c.maxWidth - gap * (grades.length - 1)) / grades.length;
+          final share =
+              (c.maxWidth - gap * (grades.length - 1)) / grades.length;
           final w = math.min(118.0, share);
           return Row(
             mainAxisAlignment: MainAxisAlignment.center,
@@ -303,7 +315,11 @@ class _GradeTab extends StatelessWidget {
                 right: 9,
                 child: Text(
                   '✦',
-                  style: TextStyle(color: Colors.white, fontSize: 12, height: 1),
+                  style: TextStyle(
+                    color: Colors.white,
+                    fontSize: 12,
+                    height: 1,
+                  ),
                 ),
               ),
               Text(
@@ -332,20 +348,45 @@ class _GradeTab extends StatelessWidget {
 
 /// Web `.levelcard` / `.lvcard` / `.coursebtn` / `.modecard`: a full-width
 /// image button (tab-*.png, 2290×687), press to .97, with a light sweep.
+///
+/// With [lockPack], the card follows the purchase rules
+/// ([KidsStore.access]): when locked it shows a lock and opens the paywall.
 class ModeCardButton extends StatelessWidget {
   const ModeCardButton({
     super.key,
     required this.asset,
     required this.onTap,
     this.shineDelay = Duration.zero,
+    this.lockPack,
+    this.lockIndex = 0,
+    this.lockGroup,
   });
 
   final String asset;
   final VoidCallback? onTap;
   final Duration shineDelay;
 
+  /// Content pack / mode index / grade used for the free-or-paid check.
+  final String? lockPack;
+  final int lockIndex;
+  final String? lockGroup;
+
   @override
   Widget build(BuildContext context) {
+    final pack = lockPack;
+    if (pack == null) return _card();
+    return ListenableBuilder(
+      listenable: KidsStore.access,
+      builder: (context, _) => LockedOverlay(
+        locked: KidsStore.access.isLocked(pack, lockIndex, group: lockGroup),
+        borderRadius: BorderRadius.circular(14),
+        onLockedTap: () => KidsStore.openPaywall(context),
+        child: _card(),
+      ),
+    );
+  }
+
+  Widget _card() {
     return Pressable(
       onTap: onTap,
       child: ShineSweep(

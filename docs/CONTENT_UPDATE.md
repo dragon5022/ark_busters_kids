@@ -1,5 +1,8 @@
 # Content update system — how Fujii-san edits problems after launch
 
+> **Implemented (2026-10):** questions are edited in a Google Sheet and downloaded by the app without reinstalling. Guide and setup: `ark_core/doc/CONTENT_SHEETS.md`; starting CSVs: `tools/sheets/`; config: `assets/data/content_source.json`. The design notes below are kept for history.
+
+
 ## What the client asked (chat)
 
 > 今後、問題を継続的に増やしていく予定です。  

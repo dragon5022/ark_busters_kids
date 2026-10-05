@@ -34,7 +34,6 @@ class SenAssets {
   static const tabEndless = 'assets/images/hub/tab-sen-endless.webp';
   static const bannerKyuu = 'assets/images/hub/banner-kyuu.webp';
   static const bannerAsobi = 'assets/images/hub/banner-asobi.webp';
-  static const gameup = '$_gramDir/gra-gameup.webp';
   static const happy = '$_gramDir/gra-happy.webp';
   static const sad = '$_gramDir/gra-sad.webp';
   static const win = '$_gramDir/gra-win.webp';

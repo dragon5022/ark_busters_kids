@@ -69,12 +69,16 @@ class _VocabHomeScreenState extends State<VocabHomeScreen> {
       }
       // web: BGM ducks to .17 while the start screen is hidden.
       AudioService.instance.setBgmVolume(0.17);
+      await AnswerFx.battleFlash(context);
+      if (!mounted) return;
       await showVocaEncounter(context);
       if (!mounted) return;
       final exit = await Navigator.of(context).push<_Exit>(PageRouteBuilder(
         transitionDuration: const Duration(milliseconds: 260),
         reverseTransitionDuration: const Duration(milliseconds: 220),
-        pageBuilder: (_, _, _) => _VocabBattleScreen(pack: pack, kyu: _kyu, level: level),
+        pageBuilder: (_, _, _) => ShakeScope(
+          child: _VocabBattleScreen(pack: pack, kyu: _kyu, level: level),
+        ),
         transitionsBuilder: (_, a, _, child) => FadeTransition(opacity: a, child: child),
       ));
       AudioService.instance.setBgmVolume(AudioService.battleBgmVolume);
@@ -98,6 +102,9 @@ class _VocabHomeScreenState extends State<VocabHomeScreen> {
             asset: 'assets/images/hub/tab-voca-$l.webp',
             shineDelay: Duration(milliseconds: 300 * l),
             onTap: () => _startGame(l),
+            lockPack: 'vocab',
+            lockIndex: l - 1,
+            lockGroup: 'g$_kyu',
           ),
       ],
     );
@@ -152,10 +159,8 @@ class _VocabBattleScreenState extends State<_VocabBattleScreen>
   final _feedback = FeedbackController();
 
   late final Ticker _ticker = createTicker(_onTick);
-  late final AnimationController _hit = AnimationController(
-    vsync: this,
-    duration: const Duration(milliseconds: 520),
-  );
+  // Locate the tapped answer for the correct-answer burst.
+  final _choiceKeys = List.generate(4, (_) => GlobalKey());
 
   late int _time = _timeByLevel[widget.level] ?? 5;
   List<VocabItem> _questions = [];
@@ -190,7 +195,6 @@ class _VocabBattleScreenState extends State<_VocabBattleScreen>
   @override
   void dispose() {
     _ticker.dispose();
-    _hit.dispose();
     _frac.dispose();
     _reaction.dispose();
     _feedback.dispose();
@@ -328,7 +332,7 @@ class _VocabBattleScreenState extends State<_VocabBattleScreen>
       _reaction.show(true);
       if (choice != null) _choiceState[choice] = ChoiceState.correct;
       _feedback.pop('⭕ せいかい！', const Color(0xFFFFE45E));
-      _hit.forward(from: 0); // extra: the enemy flinches
+      AnswerFx.correct(context, target: choice == null ? null : _choiceKeys[choice].currentContext);
       setState(() {});
       Future.delayed(const Duration(milliseconds: 1100), () {
         if (!mounted || _qi != qi || !_playing) return;
@@ -337,6 +341,7 @@ class _VocabBattleScreenState extends State<_VocabBattleScreen>
     } else {
       AudioService.instance.playTone('tone_ng'); // sndNG
       _reaction.show(false);
+      AnswerFx.wrong(context);
       if (choice != null) _choiceState[choice] = ChoiceState.wrong;
       for (var i = 0; i < _choices.length && widget.level != 3; i++) {
         if (_choices[i] == q.w) _choiceState[i] = ChoiceState.correct;
@@ -452,6 +457,8 @@ class _VocabBattleScreenState extends State<_VocabBattleScreen>
 
   Future<void> _retry() async {
     setState(() => _end = null);
+    await AnswerFx.battleFlash(context);
+    if (!mounted) return;
     await showVocaEncounter(context);
     if (mounted) setState(_startGame);
   }
@@ -502,18 +509,10 @@ class _VocabBattleScreenState extends State<_VocabBattleScreen>
         body: VocaGameBackground(
           child: LayoutBuilder(builder: (context, box) {
             final w = box.maxWidth;
-            final gameupH = w * 267 / 800;
-            final stageTop = pad.top + math.max(210.0, 44 + gameupH + 30);
+            final stageTop = pad.top + 44 + 30; // below the HUD
             return Stack(
               children: [
                 if (_playing) ...[
-                  // .gameup banner (enemy) under the HUD
-                  Positioned(
-                    top: pad.top + 44,
-                    left: 0,
-                    right: 0,
-                    child: _GameUp(hit: _hit),
-                  ),
                   Positioned(
                     top: stageTop,
                     left: 22,
@@ -661,11 +660,14 @@ class _VocabBattleScreenState extends State<_VocabBattleScreen>
         runSpacing: 8,
         children: [
           for (var i = 0; i < _choices.length; i++)
-            _stagger(i, ChoiceButton(
-              width: cw,
-              label: _choices[i],
-              state: _choiceState[i] ?? ChoiceState.idle,
-              onTap: () => _answer(_choices[i] == q.w, choice: i),
+            _stagger(i, KeyedSubtree(
+              key: _choiceKeys[i],
+              child: ChoiceButton(
+                width: cw,
+                label: _choices[i],
+                state: _choiceState[i] ?? ChoiceState.idle,
+                onTap: () => _answer(_choices[i] == q.w, choice: i),
+              ),
             )),
         ],
       );
@@ -675,10 +677,13 @@ class _VocabBattleScreenState extends State<_VocabBattleScreen>
         children: [
           for (var i = 0; i < _choices.length; i++) ...[
             if (i > 0) const SizedBox(height: 8),
-            _stagger(i, ChoiceButton(
-              label: _choices[i],
-              state: _choiceState[i] ?? ChoiceState.idle,
-              onTap: () => _answer(_choices[i] == q.w, choice: i),
+            _stagger(i, KeyedSubtree(
+              key: _choiceKeys[i],
+              child: ChoiceButton(
+                label: _choices[i],
+                state: _choiceState[i] ?? ChoiceState.idle,
+                onTap: () => _answer(_choices[i] == q.w, choice: i),
+              ),
             )),
           ],
         ],
@@ -896,43 +901,6 @@ class _VocabBattleScreenState extends State<_VocabBattleScreen>
           ),
           const Positioned(left: 0, right: 0, bottom: 0, child: ArkBottomNav(compact: true)),
         ],
-      ),
-    );
-  }
-}
-
-/// `.gameup`: the enemy banner; flinches when hit (extra polish).
-class _GameUp extends StatelessWidget {
-  const _GameUp({required this.hit});
-
-  final Animation<double> hit;
-
-  @override
-  Widget build(BuildContext context) {
-    return AnimatedBuilder(
-      animation: hit,
-      builder: (context, child) {
-        final t = hit.value;
-        if (t == 0 || t == 1) return child!;
-        final dx = math.sin(t * math.pi * 7) * 7 * (1 - t);
-        final flash = (1 - t) * 0.55;
-        return Transform.translate(
-          offset: Offset(dx, 0),
-          child: ColorFiltered(
-            colorFilter: ColorFilter.matrix([
-              1, 0, 0, 0, 255 * flash, //
-              0, 1, 0, 0, 255 * flash * 0.9,
-              0, 0, 1, 0, 255 * flash * 0.6,
-              0, 0, 0, 1, 0,
-            ]),
-            child: child,
-          ),
-        );
-      },
-      child: Image.asset(
-        '$kVocaDir/voca-gameup.webp',
-        width: double.infinity,
-        fit: BoxFit.fitWidth,
       ),
     );
   }

@@ -50,6 +50,7 @@ const _qn = 10; // web QN
 class _TalkHomeScreenState extends State<TalkHomeScreen> {
   TalkPack? _pack;
   _Phase _phase = _Phase.start;
+  final _shakeKey = GlobalKey<ShakeScopeState>();
   int _gradeIdx = 0;
   int _mode = 1;
   bool _rgLock = false;
@@ -160,6 +161,8 @@ class _TalkHomeScreenState extends State<TalkHomeScreen> {
     _rgLock = true;
     _gen++;
     unawaited(_rec.cancel());
+    await AnswerFx.battleFlash(context);
+    if (!mounted) return;
     await showTalkEncounter(context);
     _rgLock = false;
     if (!mounted) return;
@@ -194,12 +197,11 @@ class _TalkHomeScreenState extends State<TalkHomeScreen> {
       _showOkBtn = false;
       _micnote = '';
       if (_mode == 1) {
-        final others = (_pack!.grades[_grade]!
-                .where((x) => x.en != q.en)
-                .toList()
-              ..shuffle(_rng))
-            .take(3)
-            .map((x) => x.en);
+        final others =
+            (_pack!.grades[_grade]!.where((x) => x.en != q.en).toList()
+                  ..shuffle(_rng))
+                .take(3)
+                .map((x) => x.en);
         _options = [q.en, ...others]..shuffle(_rng);
       } else if (_mode == 3 && _rec.available == false) {
         // Web `!SR`: no recognizer on this device.
@@ -214,7 +216,7 @@ class _TalkHomeScreenState extends State<TalkHomeScreen> {
     }
   }
 
-  void _answer(bool ok, {String? picked}) {
+  void _answer(bool ok, {String? picked, BuildContext? target}) {
     if (_locked) return;
     _locked = true;
     final gen = _gen;
@@ -222,6 +224,7 @@ class _TalkHomeScreenState extends State<TalkHomeScreen> {
       _score += 100;
       _cleared++;
       _sndCorrect();
+      AnswerFx.correct(context, target: target);
       setState(() {
         _picked = picked;
         _hits++;
@@ -233,6 +236,7 @@ class _TalkHomeScreenState extends State<TalkHomeScreen> {
       });
     } else {
       _sndWrong();
+      AnswerFx.wrong(context, shaker: _shakeKey.currentState);
       setState(() {
         _picked = picked;
         _showSol = true;
@@ -379,16 +383,25 @@ class _TalkHomeScreenState extends State<TalkHomeScreen> {
             ModeCardButton(
               asset: 'assets/images/hub/tab-talk-1.webp',
               onTap: () => _startMode(2),
+              lockPack: 'talk',
+              lockIndex: 0,
+              lockGroup: _grade,
             ),
             ModeCardButton(
               asset: 'assets/images/hub/tab-talk-2.webp',
               shineDelay: const Duration(milliseconds: 400),
               onTap: () => _startMode(3),
+              lockPack: 'talk',
+              lockIndex: 1,
+              lockGroup: _grade,
             ),
             ModeCardButton(
               asset: 'assets/images/hub/tab-talk-3.webp',
               shineDelay: const Duration(milliseconds: 800),
               onTap: () => _startMode(1),
+              lockPack: 'talk',
+              lockIndex: 2,
+              lockGroup: _grade,
             ),
           ],
         );
@@ -422,31 +435,35 @@ class _TalkHomeScreenState extends State<TalkHomeScreen> {
     return Scaffold(
       key: const ValueKey('play'),
       backgroundColor: const Color(0xFF120C33),
-      body: PageBackground(
-        child: TalkPlayView(
-          qi: _qi,
-          total: _questions.length,
-          score: _score,
-          mode: _mode,
-          ja: q.ja,
-          en: q.en,
-          options: _options,
-          picked: _picked,
-          showSol: _showSol,
-          micnote: _micnote,
-          showOkBtn: _showOkBtn,
-          listening: _listening,
-          level: _rec.level,
-          hits: _hits,
-          react: _react,
-          feedback: _feedback,
-          onHome: _home,
-          onQuit: _confirmQuit,
-          onChoice: (w) => _answer(w == q.en, picked: w),
-          onListen: _playTalk,
-          onSaid: () => _answer(true),
-          onMic: _startRecog,
-          onNext: _next,
+      body: ShakeScope(
+        key: _shakeKey,
+        child: PageBackground(
+          child: TalkPlayView(
+            qi: _qi,
+            total: _questions.length,
+            score: _score,
+            mode: _mode,
+            ja: q.ja,
+            en: q.en,
+            options: _options,
+            picked: _picked,
+            showSol: _showSol,
+            micnote: _micnote,
+            showOkBtn: _showOkBtn,
+            listening: _listening,
+            level: _rec.level,
+            hits: _hits,
+            react: _react,
+            feedback: _feedback,
+            onHome: _home,
+            onQuit: _confirmQuit,
+            onChoice: (w, tapped) =>
+                _answer(w == q.en, picked: w, target: tapped),
+            onListen: _playTalk,
+            onSaid: () => _answer(true),
+            onMic: _startRecog,
+            onNext: _next,
+          ),
         ),
       ),
     );

@@ -1,0 +1,211 @@
+﻿_path,id,w,ja,lv,img,voice
+items,1,cafe,きっさてん,4,images/vocab/001.webp,audio/voice/voca/1.mp3
+items,2,cake,ケーキ,5,images/vocab/002.webp,audio/voice/voca/2.mp3
+items,3,dress,ワンピース,4,images/vocab/003.webp,audio/voice/voca/3.mp3
+items,4,two,2,5,images/vocab/004.webp,audio/voice/voca/4.mp3
+items,5,probably,たぶん,3,,audio/voice/voca/5.mp3
+items,6,library,としょしつ,4,images/vocab/006.webp,audio/voice/voca/6.mp3
+items,7,pilot,そうじゅうし,4,images/vocab/007.webp,audio/voice/voca/7.mp3
+items,8,finish,終える,4,images/vocab/008.webp,audio/voice/voca/8.mp3
+items,9,mask,マスク,4,images/vocab/009.webp,audio/voice/voca/9.mp3
+items,10,thirteen,13,5,images/vocab/010.webp,audio/voice/voca/10.mp3
+items,11,backpack,ランドセル,5,images/vocab/011.webp,audio/voice/voca/11.mp3
+items,12,second,2nd,4,images/vocab/012.webp,audio/voice/voca/12.mp3
+items,13,since,〜以来,3,,audio/voice/voca/13.mp3
+items,14,possible,可能な,3,,audio/voice/voca/14.mp3
+items,15,boat,ボート,5,images/vocab/015.webp,audio/voice/voca/15.mp3
+items,16,watch out,気をつけて,4,images/vocab/016.webp,audio/voice/voca/16.mp3
+items,17,run,走る,5,images/vocab/017.webp,audio/voice/voca/17.mp3
+items,18,chance,機会,3,,audio/voice/voca/18.mp3
+items,19,call back,電話をかけなおす,3,images/vocab/019.webp,audio/voice/voca/19.mp3
+items,20,arm,うで,5,images/vocab/020.webp,audio/voice/voca/20.mp3
+items,21,modern,現代の,3,,audio/voice/voca/21.mp3
+items,22,neck,くび,4,images/vocab/022.webp,audio/voice/voca/22.mp3
+items,23,teeth,は,5,images/vocab/023.webp,audio/voice/voca/23.mp3
+items,24,twelve,12,5,images/vocab/024.webp,audio/voice/voca/24.mp3
+items,25,uncle,おじさん,4,images/vocab/025.webp,audio/voice/voca/25.mp3
+items,26,shop,お店,5,images/vocab/026.webp,audio/voice/voca/26.mp3
+items,27,cross,渡る,4,images/vocab/027.webp,audio/voice/voca/27.mp3
+items,28,short,背が低い,5,images/vocab/028.webp,audio/voice/voca/28.mp3
+items,29,popular,にんきもの,4,images/vocab/029.webp,audio/voice/voca/29.mp3
+items,30,convenience store,コンビニ,4,images/vocab/030.webp,audio/voice/voca/30.mp3
+items,31,protect,守る,3,,audio/voice/voca/31.mp3
+items,32,succeed,成功する,3,,audio/voice/voca/32.mp3
+items,33,city hall,しゃくしょ,3,images/vocab/033.webp,audio/voice/voca/33.mp3
+items,34,hope,望む,3,,audio/voice/voca/34.mp3
+items,35,crunchy,カリカリ,3,images/vocab/035.webp,audio/voice/voca/35.mp3
+items,36,important,重要な,3,,audio/voice/voca/36.mp3
+items,37,repair,修理する,3,,audio/voice/voca/37.mp3
+items,38,calendar,カレンダー,4,images/vocab/038.webp,audio/voice/voca/38.mp3
+items,39,dentist,はいしゃ,3,images/vocab/039.webp,audio/voice/voca/39.mp3
+items,40,nature,自然,3,,audio/voice/voca/40.mp3
+items,41,disappear,消える,3,,audio/voice/voca/41.mp3
+items,42,monorail,モノレール,3,images/vocab/042.webp,audio/voice/voca/42.mp3
+items,43,slim,ほそい,4,images/vocab/043.webp,audio/voice/voca/43.mp3
+items,44,first,1st,4,images/vocab/044.webp,audio/voice/voca/44.mp3
+items,45,teacher,せんせい,5,images/vocab/045.webp,audio/voice/voca/45.mp3
+items,46,study,勉強する,5,images/vocab/046.webp,audio/voice/voca/46.mp3
+items,47,jeans,ジーンズ,5,images/vocab/047.webp,audio/voice/voca/47.mp3
+items,48,suddenly,突然,3,,audio/voice/voca/48.mp3
+items,49,biology,せいぶつ,3,images/vocab/049.webp,audio/voice/voca/49.mp3
+items,50,give up,あきらめる,3,images/vocab/050.webp,audio/voice/voca/50.mp3
+items,51,custom,習慣,3,,audio/voice/voca/51.mp3
+items,52,marker,マーカー,4,images/vocab/052.webp,audio/voice/voca/52.mp3
+items,53,March,3月,5,images/vocab/053.webp,audio/voice/voca/53.mp3
+items,54,reason,理由,3,,audio/voice/voca/54.mp3
+items,55,expensive,高価な,4,images/vocab/055.webp,audio/voice/voca/55.mp3
+items,56,November,11月,5,images/vocab/056.webp,audio/voice/voca/56.mp3
+items,57,towel,てぬぐい,4,images/vocab/057.webp,audio/voice/voca/57.mp3
+items,58,hear about,～のうわさを聞く,3,images/vocab/058.webp,audio/voice/voca/58.mp3
+items,59,ship,ふね,5,images/vocab/059.webp,audio/voice/voca/59.mp3
+items,60,old,年をとった,5,images/vocab/060.webp,audio/voice/voca/60.mp3
+items,61,by bus,バスで,4,images/vocab/061.webp,audio/voice/voca/61.mp3
+items,62,a glass of,1杯の,4,images/vocab/062.webp,audio/voice/voca/62.mp3
+items,63,make friends,友達になる,4,images/vocab/063.webp,audio/voice/voca/63.mp3
+items,64,temple,お寺,4,images/vocab/064.webp,audio/voice/voca/64.mp3
+items,65,Saturday,土曜日,5,images/vocab/065.webp,audio/voice/voca/65.mp3
+items,66,imagine,想像する,3,,audio/voice/voca/66.mp3
+items,67,remember,覚えている,3,images/vocab/067.webp,audio/voice/voca/67.mp3
+items,68,sixteen,16,5,images/vocab/068.webp,audio/voice/voca/68.mp3
+items,69,geography,ちり,4,images/vocab/069.webp,audio/voice/voca/69.mp3
+items,70,eighth,8th,4,images/vocab/070.webp,audio/voice/voca/70.mp3
+items,71,improve,改善する,3,,audio/voice/voca/71.mp3
+items,72,fat,ふとい,4,images/vocab/072.webp,audio/voice/voca/72.mp3
+items,73,three,3,5,images/vocab/073.webp,audio/voice/voca/73.mp3
+items,74,all day,一日中,3,images/vocab/074.webp,audio/voice/voca/74.mp3
+items,75,reduce,減らす,3,,audio/voice/voca/75.mp3
+items,76,heavy,重い,4,images/vocab/076.webp,audio/voice/voca/76.mp3
+items,77,dirty,きたない,4,images/vocab/077.webp,audio/voice/voca/77.mp3
+items,78,ninety,90,5,images/vocab/078.webp,audio/voice/voca/78.mp3
+items,79,lonely,さびしい,4,images/vocab/079.webp,audio/voice/voca/79.mp3
+items,80,ten,10,5,images/vocab/080.webp,audio/voice/voca/80.mp3
+items,81,new,新しい,5,images/vocab/081.webp,audio/voice/voca/81.mp3
+items,82,in the park,公園で,4,images/vocab/082.webp,audio/voice/voca/82.mp3
+items,83,loud,うるさい,4,images/vocab/083.webp,audio/voice/voca/83.mp3
+items,84,pull,引く,4,images/vocab/084.webp,audio/voice/voca/84.mp3
+items,85,Monday,月曜日,5,images/vocab/085.webp,audio/voice/voca/85.mp3
+items,86,pizza,ピザ,5,images/vocab/086.webp,audio/voice/voca/86.mp3
+items,87,stadium,競技場,3,images/vocab/087.webp,audio/voice/voca/87.mp3
+items,88,angry,怒っている,4,images/vocab/088.webp,audio/voice/voca/88.mp3
+items,89,speak,話す,5,images/vocab/089.webp,audio/voice/voca/89.mp3
+items,90,clock,とけい,5,images/vocab/090.webp,audio/voice/voca/90.mp3
+items,91,talk to,話しかける,3,images/vocab/091.webp,audio/voice/voca/91.mp3
+items,92,agree,賛成する,3,,audio/voice/voca/92.mp3
+items,93,hamburger,ハンバーガー,5,images/vocab/093.webp,audio/voice/voca/93.mp3
+items,94,bank,ぎんこう,4,images/vocab/094.webp,audio/voice/voca/94.mp3
+items,95,seventeen,17,5,images/vocab/095.webp,audio/voice/voca/95.mp3
+items,96,lamp,でんきスタンド,4,images/vocab/096.webp,audio/voice/voca/96.mp3
+items,97,painter,えかき,4,images/vocab/097.webp,audio/voice/voca/97.mp3
+items,98,ruler,ものさし,5,images/vocab/098.webp,audio/voice/voca/98.mp3
+items,99,February,2月,5,images/vocab/099.webp,audio/voice/voca/99.mp3
+items,100,difficult,むずかしい,5,images/vocab/100.webp,audio/voice/voca/100.mp3
+items,101,artist,げいじゅつか,3,images/vocab/101.webp,audio/voice/voca/101.mp3
+items,102,scarf,マフラー,4,images/vocab/102.webp,audio/voice/voca/102.mp3
+items,103,chair,いす,5,images/vocab/103.webp,audio/voice/voca/103.mp3
+items,104,energy,エネルギー,3,,audio/voice/voca/104.mp3
+items,105,surprised,おどろいた,3,,audio/voice/voca/105.mp3
+items,106,what kind of,どんな種類の～,3,images/vocab/106.webp,audio/voice/voca/106.mp3
+items,107,thirty,30,5,images/vocab/107.webp,audio/voice/voca/107.mp3
+items,108,mirror,かがみ,4,images/vocab/108.webp,audio/voice/voca/108.mp3
+items,109,brain,のうみそ,3,images/vocab/109.webp,audio/voice/voca/109.mp3
+items,110,kick,蹴る,4,images/vocab/110.webp,audio/voice/voca/110.mp3
+items,111,friend,ともだち,5,images/vocab/111.webp,audio/voice/voca/111.mp3
+items,112,accept,受け入れる,3,,audio/voice/voca/112.mp3
+items,113,writer,さっか,4,images/vocab/113.webp,audio/voice/voca/113.mp3
+items,114,hot,あつい,5,images/vocab/114.webp,audio/voice/voca/114.mp3
+items,115,fog,きり,3,images/vocab/115.webp,audio/voice/voca/115.mp3
+items,116,Sunday,日曜日,5,images/vocab/116.webp,audio/voice/voca/116.mp3
+items,117,cheek,ほほ,4,images/vocab/117.webp,audio/voice/voca/117.mp3
+items,118,decision,決定,3,,audio/voice/voca/118.mp3
+items,119,cup,コップ,5,images/vocab/119.webp,audio/voice/voca/119.mp3
+items,120,April,4月,5,images/vocab/120.webp,audio/voice/voca/120.mp3
+items,121,cap,キャップ,5,images/vocab/121.webp,audio/voice/voca/121.mp3
+items,122,sea,うみ,5,images/vocab/122.webp,audio/voice/voca/122.mp3
+items,123,sleep,眠る,5,images/vocab/123.webp,audio/voice/voca/123.mp3
+items,124,habit,くせ,3,,audio/voice/voca/124.mp3
+items,125,young,若い,5,images/vocab/125.webp,audio/voice/voca/125.mp3
+items,126,beach,すなはま,4,images/vocab/126.webp,audio/voice/voca/126.mp3
+items,127,rich,お金もち,4,images/vocab/127.webp,audio/voice/voca/127.mp3
+items,128,clock,とけい,5,images/vocab/128.webp,audio/voice/voca/128.mp3
+items,129,sleepy,ねむい,4,images/vocab/129.webp,audio/voice/voca/129.mp3
+items,130,pen,ペン,5,images/vocab/130.webp,audio/voice/voca/130.mp3
+items,131,knowledge,知識,3,,audio/voice/voca/131.mp3
+items,132,seed,たね,3,images/vocab/132.webp,audio/voice/voca/132.mp3
+items,133,wall,かべ,4,images/vocab/133.webp,audio/voice/voca/133.mp3
+items,134,fifteen,15,5,images/vocab/134.webp,audio/voice/voca/134.mp3
+items,135,ugly,みにくい,3,images/vocab/135.webp,audio/voice/voca/135.mp3
+items,136,moral,どうとく,4,images/vocab/136.webp,audio/voice/voca/136.mp3
+items,137,tram,ろめんでんしゃ,3,images/vocab/137.webp,audio/voice/voca/137.mp3
+items,138,make a cake,ケーキを作る,4,images/vocab/138.webp,audio/voice/voca/138.mp3
+items,139,communicate,伝え合う,3,,audio/voice/voca/139.mp3
+items,140,awake,目がさえてる,4,images/vocab/140.webp,audio/voice/voca/140.mp3
+items,141,recently,最近,3,,audio/voice/voca/141.mp3
+items,142,prefer,より好む,3,,audio/voice/voca/142.mp3
+items,143,swim,泳ぐ,5,images/vocab/143.webp,audio/voice/voca/143.mp3
+items,144,eighty,80,5,images/vocab/144.webp,audio/voice/voca/144.mp3
+items,145,take a test,テストを受ける,4,images/vocab/145.webp,audio/voice/voca/145.mp3
+items,146,natural,自然の,3,,audio/voice/voca/146.mp3
+items,147,experience,経験,3,,audio/voice/voca/147.mp3
+items,148,talk about,～について話す,3,images/vocab/148.webp,audio/voice/voca/148.mp3
+items,149,bullet train,しんかんせん,4,images/vocab/149.webp,audio/voice/voca/149.mp3
+items,150,warm,あたたかい,5,images/vocab/150.webp,audio/voice/voca/150.mp3
+items,151,perhaps,もしかすると,3,,audio/voice/voca/151.mp3
+items,152,prepare,準備する,3,,audio/voice/voca/152.mp3
+items,153,teacher,せんせい,5,images/vocab/153.webp,audio/voice/voca/153.mp3
+items,154,watch,うでどけい,4,images/vocab/154.webp,audio/voice/voca/154.mp3
+items,155,serious,真剣な,3,,audio/voice/voca/155.mp3
+items,156,father,おとうさん,5,images/vocab/156.webp,audio/voice/voca/156.mp3
+items,157,love,大好き,5,images/vocab/157.webp,audio/voice/voca/157.mp3
+items,158,comfortable,快適な,3,,audio/voice/voca/158.mp3
+items,159,at home,家で,4,images/vocab/159.webp,audio/voice/voca/159.mp3
+items,160,look forward to,～を楽しみにする,3,images/vocab/160.webp,audio/voice/voca/160.mp3
+items,161,rice,ごはん,5,images/vocab/161.webp,audio/voice/voca/161.mp3
+items,162,chair,いす,5,images/vocab/162.webp,audio/voice/voca/162.mp3
+items,163,bookstore,本や,4,images/vocab/163.webp,audio/voice/voca/163.mp3
+items,164,write about,～について書く,4,images/vocab/164.webp,audio/voice/voca/164.mp3
+items,165,a few,少しの,3,images/vocab/165.webp,audio/voice/voca/165.mp3
+items,166,look around,見まわす,3,images/vocab/166.webp,audio/voice/voca/166.mp3
+items,167,one,1,5,images/vocab/167.webp,audio/voice/voca/167.mp3
+items,168,public,公の,3,,audio/voice/voca/168.mp3
+items,169,tell the truth,本当のことを言う,3,images/vocab/169.webp,audio/voice/voca/169.mp3
+items,170,juice,ジュース,5,images/vocab/170.webp,audio/voice/voca/170.mp3
+items,171,get on,乗る,4,images/vocab/171.webp,audio/voice/voca/171.mp3
+items,172,nineteen,19,5,images/vocab/172.webp,audio/voice/voca/172.mp3
+items,173,in the morning,午前中に,4,images/vocab/173.webp,audio/voice/voca/173.mp3
+items,174,mother,おかあさん,5,images/vocab/174.webp,audio/voice/voca/174.mp3
+items,175,ethics,りんり,3,images/vocab/175.webp,audio/voice/voca/175.mp3
+items,176,forty,40,5,images/vocab/176.webp,audio/voice/voca/176.mp3
+items,177,writing,かき,4,images/vocab/177.webp,audio/voice/voca/177.mp3
+items,178,nurse,かんごし,4,images/vocab/178.webp,audio/voice/voca/178.mp3
+items,179,summer,なつ,5,images/vocab/179.webp,audio/voice/voca/179.mp3
+items,180,shoes,くつ,5,images/vocab/180.webp,audio/voice/voca/180.mp3
+items,181,forest,もり,4,images/vocab/181.webp,audio/voice/voca/181.mp3
+items,182,danger,危険,3,,audio/voice/voca/182.mp3
+items,183,July,7月,5,images/vocab/183.webp,audio/voice/voca/183.mp3
+items,184,zoo,動物園,4,images/vocab/184.webp,audio/voice/voca/184.mp3
+items,185,nail,つめ,4,images/vocab/185.webp,audio/voice/voca/185.mp3
+items,186,socks,くつした,5,images/vocab/186.webp,audio/voice/voca/186.mp3
+items,187,submarine,せんすいかん,4,images/vocab/187.webp,audio/voice/voca/187.mp3
+items,188,hear from,～な連絡がある,3,images/vocab/188.webp,audio/voice/voca/188.mp3
+items,189,crayon,クレヨン,4,images/vocab/189.webp,audio/voice/voca/189.mp3
+items,190,man,おとこのひと,5,images/vocab/190.webp,audio/voice/voca/190.mp3
+items,191,receive,受け取る,3,images/vocab/191.webp,audio/voice/voca/191.mp3
+items,192,bread,パン,5,images/vocab/192.webp,audio/voice/voca/192.mp3
+items,193,future,未来,3,,audio/voice/voca/193.mp3
+items,194,sister,しまい,5,images/vocab/194.webp,audio/voice/voca/194.mp3
+items,195,May,5月,5,images/vocab/195.webp,audio/voice/voca/195.mp3
+items,196,desk,つくえ,5,images/vocab/196.webp,audio/voice/voca/196.mp3
+items,197,shampoo,シャンプー,4,images/vocab/197.webp,audio/voice/voca/197.mp3
+items,198,share,分け合う,3,images/vocab/198.webp,audio/voice/voca/198.mp3
+items,199,pass,通り過ぎる,3,images/vocab/199.webp,audio/voice/voca/199.mp3
+items,200,physics,ぶつり,3,images/vocab/200.webp,audio/voice/voca/200.mp3
+items,201,reading,よみ,4,images/vocab/201.webp,audio/voice/voca/201.mp3
+items,202,almost,ほとんど,3,,audio/voice/voca/202.mp3
+items,203,milk,ぎゅうにゅう,5,images/vocab/203.webp,audio/voice/voca/203.mp3
+items,204,believe,信じる,3,,audio/voice/voca/204.mp3
+items,205,teach,教える,4,images/vocab/205.webp,audio/voice/voca/205.mp3
+items,206,put on,身につける,4,images/vocab/206.webp,audio/voice/voca/206.mp3
+items,207,square,四角い,4,images/vocab/207.webp,audio/voice/voca/207.mp3
+items,208,brush,磨く,4,images/vocab/208.webp,audio/voice/voca/208.mp3
+items,209,a cup of,コップ1杯の,4,images/vocab/209.webp,audio/voice/voca/209.mp3
+items,210,depend,たよる,3,,audio/voice/voca/210.mp3

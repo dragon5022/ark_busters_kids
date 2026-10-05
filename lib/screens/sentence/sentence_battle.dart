@@ -234,6 +234,7 @@ class _SentenceBattleScreenState extends State<SentenceBattleScreen> {
       // sndCorrect()
       AudioService.instance.playSfx('correct');
       AudioService.instance.playTone('tone_ok');
+      HapticFeedback.lightImpact();
       final serial = _hitSerial;
       _later(400, () {
         if (_gramon == GramonState.hit && serial == _hitSerial) {
@@ -301,7 +302,7 @@ class _SentenceBattleScreenState extends State<SentenceBattleScreen> {
     // sndWrong()
     _react.show(false);
     AudioService.instance.playTone('tone_wrong');
-    HapticFeedback.vibrate();
+    AnswerFx.wrong(context);
     _showExplain(timeup);
   }
 
@@ -516,6 +517,8 @@ class _SentenceBattleScreenState extends State<SentenceBattleScreen> {
       _end = null;
       _started = false;
     });
+    await AnswerFx.battleFlash(context);
+    if (!mounted) return;
     await showGramEncounter(context);
     _retrying = false;
     if (!mounted) return;
@@ -588,29 +591,6 @@ class _SentenceBattleScreenState extends State<SentenceBattleScreen> {
       key: _stackKey,
       clipBehavior: Clip.none,
       children: [
-        // .gameup-strip
-        Positioned(
-          top: 38,
-          left: 0,
-          right: 0,
-          child: Center(
-            child: SizedBox(
-              height: 64,
-              width: math.min(w * 0.96, 480),
-              child: Center(
-                child: ArtShadow(
-                  color: const Color(0x73000000),
-                  offset: const Offset(0, 4),
-                  blur: 10,
-                  child: ClipRRect(
-                    borderRadius: BorderRadius.circular(12),
-                    child: Image.asset(SenAssets.gameup, fit: BoxFit.contain),
-                  ),
-                ),
-              ),
-            ),
-          ),
-        ),
         if (showPlay) ...[
           // .gramon
           Positioned(

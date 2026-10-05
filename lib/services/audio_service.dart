@@ -30,6 +30,11 @@ class AudioService {
   bool _bgmOn = true;
   String? _bgmAsset;
 
+  /// Current BGM volume (0.4 hub, 0.35 battle, 0.17 ducked in play).
+  double _bgmVolume = hubBgmVolume;
+  bool _backgrounded = false;
+  bool _trackChangedInBackground = false;
+
   bool get isBgmOn => _bgmOn;
 
   Future<void> init() async {
@@ -52,7 +57,9 @@ class AudioService {
   Future<void> _playBgm(String asset, double volume) async {
     await init();
     _bgmAsset = asset;
-    if (!_bgmOn) return;
+    _bgmVolume = volume;
+    if (_backgrounded) _trackChangedInBackground = true;
+    if (!_bgmOn || _backgrounded) return;
     try {
       await _bgm.stop();
       await _bgm.setVolume(volume);
@@ -68,10 +75,8 @@ class AudioService {
     final prefs = await SharedPreferences.getInstance();
     await prefs.setString('ark_bgm', _bgmOn ? '1' : '0');
     if (_bgmOn) {
-      await _playBgm(
-        _bgmAsset ?? hubBgmAsset,
-        _bgmAsset == battleBgmAsset ? battleBgmVolume : hubBgmVolume,
-      );
+      // Same track at the current level (stays ducked during a round).
+      await _playBgm(_bgmAsset ?? hubBgmAsset, _bgmVolume);
     } else {
       await _bgm.stop();
     }
@@ -86,7 +91,32 @@ class AudioService {
   /// round and restore [battleBgmVolume] afterwards.
   Future<void> setBgmVolume(double volume) async {
     await init();
-    await _bgm.setVolume(volume.clamp(0.0, 1.0));
+    _bgmVolume = volume.clamp(0.0, 1.0);
+    await _bgm.setVolume(_bgmVolume);
+  }
+
+  /// App went to the background (home button, screen lock): pause music
+  /// and voices. A browser tab would keep playing; a phone app must not.
+  Future<void> onAppPaused() async {
+    if (_backgrounded) return;
+    _backgrounded = true;
+    await init();
+    await _bgm.pause();
+    await stopVoice();
+  }
+
+  /// Back in the foreground: continue the music where it left off.
+  Future<void> onAppResumed() async {
+    if (!_backgrounded) return;
+    _backgrounded = false;
+    await init();
+    if (!_bgmOn || _bgmAsset == null) return;
+    if (_trackChangedInBackground) {
+      _trackChangedInBackground = false;
+      await _playBgm(_bgmAsset!, _bgmVolume);
+    } else {
+      await _bgm.resume();
+    }
   }
 
   // ------------------------------------------------------ sound effects

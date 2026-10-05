@@ -1,0 +1,43 @@
+﻿_path,id,ja.0.t,ja.0.pick,ja.1.t,ja.1.pick,ja.2.t,ja.2.pick,ja.3.t,ja.3.pick,ja.4.t,ja.4.pick,answer.0.w,answer.0.label,answer.0.c,answer.1.w,answer.1.label,answer.1.c,answer.2.w,answer.2.label,answer.2.c,answer.3.w,answer.3.label,answer.3.c,answer.4.w,answer.4.label,answer.4.c,tip,voice
+grades.g5,g5_0,私は,false,犬が,true,好きです,true,,,,,I,誰が,,like,どうする,,dogs,何を,,,,,,,,①誰が→②どうする→③何を の順でならべよう。,audio/voice/gram/1.mp3
+grades.g5,g5_1,私は,false,猫が,true,好きです,true,,,,,I,誰が,,like,どうする,,cats,何を,,,,,,,,①誰が→②どうする→③何を の順でならべよう。,audio/voice/gram/2.mp3
+grades.g5,g5_2,彼は,false,サッカーが,true,好きです,true,,,,,He,誰が,,likes,どうする,,soccer,何を,,,,,,,,①誰が→②どうする→③何を の順。He/She は動詞に s がつくよ。,audio/voice/gram/3.mp3
+grades.g5,g5_3,彼女は,false,音楽が,true,好きです,true,,,,,She,誰が,,likes,どうする,,music,何を,,,,,,,,①誰が→②どうする→③何を の順。He/She は動詞に s がつくよ。,audio/voice/gram/4.mp3
+grades.g5,g5_4,私たちは,false,野球が,true,好きです,true,,,,,We,誰が,,like,どうする,,baseball,何を,,,,,,,,①誰が→②どうする→③何を の順でならべよう。,audio/voice/gram/5.mp3
+grades.g5,g5_5,私は,false,自転車を,true,持っています,true,,,,,I,誰が,,have,どうする,,a bike,何を,,,,,,,,①誰が→②どうする→③何を の順でならべよう。,audio/voice/gram/6.mp3
+grades.g5,g5_6,彼は,false,犬を,true,飼っています,true,,,,,He,誰が,,has,どうする,,a dog,何を,,,,,,,,①誰が→②どうする→③何を の順。He/She は動詞に s がつくよ。,audio/voice/gram/7.mp3
+grades.g5,g5_7,彼女は,false,ペンを,true,持っています,true,,,,,She,誰が,,has,どうする,,a pen,何を,,,,,,,,①誰が→②どうする→③何を の順。He/She は動詞に s がつくよ。,audio/voice/gram/8.mp3
+grades.g5,g5_8,私は,false,本を,true,持っています,true,,,,,I,誰が,,have,どうする,,a book,何を,,,,,,,,①誰が→②どうする→③何を の順でならべよう。,audio/voice/gram/9.mp3
+grades.g5,g5_9,私は,false,テニスを,true,する,true,,,,,I,誰が,,play,どうする,,tennis,何を,,,,,,,,①誰が→②どうする→③何を の順でならべよう。,audio/voice/gram/10.mp3
+grades.g5,g5_10,彼は,false,ピアノを,true,弾く,true,,,,,He,誰が,,plays,どうする,,the piano,何を,,,,,,,,①誰が→②どうする→③何を の順。He/She は動詞に s がつくよ。,audio/voice/gram/11.mp3
+grades.g5,g5_11,彼女は,false,ギターを,true,弾く,true,,,,,She,誰が,,plays,どうする,,the guitar,何を,,,,,,,,①誰が→②どうする→③何を の順。He/She は動詞に s がつくよ。,audio/voice/gram/12.mp3
+grades.g5,g5_12,私は,false,りんごを,true,食べる,true,,,,,I,誰が,,eat,どうする,,an apple,何を,,,,,,,,①誰が→②どうする→③何を の順でならべよう。,audio/voice/gram/13.mp3
+grades.g5,g5_13,彼は,false,パンを,true,食べる,true,,,,,He,誰が,,eats,どうする,,bread,何を,,,,,,,,①誰が→②どうする→③何を の順。He/She は動詞に s がつくよ。,audio/voice/gram/14.mp3
+grades.g5,g5_14,私は,false,水を,true,飲む,true,,,,,I,誰が,,drink,どうする,,water,何を,,,,,,,,①誰が→②どうする→③何を の順でならべよう。,audio/voice/gram/15.mp3
+grades.g5,g5_15,彼女は,false,お茶を,true,飲む,true,,,,,She,誰が,,drinks,どうする,,tea,何を,,,,,,,,①誰が→②どうする→③何を の順。He/She は動詞に s がつくよ。,audio/voice/gram/16.mp3
+grades.g5,g5_16,私は,false,学校で,true,英語を,true,勉強する,true,,,I,誰が,,study,どうする,,English,何を,,at school,どこで,,,,,①誰が→②どうする→③何を の順でならべよう。,audio/voice/gram/17.mp3
+grades.g5,g5_17,彼は,false,家で,true,本を,true,読む,true,,,He,誰が,,reads,どうする,,books,何を,,at home,どこで,,,,,①誰が→②どうする→③何を の順。He/She は動詞に s がつくよ。,audio/voice/gram/18.mp3
+grades.g4,g4_0,私は,false,昨日,true,公園で,true,サッカーを,true,した,true,I,誰が,--c1,played,どうする,--c2,soccer,何を,--c3,in the park,どこで,--c4,yesterday,いつ,--c5,過去の文。動詞は過去形。『どこで・いつ』は文のうしろ。,audio/voice/gram/19.mp3
+grades.g4,g4_1,彼女は,false,日曜日に,true,レストランで,true,寿司を,true,食べる,true,She,誰が,--c1,eats,どうする,--c2,sushi,何を,--c3,at a restaurant,どこで,--c4,on Sundays,いつ,--c5,①誰が→②どうする→③何を の順。He/She は動詞に s がつくよ。,audio/voice/gram/20.mp3
+grades.g4,g4_2,彼は,false,毎朝,true,6時に,true,起きる,true,,,He,誰が,--c1,gets up,どうする,--c2,at six,いつ①,--c4,every morning,いつ②,--c5,,,,①誰が→②どうする→③何を の順。He/She は動詞に s がつくよ。,audio/voice/gram/21.mp3
+grades.g4,g4_3,私たちは,false,先週,true,京都を,true,訪れた,true,,,We,誰が,--c1,visited,どうする,--c2,Kyoto,何を,--c3,last week,いつ,--c5,,,,過去の文。動詞は過去形。『どこで・いつ』は文のうしろ。,audio/voice/gram/22.mp3
+grades.g4,g4_4,私の母は,false,毎晩,true,台所で,true,夕食を,true,作る,true,My mother,誰が,--c1,cooks,どうする,--c2,dinner,何を,--c3,in the kitchen,どこで,--c4,every night,いつ,--c5,①誰が→②どうする→③何を の順でならべよう。,audio/voice/gram/23.mp3
+grades.g4,g4_5,彼らは,false,夏に,true,海で,true,泳いだ,true,,,They,誰が,--c1,swam,どうする,--c2,in the sea,どこで,--c4,in summer,いつ,--c5,,,,①誰が→②どうする→③何を の順でならべよう。,audio/voice/gram/24.mp3
+grades.g4,g4_6,私は,false,放課後,true,図書館で,true,数学を,true,勉強する,true,I,誰が,--c1,study,どうする,--c2,math,何を,--c3,in the library,どこで,--c4,after school,いつ,--c5,①誰が→②どうする→③何を の順でならべよう。,audio/voice/gram/25.mp3
+grades.g4,g4_7,私の父は,false,週末に,true,車を,true,洗う,true,,,My father,誰が,--c1,washes,どうする,--c2,the car,何を,--c3,on weekends,いつ,--c5,,,,①誰が→②どうする→③何を の順でならべよう。,audio/voice/gram/26.mp3
+grades.g4,g4_8,私たちは,false,昨夜,true,体育館で,true,バスケを,true,した,true,We,誰が,--c1,played,どうする,--c2,basketball,何を,--c3,in the gym,どこで,--c4,last night,いつ,--c5,過去の文。動詞は過去形。『どこで・いつ』は文のうしろ。,audio/voice/gram/27.mp3
+grades.g4,g4_9,彼女は,false,毎週,true,友達に,true,手紙を,true,書く,true,She,誰が,--c1,writes,どうする,--c2,a letter,何を,--c3,to her friend,だれに,--c4,every week,いつ,--c5,「to＋動詞」のかたまりに注意。語順は①誰が→②どうする→…。,audio/voice/gram/28.mp3
+grades.g4,g4_10,私は,false,今朝,true,駅まで,true,歩いた,true,,,I,誰が,--c1,walked,どうする,--c2,to the station,どこまで,--c4,this morning,いつ,--c5,,,,「to＋動詞」のかたまりに注意。語順は①誰が→②どうする→…。,audio/voice/gram/29.mp3
+grades.g4,g4_11,彼らは,false,去年,true,その町に,true,住んでいた,true,,,They,誰が,--c1,lived,どうする,--c2,in the town,どこで,--c4,last year,いつ,--c5,,,,①誰が→②どうする→③何を の順でならべよう。,audio/voice/gram/30.mp3
+grades.g3,g3_0,私は,false,英語を,true,勉強したい,true,,,,,I,誰が,--c1,want to study,したい,--c2,English,何を,--c3,,,,,,,「to＋動詞」のかたまりに注意。語順は①誰が→②どうする→…。,audio/voice/gram/31.mp3
+grades.g3,g3_1,彼は,false,今,true,公園で,true,走っている,true,,,He,誰が,--c1,is running,している,--c2,in the park,どこで,--c4,now,いつ,--c5,,,,①誰が→②どうする→③何を の順。He/She は動詞に s がつくよ。,audio/voice/gram/32.mp3
+grades.g3,g3_2,私は,false,サッカーは,true,野球より,true,好きだ,true,,,I,誰が,--c1,like soccer,好き,--c2,better than,より,--c3,baseball,何を,--c4,,,,比べる文。『〜より』は better than。①誰が→②好き→③より→④何を の順。,audio/voice/gram/33.mp3
+grades.g3,g3_3,私は,false,疲れていたので,true,早く,true,寝た,true,,,I,誰が,--c1,went to bed,どうする,--c2,early,どう,--c3,because I was tired,理由,--c5,,,,「to＋動詞」のかたまりに注意。語順は①誰が→②どうする→…。,audio/voice/gram/34.mp3
+grades.g3,g3_4,彼女は,false,医者に,true,なるために,true,勉強する,true,,,She,誰が,--c1,studies,どうする,--c2,to be,ために,--c4,a doctor,何に,--c5,,,,「to＋動詞」のかたまりに注意。語順は①誰が→②どうする→…。,audio/voice/gram/35.mp3
+grades.g3,g3_5,私は,false,友達と,true,映画を,true,見るつもりだ,true,,,I,誰が,--c1,will watch,つもり,--c2,a movie,何を,--c3,with my friends,だれと,--c5,,,,①誰が→②どうする→③何を の順でならべよう。,audio/voice/gram/36.mp3
+grades.g3,g3_6,この本は,false,あの本より,true,おもしろい,true,,,,,This book,何が,--c1,is more interesting,おもしろい,--c2,than that one,より,--c3,,,,,,,比べる文。『〜より』は better than。①誰が→②好き→③より→④何を の順。,audio/voice/gram/37.mp3
+grades.g3,g3_7,私は,false,彼に,true,手伝うように,true,頼んだ,true,,,I,誰が,--c1,asked,どうする,--c2,him,だれに,--c3,to help me,何を,--c4,,,,「to＋動詞」のかたまりに注意。語順は①誰が→②どうする→…。,audio/voice/gram/38.mp3
+grades.g3,g3_8,私は,false,英語は,true,数学より,true,やさしいと思う,true,,,I think,誰が,,English is,何が,,easier than,より,,math,何,,,,,比較級 easier than＝〜よりやさしい。,audio/voice/gram/39.mp3
+grades.g3,g3_9,彼は,false,クラスで,true,一番背が高い,true,,,,,He is,誰が,,the tallest,一番〜,,in his class,どこで,,,,,,,,最上級 the tallest＝一番背が高い。,audio/voice/gram/40.mp3
+grades.g3,g3_10,私は,false,医者に,true,なりたい,true,,,,,I,誰が,,want to be,なりたい,,a doctor,何に,,,,,,,,want to be＝〜になりたい。to＋動詞。,audio/voice/gram/41.mp3
+grades.g3,g3_11,彼女は,false,3年間,true,英語を,true,勉強している,true,,,She has studied,誰が〜している,,English,何を,,for three years,どのくらい,,,,,,,,現在完了 have/has＋過去分詞。for＝〜間。,audio/voice/gram/42.mp3

@@ -237,8 +237,12 @@ class _VocabBattleScreenState extends State<_VocabBattleScreen>
         ..addAll(List.filled(_tiles.length, false));
     }
     // Pre-decode the next picture so it appears without a flash.
-    if (_qi + 1 < _questions.length && _questions[_qi + 1].img != null) {
-      precacheImage(AssetImage('assets/${_questions[_qi + 1].img}'), context);
+    // precacheImage reads MediaQuery, which is not allowed during initState.
+    final nextImg = _qi + 1 < _questions.length ? _questions[_qi + 1].img : null;
+    if (nextImg != null) {
+      WidgetsBinding.instance.addPostFrameCallback((_) {
+        if (mounted) precacheImage(AssetImage('assets/$nextImg'), context);
+      });
     }
     setState(() {});
     _startTimer();

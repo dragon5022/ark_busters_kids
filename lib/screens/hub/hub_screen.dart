@@ -1,5 +1,3 @@
-import 'dart:math' as math;
-
 import 'package:flutter/material.dart';
 
 import '../../core/constants/game_modes.dart';
@@ -24,11 +22,6 @@ class HubScreen extends StatefulWidget {
 }
 
 class _HubScreenState extends State<HubScreen> {
-  // Web picks one of the kidtop images at random on each visit.
-  static const _heroes = ['kidtop1', 'kidtop2', 'kidtop3', 'kidtop4'];
-  late final String _hero =
-      'assets/images/hub/${_heroes[math.Random().nextInt(_heroes.length)]}.webp';
-
   int _cards = 0;
 
   @override
@@ -113,9 +106,9 @@ class _HubScreenState extends State<HubScreen> {
                     navHeight + 16,
                   ),
                   children: [
-                    Reveal(
+                    const Reveal(
                       fromScale: 0.96,
-                      child: _HeroBanner(asset: _hero),
+                      child: _HeroBanner(),
                     ),
                     const SizedBox(height: 14), // hero 6 + brand 8
                     const Reveal(
@@ -204,62 +197,21 @@ class _HubScreenState extends State<HubScreen> {
   }
 }
 
-/// `.hero`: rounded art with a hard purple shadow and a soft drop shadow.
-class _HeroBanner extends StatefulWidget {
-  const _HeroBanner({required this.asset});
+/// `.hero`: framed key art on a transparent background, drawn as-is.
+class _HeroBanner extends StatelessWidget {
+  const _HeroBanner();
 
-  final String asset;
-
-  @override
-  State<_HeroBanner> createState() => _HeroBannerState();
-}
-
-class _HeroBannerState extends State<_HeroBanner>
-    with SingleTickerProviderStateMixin {
-  // Slow "Ken Burns" drift keeps the key art alive without distracting.
-  late final AnimationController _c = AnimationController(
-    vsync: this,
-    duration: const Duration(seconds: 14),
-  )..repeat(reverse: true);
-
-  @override
-  void dispose() {
-    _c.dispose();
-    super.dispose();
-  }
+  // kidtop.png is 600×313
+  static const aspect = 600 / 313;
 
   @override
   Widget build(BuildContext context) {
-    return DecoratedBox(
-      decoration: BoxDecoration(
-        borderRadius: BorderRadius.circular(20),
-        boxShadow: const [
-          BoxShadow(color: AppColors.shadow, offset: Offset(0, 8)),
-          BoxShadow(
-            color: Color(0x38000000),
-            offset: Offset(0, 12),
-            blurRadius: 28,
-          ),
-        ],
-        gradient: AppColors.heroBackdrop,
-      ),
-      child: ClipRRect(
-        borderRadius: BorderRadius.circular(20),
-        child: AspectRatio(
-          aspectRatio: 16 / 9,
-          child: AnimatedBuilder(
-            animation: _c,
-            builder: (context, child) => Transform.scale(
-              scale: 1 + 0.045 * Curves.easeInOutSine.transform(_c.value),
-              child: child,
-            ),
-            child: Image.asset(
-              widget.asset,
-              fit: BoxFit.cover,
-              filterQuality: FilterQuality.medium,
-            ),
-          ),
-        ),
+    return AspectRatio(
+      aspectRatio: aspect,
+      child: Image.asset(
+        'assets/images/hub/kidtop.png',
+        fit: BoxFit.contain,
+        filterQuality: FilterQuality.medium,
       ),
     );
   }
